@@ -1,0 +1,2290 @@
+﻿The Project Gutenberg eBook of Redevelopment, by Wesley Long
+
+This eBook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this eBook or online at
+www.gutenberg.org. If you are not located in the United States, you
+will have to check the laws of the country where you are located before
+using this eBook.
+
+Title: Redevelopment
+
+Author: Wesley Long
+
+Release Date: June 16, 2022 [eBook #68329]
+
+Language: English
+
+Produced by: Greg Weeks, Mary Meehan and the Online Distributed
+             Proofreading Team at http://www.pgdp.net.
+
+*** START OF THE PROJECT GUTENBERG EBOOK REDEVELOPMENT ***
+
+
+
+
+
+                             Redevelopment
+
+                            By WESLEY LONG
+
+                        Illustrated by Williams
+
+           [Transcriber's Note: This etext was produced from
+              Astounding Science-Fiction, November 1944.
+         Extensive research did not uncover any evidence that
+         the U.S. copyright on this publication was renewed.]
+
+
+John McBride hung the phone on the hook and wiped his face. This
+face-wiping was not the usual gesture of a man whose face is dirty, or
+covered with perspiration. It was the dazed sort of gesture made by a
+man who has just been subjected to a surprise, and since the wiping
+tended to remove the awed look, replacing it with a slightly dazed
+smile, the surprise must not have been too unpleasant.
+
+He shook his head, as though to clear it, and then made his way through
+Station 1 of the Plutonian Lens to the landing platform. Just inside
+the gigantic lock, a medium-sized space-ship stood, and sitting on the
+edge of the space lock, swinging her feet, was Sandra Drake.
+
+"Hello," she said brightly.
+
+"Hi," said John. This was entirely new. Sandra Drake was not usually
+given to greeting men as anything but absolute imbeciles. "What brings
+you out here? And how did you make it?"
+
+"Oh," said Sandra lightly, "I remembered the charge on Station 1 and
+brought along a charge-compensator. We hardly sparked when we lit."
+
+One of the attendants said, in a low aside: "About three hundred
+amperes! She'd call a major explosion a snap of the fingers! You could
+hide an egg in the crater she made."
+
+But Sandra was still talking. "John," she said in a voice that would
+have caused Shylock to give her his last gold piece, "I want help."
+
+"You need help? What can we do for you?"
+
+"It's pretty big," warned Sandra. Her low contralto dared him to ask
+what it was--and also dared him to deny it to her.
+
+"Look, Drake, you did us a favor not too long ago. I think we owe you
+one."
+
+Sandra smiled uncertainly. "I was afraid that that little stunt was
+only repaying you for the first meeting we had."
+
+"Shucks," said McBride. "Anyone can make a mistake. Forget it."
+
+"But being pilot for you on the _Haywire Queen_ did me a lot of good,
+too, you know. I got my license back for that one. We both gained."
+
+"I know. I'm glad we did. But what can you possibly want that is so big
+that you're afraid to ask?"
+
+"Well, and maybe it isn't too big, either. Steve is a friend of both of
+us, isn't he? I'd do anything for Steve--and wouldn't you?"
+
+"Yes. If any favors are owing, I think it is both of us to him."
+
+"That's what I'm getting at. I need help--for Steve."
+
+"You sure go a long way around to get it," grinned McBride. "Why didn't
+you tell me that first instead of warning me about a favor?"
+
+"It's pretty big. But look, John, Steve took the _Haywire Queen_ on a
+run to Sirius more than six weeks ago. He took along enough stuff to
+stay a week; he said he'd be back after one hundred and seventy hours
+of stay at, on, or near Sirius. This was just a trial hop to try the
+new drive you cooked up and a longer, better equipped expedition would
+be made later."
+
+"He did say something about it the last I saw him. He said he wasn't
+particularly interested in exploring a new system. He'd leave that for
+the explorers. He was interested in the drive and so on, and after he'd
+paved the way for getting to the stars and had proven his drive, he'd
+turn it over to those interested in colonization. But six weeks ago,
+you say? Gosh, that's a long overstay, isn't it?"
+
+"It is. I happen to know he didn't take more supplies than he needed.
+So I'm worried about him."
+
+"And where do I come in? You want me to go and help you look for him?"
+
+Sandra smiled wanly. "Hardly. I'm sure Enid would enjoy that, too. No,
+John, what I want is for you to hook up the stuff I've got in the _Lady
+Luck_ to make me one of those drives you invented so that I can go
+myself."
+
+"You're taking a chance, you know."
+
+"That's where the favor part comes in. I want to go and look for Steve
+Hammond. I need your drive. And if you don't help me, I'll go out in
+space and tinker with the junk until I get it. I was there when you
+cooked it up, remember, and I have a good memory for details."
+
+"But it's dangerous."
+
+"Is it? 'Might be dangerous' is what you mean. And I've been taking
+harebrained chances for a long time, now. Do I or don't I?"
+
+McBride thought for a long time. "You get it," he said at last. "On one
+condition. That you return in not less than one month. If you do not,
+I'm going to take it upon myself to follow. So no matter what you find,
+get back. Is that a promise?"
+
+"It is."
+
+"O.K., Sandra." McBride went to the wall of the big lock and spoke
+over the communicator. "Tommy! Get Al and Westy and tell 'em to bring
+their tools to the landing lock. We're going to juggle a few generators
+around."
+
+To Sandra, he said: "I hope you've got plenty of what it takes."
+
+"I have," she said, sensing his meaning. "Matter of fact, I've got the
+latest thing in alphatrons--two of 'em. And all the E-grav generators
+we'll need are all tacked into what I think are the right places to
+make this crate into a super-speed job. There are spares for all three
+fields, and a couple of spare cupralum bars, too. Even part of the
+wiring is done. I got just so far and then realized that I don't know
+too much about gravitics. That's when I decided to come here for help."
+
+"Good thing," said McBride. "You might have killed yourself."
+
+Sandra didn't answer, and at that moment, McBride's men came with their
+tools. Wordlessly, they nodded to Sandra and then followed McBride into
+the _Lady Luck_.
+
+       *       *       *       *       *
+
+McBride wasted no time. "Al," he said, "you fit the mag-G for vertical
+bi-lobar field to cover the nose of the crate with the top lobe, and
+Westy, you see that the mech-G generator in the nose induces the proper
+vectors in the cupralum bar. I'll get Hank and Jim to touch up the
+wiring and safety devices. We'll have this crate back in space within
+the hour!"
+
+"Working a little fast, aren't you?" asked Sandra.
+
+"No. I don't think so. You've got most of the main stuff in place. It's
+merely a matter of running the alphatron lines correctly--remember,
+Sandra, alphons are not electrons and even low-alphon lines require
+smooth, round bends, otherwise they squirt off in a crackling alphonic
+discharge that will eat the side out of a steel tank. You've done most
+of the heavy work. It just requires touching up here and there: getting
+the proper field-intensity out of the gravitic generators and adjusting
+the output of the alphatrons. Then there is some tricky relay work with
+the safety circuits: it wouldn't improve your beauty to suddenly find
+yourself sitting in the pilot's chair at seven thousand gravities."
+
+Sandra shuddered.
+
+"Oh, and look, since you've got the compensator. You'll find a
+static-charge meter handy, perhaps. If there are planets around Sirius,
+who knows what their intrinsic charge is. We'll loan you one so that
+you can make planet without making a corona at the same time. Rarefied
+air makes pretty lights when it comes under a few trillion volts--and
+being a cathode is no worse than being an anode when your voltage is
+running up into a bushel of zeroes--either is equally disconcerting.
+How do you intend to spot any planets?"
+
+"I've got a pair of hemisphere lenses. I'll sail through the Sirian sky
+at about forty thousand miles per second and expose for ten minutes.
+The stars will still appear as spots, but anything close enough to be
+planet-wise will make streaks unless it is dead ahead.
+
+"In which case you'll see it personally," grinned McBride. "That's the
+best stunt I've heard of yet to find planets."
+
+"It isn't new. They used it to see if there were any planets outside
+of Pluto several years ago, though they exposed for several hours while
+running at ten or fifteen thousand. Steve has a pair of hemis with him,
+too."
+
+Al came trudging in with a roll of alphon cable over his shoulder and
+dropped it on the floor. "She's in--my end, anyway."
+
+"Running already?"
+
+"On test power. Drake had the bi-lobar field almost on the ball. Westy
+found about the same thing. I think another couple of days and Drake
+wouldn't have needed help."
+
+"I couldn't make it work," complained Sandra.
+
+"Well, you missed a few minor points," said Al. "Never, never run
+alphon lines anywhere near a relay rack. It induces crosscurrents
+in the windings and either makes 'em more sensitive or almost dead,
+depending on the polarity. It won't hurt AC relays, but they aren't
+used too much on a space-ship, so it's best to play safe."
+
+"I'll remember that, too," Sandra promised him.
+
+"O.K."
+
+       *       *       *       *       *
+
+And so an hour passed, and another one added to it before the _Lady
+Luck_ was fitted for super drive. It was finished, then, and Sandra
+Drake was more than voluble in her thanks.
+
+"Never mind the thanks," said McBride, "or we'll be into that original
+wrangle as to who owes who what kind of a favor. Where we sit out here
+in the lens, favors are not weighted and set down as an asset. Forget
+it. G'wan out there and get Steve Hammond--and do not forget for one
+minute I'm coming after you if you're gone more than thirty days. Seven
+hundred and twenty hours! Get me?"
+
+"Sure thing," said Drake. "And, John, you're pretty swell."
+
+"Nuts!"
+
+"All right, 'Nuts!' But some day I'm going to settle down and be a good
+girl, and then you can believe me."
+
+"That, I'll believe when I see it. Go on, Sandra, go out and get Steve."
+
+"I'll get Steve," promised Sandra. "Oh, but definitely."
+
+"Well, good luck."
+
+"Thanks."
+
+The space lock closed, and the men retreated inside of the Station's
+air lock. The gigantic doors swung open, letting a huge puff of air out
+into space. Then the _Lady Luck_ lifted gracefully for all of her tons
+of mass, and wafted out through the opened door. It was a dead-center
+passage, one that could be made only with a master pilot running the
+board personally.
+
+Then she was gone. Halfway around the lens she would have to go
+before Sirius came into a safe line of flight. Sandra was taking no
+more chances on contacting the surface of that mighty space-warp that
+focused Sol on Pluto.
+
+McBride wondered: _Has Sandra learned her lesson?_
+
+       *       *       *       *       *
+
+One week passed. One week, filled to the very brim with all of those
+routine things that make life full of wonder--as to whether there
+isn't something better in the hereafter. The sheer millions of miles
+of gravitic-induced space-warp refracted Sol's light endlessly and
+perfectly to make for Pluto a synthetic sun that sported a dozen
+darting points. On Pluto, men lived and worked and pursued happiness,
+and the valuable ore came up from the ground in the Styx Valley and
+created the need for Pluto and the lens. Over Mephisto, the smelters
+cast their glow against the sky, which the inhabitants of Hell always
+called "The Eternal Fire." Across the River Styx from Hell, Sharon lay
+like a city of marble by day and a string of pearls by night.
+
+Nor was Hell, as seen from Sharon, any less beautiful. The twin cities
+of Pluto, rivals in everything, fought as usual. And the bone of
+contention for that particular week was a simple, age-old epithet. It
+is a sorry fact that with the entire solar system running as it always
+did, Sharon and Hell found it possible to make the headlines of all the
+cities of the system by their arguments.
+
+Sharon lost. Hell succeeded in bringing to mind the fact that Hell,
+Pluto, was a fine place to be, and the poor citizens of Sharon were
+forced into second consideration. But then, Sharon had not been a
+running business for centuries.
+
+_Go to Sharon!_ had no familiar ring.
+
+But the Road to Hell was a broad highway.
+
+McBride looked up as the door to his office opened, and his jaw fell
+away down to here. He blinked. He looked again, and then jumped to his
+feet. "She found you!" he said.
+
+"Who found who?" asked Steve Hammond. "Has that dame--?"
+
+"Drake? Yep. She came here and we fixed that drive for her. She's
+changed, Steve. Even I can see it."
+
+"So she was here?"
+
+"You bet. Sandra has changed."
+
+"Has she?"
+
+"Why, Steve, she was actually worried about you. Near frantic."
+
+"Was she?"
+
+"She may have concealed it from you. After all, she's been a pretty
+hard-boiled girl and the change is a little abrupt. She's probably
+concealing her real feelings."
+
+"Would she?"
+
+"Probably. After all she's said about men in general, she's probably
+fighting an internal battle. But she let it go right here."
+
+"Did she?"
+
+"Did she! Why, she tried to hook up the super drive herself, and
+when it didn't work, she came here for help. I'd say she was really
+interested in finding you. Going out of her way to help you, Steve, is
+quite a difference from the Sandra as I know her."
+
+"Do you?"
+
+"Say! What is the matter with you? 'Has she?' 'Was she?' 'Would she?'
+'Did she?' is that the best you can do?"
+
+"Look, John, how long ago was that?"
+
+"About a week or so."
+
+"What did she do, exactly."
+
+"She came here and told us that you've been a month or six weeks
+overdue on that trip to Sirius. She wanted the drive fixed so that she
+could go out and look for you. I offered to go along, but she said no.
+So we fixed her drive and she took off like the devil was in her hair."
+
+"Mac, you're a sucker!"
+
+"Oh, now look--"
+
+"So she's changed, has she? Full of remorse. Sputtering like a leaky
+alphatron field because she was hamstrung without a drive. Her heart
+was reeking with love for me, and she wanted, if she couldn't have me,
+to go out into the deep, unknown void of interstellar space and die
+where I had died, so we could be together in that last, long resting
+place."
+
+"What are--"
+
+"So John, please, for the small help I was to you, and for the love of
+Steve that lies within both of us, give me the drive so that I may go
+forth and seek he whom I crave. I want so little, John, and Steve is
+such a fine fellow--"
+
+"Say! Have I been took?"
+
+"The proper word is 'Taken' and the answer is in the affirmative."
+
+"I'll be damned."
+
+"You probably will," smiled Hammond. "Mac, all that dame wanted was to
+be the first human being to set foot on another, extra-solarian planet!
+She wanted to be known as the first person to ever seek another star."
+
+"I take it that you haven't been further than a long stone's throw?"
+
+"Shucks. I haven't even been out to the Los Angeles city limits."
+
+"Darn her hide!"
+
+"Yeah. I've been looking for her--and I'm as big a dope as you. I
+wanted to offer her the chance to pilot the _Haywire Queen_ out there.
+I couldn't find her in the inner system and so I was going to take a
+squint at Pluto. I stopped off to ask if you'd care to take the run
+with me."
+
+"You know I would."
+
+"Well, that takes care of both answers. Drake is on her way--shucks,
+she's there already--and the second part is you--and you want to go."
+
+"I'll ask Enid," said McBride. "Come on, we'll go right down and see
+her now."
+
+       *       *       *       *       *
+
+Enid McBride smiled. "His asking me is a matter of form," she told
+Hammond. "Naturally he'll go. I think it will be swell for him to go.
+He needs a vacation anyway."
+
+"But--"
+
+"No buts. You'll go and like it. I wouldn't want you to miss anything
+like this for the world."
+
+"How about you?"
+
+Enid smiled again. "I'm no pioneer type, John. You know that. I'd be
+out of place--and what would John Junior do? Oh, we could leave him
+with Anna, if I wanted to go, but somehow this is as far as I care to
+get from home--my folk's home, I mean. It's funny how after seven years
+a woman still speaks of her parents' home as her home in spite of the
+fact that she has a home and family of her own."
+
+"What'll you do?"
+
+"I'm going to take this opportunity to go home--my parents' home, I
+mean. You see, Steve, Dad and John talk different languages. Dad is a
+metal broker on Pluto. The only reason why he tolerated John at all was
+because John's lens kept Dad in business. Dad wouldn't know a cupralum
+pig from an acceleration cushion, though he deals in a million tons
+of the stuff every year. It's all on paper. On the other hand, John
+wouldn't know how to sell the stuff, but he sure can make it do tricks.
+So they sit and glare at one another and each one wonders how the other
+makes a living. Dad's money is obvious, and John's success is equally
+well-known, but how and why are lost on each other.
+
+"So I keep 'em as far apart as I can."
+
+"I get it," smiled Hammond. "Pretty bad, hey?"
+
+Enid laughed, "This ring is pure iridium. Dad was horrified because
+he first thought that iridium was radioactive like radium and that
+I'd get burned or worse. Then he found out it wasn't--and offered to
+buy a real, honest-to-goodness platinum ring if John couldn't afford
+it. Then he discovered that iridium is so rare that they do not have
+a market price per gram and that was all right, but he also confused
+it with iodine, and worried about its chemical action on my hand. Poor
+Dad still is not sure about it, so he has to inspect it every time he
+sees it to ascertain whether or not it is turning green, or my finger
+is falling off, or that it hasn't sublimed and disappeared. You can't
+detect the wearing, so Dad then accuses John of either buying a new one
+every time I come home or making me keep it in a safe while I'm here."
+
+"Cupralum, to Enid's father, is something that he shunts around by
+signing papers and which, if he shunts fast enough, will increase his
+bank account, though if the other guy shunts faster, will cause him no
+end of deficit. Space, to him, is something that you can't breathe, and
+the stars are little bits of brightness that twinkle on a clear night.
+Oh, we get along," smiled McBride. "After all, he's Grandpa now, and
+John Junior is likely to get a slab of Cupralum. Preferred, for his
+birthday. The kid'll prefer something he can chew on, I'll bet."
+
+"So that's neither here nor there," said Enid. "You take your space
+hop, and I'll take Little Johnny to Pluto to see his grandparents.
+Frankly, Steve, I've been wondering just what excuse I could use to run
+off alone for a month. This makes it perfect."
+
+"We'll stop at Hell on the way back and pick you up," said McBride.
+
+"Fine. How soon are you leaving?"
+
+Hammond said: "Anytime he's ready. How soon can you cut loose from the
+lens, John?"
+
+"Give me an hour to get things cleaned up and I'll be on the beam."
+
+"Right."
+
+"I'll pack you a bag," said Enid. "Have any preferences?"
+
+"Shirts, shoes, socks, and shaving kit, mostly."
+
+"Want your dinner clothing?"
+
+"Oh sure. And pack my swimming suit, too. Also my tennis racket, and
+see that the golf bag has plenty of spare balls. Have Timmy wax the
+skis and sharpen my skates, and I'll also take along the shotgun, a pup
+tent, the oil stove, a fur coat, a quart of whiskey, six lemons, an
+orange, a lime, and a bottle of Angostura. Might pack me a light lunch,
+too."
+
+"Don't bother, Enid. We've got most of that stuff with us," laughed
+Hammond.
+
+"All right," chuckled Enid. "He'll get one shirt and a bar of soap;
+one pair of socks, and a bar of soap; and so on--with a bar of soap.
+Well, keep 'em coasting, Steve, and see that he doesn't run off with
+any red-headed witches."
+
+"If we see any, I'll bring 'em back for me," laughed Steve. "See you
+later."
+
+McBride was not as abrupt as he sounded. His business clean-up
+consisted of dictating a letter, putting all things in the hands of
+his chief assistant. The rest of the time he spent with Enid, saying
+good-by. Whatever transpired, whatever they discussed, whatever plans
+they made--and they must have talked of many things and made many
+plans, for in spite of the familiarity of running all over the solar
+system, this was a big step, indeed, since for the first time in
+history, man and wife would be light-years apart--they did it well
+enough in private so that their parting was simple and quick.
+
+John kissed Enid adequately, and said: "Stay healthy."
+
+Enid laughed and said: "Stay whole!"
+
+And then McBride was in the _Haywire Queen_ and the air lock was
+cracked. The big ship lifted gently and zipped out of the lock with a
+casual disregard for distances. Unlike Drake's precision take-off, the
+_Haywire Queen_ went through the open door with the air of wanting to
+leave quickly because there were better things to do than worry about
+hitting the center plus or minus an inch.
+
+Enid pointed out the Dog Star to John McBride, Junior. "That's where
+your daddy is going," she told him. Junior McBride was more interested
+in the teething bone that he had clamped between toothless gums, than
+he was in the stellar regions.
+
+He knew his daddy would be back.
+
+       *       *       *       *       *
+
+The _Haywire Queen_ approached and passed the speed of light from the
+hard side, and her terrific velocity dropped down to a figure that was
+expressible in miles per second without running out of zeroes. Below,
+and thirty degrees from the axis of the ship, Sirius and the Dark
+Companion beckoned from less than a thousand million miles. The lower
+dome of the ship sported the faces of the men, who were laying on their
+stomachs, looking down at the splendor of the first binary ever seen
+by man. Hammond mentioned it, as a matter of fact.
+
+"How about Drake?" asked McBride.
+
+"We're still the first _men_," returned Hammond.
+
+"Wouldn't Drake howl to hear you say that," laughed McBride. "She's
+been suffering under the fact that every time she did anything new,
+she had to qualify it by saying: 'The first woman--' Well, she's got
+something this time."
+
+"Think it'll satisfy her?"
+
+"Not until someone proves definitely that Thomas Edison, Franklin
+Roosevelt, William Shakespeare, George Washington, Richard the First,
+Julius Caesar, and Jack Frost were all women."
+
+"Well, let's get the hemis working. We'll never know whether Sirius has
+planets until we do. I'd hate to sit in the _Queen_ and go through all
+the growing pains of looking for planets by observation."
+
+"Yeah, that would take years. What's our velocity, Larry?"
+
+Timkins looked at the velocimeter; squinted through the instrument
+quickly, adjusting the thumb-screw; and then said: "Thirty-four
+thousand and dropping at one hundred feet per second, per second, per
+second."
+
+"We can get good pix of anything close enough to the primary to support
+life--also big enough, too--in about thirty minutes exposure," said
+Hammond. "We'll take two shots in each direction, since I've got six
+hemispherical cameras. That'll give us complete overlapping coverage
+and double protection against dust streaks. Let's go. Also cut the
+drive by half."
+
+For thirty minutes the ship plunged on through the Sirian system at the
+double deceleration. Then for fifteen minutes, the entire personnel
+was in the darkroom, waiting for the first glimmer of the plates.
+And at the time that the plates were finished, the velocity of the
+_Haywire Queen_ had dropped from thirty thousand-odd miles per second
+to velocities normally used in mere interplanetary travel.
+
+The super drive was cut and the ship coasted under standard drive at
+thirty feet per second, per second, acceleration, and the men hung
+the plates up in the darkroom and began to inspect them for telltale
+streaks.
+
+"Here's one," said McBride. "About four hundred million miles from
+Sirius."
+
+"And another," offered Larry, plying dividers and log tables, "about
+three thousand million."
+
+"Got another," offered Hammond, "but it's doubtful as a possible
+landing place. Almost ten thousand million mites from the primary. Bet
+it's colder than a pawn-broker's heart."
+
+"Couple more on my plate," said McBride. He went to the formerly empty
+solar map and added the discoveries according to scale. "But that one
+at four hundred million is my best bet."
+
+"Sounds reasonable," agreed Hammond. "Sirius would support humanoid
+life at that distance. Let's concentrate on it."
+
+"Good. It's in fine position to be concentrated on. Let's see, now,
+what should we be looking out for?"
+
+"Might be seetee matter," suggested Larry.
+
+"Good. How do we find out?"
+
+"We don't until the last ditch. But it is the most important,
+nevertheless. We wait until everything else has been disposed of and
+then make for the planet. Just outside of the atmosphere we heave 'em a
+rock or two and watch what happens."
+
+"A slow moving rock?" grinned McBride.
+
+"Doesn't really matter. If it is slow enough to keep from
+friction-incandescence, fine. But the eruption made by seetee contact
+is quite a bit different, spectroscopically. Also we can check the
+explosion with counters. The by-products of such a bit of eruption is
+full of nuclear radiations. Mere incandescence is just that and nothing
+more."
+
+"Well, that's that. We can wait. What's next?"
+
+"Radioactivity. How much and what kind? Atmosphere. How much and what
+kind? Et cetera. Also how much and what kind? Do we intend to land?"
+
+"I don't know. After all, we came for the express purpose of trying out
+our drive on an interstellar basis, you know. It can be done with ease,
+neatness, and dispatch. Seems to me that a landing on one of those
+planets will have to be made attractive or we won't. We're equipped
+for all kinds of spacial research, power research, and so on. But
+we're not equipped for much planetary investigation, exploration, or
+diplomatically involved intrigue."
+
+"Going to let Drake get away with being the only person making the
+first landing on an alien star system?"
+
+"I don't give a care what happens to Drake. She can come busting in
+with the safety valve tied down if she wants to. Some day she'll
+learn that sticking that pretty little snoot of hers into strange
+places is a fine way to have it knocked right off of the front of her
+face. We're interested in technicalities, not in getting involved
+in a storybook adventure. Meanwhile, let's take it strictly on the
+easy side and investigate everything from the solar radiation from
+Sirius to the secondary radiation produced by Sirian radiation in the
+super-stratosphere."
+
+       *       *       *       *       *
+
+Larry began to fiddle with the radio. There was nothing on the
+electronic radio at all, and Larry said: "Well, didn't expect it,
+really. No culture worthy of the name would be using radio in space.
+Too inefficient. And if they got off of their planets, they'd be using
+gravitics." He turned to the space radio, and covered the communication
+bands of the electrogravitic spectrum, switching from band to band
+quickly. Halfway across the third band, the panoramic tuner came to a
+definite stop and retraced itself minutely, vacillating a bit until
+the signal came in clear and clean.
+
+"What happened to Drake?" asked Timkins. "Listen. Here she is."
+
+The gravitic radio was calling: "--_Haywire Queen_. Calling _Haywire
+Queen_. This is Sandra Drake calling the _Haywire Queen_. This is an
+automatic transmission set for break-in. As soon as this call gets to
+you, answer please. The answer will register here and we will be able
+to make this two-way. This is Sandra Drake--"
+
+"Uh-huh," said Hammond, turning down the gain to a reasonable level.
+"Larry, shoot her an answer."
+
+Timkins snapped on the transmitter, tuned it to the same band, and
+said: "This is the _Haywire Queen_ calling Sandra Drake. _Haywire
+Queen_ answering Drake. Come in, Sandra Drake. Answer."
+
+They listened to the automatic broadcast for some minutes, and then in
+the middle of a sentence--"This is Sandra Drake calling the _Haywire
+Queen_--" _Click._ "Hello, fellows. Got here finally, didn't you? Glad
+to have you come in. What's new?"
+
+Hammond took the mike. "Hello, Sandra," he answered. "Nothing new.
+Where are you?"
+
+"On planet number five. That is the one that I think is somewhere about
+five hundred million miles from Sirius. Know it?"
+
+"We think so. It's dead ahead. Yeah, wait a minute. Larry has a
+directional bearing on you and it is the one we're approaching. That
+takes care of that."
+
+"Well, come on in and I'll build you a cup of tea."
+
+"You find everything all right?"
+
+"Everything's perfect. Only thing, they would like to have someone here
+that knows all about the gravitics. They're not too sharp. Frankly,
+neither am I, so you're the guys who'll have to do it."
+
+"You've been there quite a bit," said Hammond. "How's conditions?"
+
+"Pretty good. Air is O.K., though slightly pungent in smell. The people
+are very much like humans, though they have their big differences which
+take them out of the human class."
+
+"For instance?"
+
+"Well, they are all covered with a funny kind of hair. It's a sort of
+half-hair, half-feathers kind of stuff. It's as soft as a baby's scalp
+and on a dog or something like that it would be beautiful. I'd like a
+coat made of it, frankly."
+
+"I'll bet they appreciate your offer to wear one of 'em for a winter
+coat," said Hammond dryly. "You haven't changed a bit, have you, Drake?"
+
+"Oh, I wouldn't say that," said Sandra. "After all, I was merely trying
+to explain the beauty of their skin."
+
+"You gave yourself away," said Steve Hammond. "Like as usual, Sandra
+Drake thinks of everything in accordance with how it will couple to
+her, or her name, or her reputation."
+
+"Now, you're being hard," complained Sandra. "Give me a break, Steve.
+You shouldn't take issue with me for a statement of that kind. After
+all, it was just a sort of slip of the tongue. I'm not really thinking
+of skinning one of them for my coat."
+
+"If I were you," put in McBride, "I'd think hard of one other thing
+that might be closer to home. D'jever think that you are in no position
+to do any skin collecting? The odds are agin' it. But, Sister Drake,
+those birds are! You might enhance the beauty of one of their females
+some day. How would the pelt of Sandra Drake look on the living room
+floor, nine light-years from Terra? Take it clean and easy, Drake, or
+you might not get back to Terra with that satiny, soft, practically
+flawless hide of yours intact."
+
+"What do you mean, 'practically flawless'?" snapped Sandra.
+
+"Well," drawled McBride, "I've never seen all of it."
+
+"Why don't you give me the benefit of the doubt?"
+
+"I wouldn't give you any benefit of any doubt," McBride told her.
+"You're probably concealing something."
+
+"Why--" the radio broke down into a series of liquid, spluttering
+sounds as Sandra strove to keep that throaty contralto from sounding
+like a fishmonger's.
+
+"Whistle," chuckled Timkins. "Then count ten. Then let's get back to
+the problem of the Sirians."
+
+"Take it, Sandra," laughed Hammond. "We were only kidding you.
+Or--can't you take it?"
+
+The spluttering died, and then that throaty laugh came back again. It
+was slightly forced and they knew it. The chances are that Sandra knew
+they knew it, but she didn't want to give them any more reason for
+laughter at her expense. Then she spoke, directly and honestly, both
+factors due to the fact that she was sure of herself and now could
+afford to laugh at them.
+
+"Well, stop worrying about Sandra's hide," she told them. "This
+gang down here are fine people except that they can't talk Terran.
+They'll do anything for me that I can make them understand. That's the
+trouble--getting them to understand. But that's coming. I'm teaching
+them to speak Terran. That should fix things up fine."
+
+"Why not learn to speak Sirian?" asked McBride.
+
+"Why? Let them do the work. Learning a new language is not Drake's idea
+of a year's fun."
+
+"O.K., sister," grinned Hammond, winking at McBride. "But you'll find
+out that there is something to those old adages. I'm thinking of the
+one that begins: 'When in Rome, et cetera.' Those old boys used to dust
+off some old saws, but there is a lot of meat on them."
+
+"And contradictions. No, fellows, Sandra doesn't like talking in
+something that sounds like a phonograph record played backwards.
+Besides, these fellows have a pretty sharp capacity for understanding.
+I've been here for a week or so, and already they can understand a lot
+of what I say. Frankly, better than I could."
+
+"Play it your way, then," said McBride. "But look, you say they're nice
+guys?"
+
+"Sure. When I landed, they gave me the old send-off. I was taken to
+the royal house and given the prize suite. I'm given everything, as I
+said before. They look upon me as the guy who'll give their world the
+benefit of the Terran and Solarian scientific achievements. That's not
+true, of course. It'll be fellows like yourselves who really understand
+it. But nevertheless, I'm the harbinger of spring. I'm the guy who
+pointed the way for the rest of Sol's children."
+
+"The Moses in the bulrushes?"
+
+"Sort of like. I'm just lucky, and I know it. If I'd come second, they
+wouldn't pay any attention to me at all. But since I came first and
+now that I'm talking to my friends, they will obviously think that
+I'm calling for them to come and help them ... their world's name is
+Telfu, by the way ... Telfans out of their scientific rut. They have
+the glimmerings of the gravitic spectra, but it's like the difference
+between the Leyden Jar and the electron microscope. It'd take a hundred
+years before they got off of Telfu if we hadn't got here first."
+
+"If they're really O.K.," said McBride, "we'll help."
+
+"Thanks," said Sandra simply. "That'll be for me, too, you know."
+
+"Yes?"
+
+"Sure. They'll thank me for coming first, even though they know I'm not
+the bright guy with the answers under my skull. I've got a good thing
+here, and I know all of you well enough to know that you won't spoil
+it."
+
+"No?"
+
+"Sure you won't. After all, there isn't one of you that would care a
+rap for what they have to offer in the way of historic gain. The old
+moola, sure; and there's plenty of it to be had for all of us. You'll
+go down in their histories as the geniuses that gave them a boot in the
+tail worth a hundred years of solid research. I, and I'm sure you'll
+permit me, will ride in on the tail of your coat."
+
+"O.K. Well, we'll come in. But not for long this time. After all,
+we're interested in tinkering with the new drive, not making diplomatic
+overtures to a bunch of aliens. We'll leave the latter for the Solarian
+Government."
+
+"How soon'll you be landing?"
+
+"Not too sudden," said Hammond. "We're going to make a few space-checks
+first. We're getting cautious in our old age."
+
+"Shucks," said Sandra disparagingly, "there's nothing to it at all."
+
+"Well, could be, but we'll run this show our way. There is no objection
+to your leaving?"
+
+"No. Definitely not. They'd be sorry to see me go, but it is personal
+affection and the possibility for their ultimate gain that makes it so.
+They wouldn't dare detain me even though they might consider it. To my
+knowledge, they haven't even considered it."
+
+"Why wouldn't they dare?" asked McBride.
+
+"Afraid. After all, they know that both of us came from a star nine
+light-years away. They haven't even got the primary drive, let alone
+the third-derivative drive. Any untoward move to a Solarian would bring
+the devil himself down about their ears and they know it."
+
+"I suppose so. We could drop plenty of stuff on 'em with a half dozen
+space cans. And a couple of monolobar mechano-gravitics would scramble
+up the works of any fleet of stratosphere planes they could send
+against us. Never gave the gravitic armament much thought, but it could
+be done. O.K., Sandra, as soon as we sniff the air and check our gas
+and water, we'll be in."
+
+"I'm going back to bed, then," said Sandra. "Slip me another call
+before you land and I'll have the village band out to meet you. That's
+a promise."
+
+       *       *       *       *       *
+
+Steve Hammond turned to McBride after Sandra had clicked her
+transmitter off, and said: "No use checking for seetee matter, is
+there? Seems to me that Drake would have found it out the hard way."
+
+"No, we can skip the seetee. But Drake may not worry about
+radioactivity but we will. We'll check for it; I'd like for John Jr.
+to have a brother or sister some day--with the proper amount of arms,
+legs, fingers, toes, ears, eyes, noses--"
+
+"What's the proper amount of noses for a son?" asked Hammond.
+
+"One," grinned McBride.
+
+"A kid with two noses could smell a lot," observed Timkins.
+
+"_Phew!_" said McBride holding his nose. "That was fierce. Man the
+counter and check the region for hot stuff, Larry. Looks like the
+landing of LaDrake saves us a lot of work. The physical properties
+of ... Telfu ... seem to be all right. So we'll go to work on the
+electrical properties, the nuclear properties, and also see if there's
+anything running around loose in the gravitics other than the inherent
+mechanogravitic property of matter."
+
+Larry Timkins set up a series of plungers on the control board and
+locked the pre-set operations into the autopilot. "This," he said,
+"will hang us on a logarithmic spiral approaching Telfu. While we're
+roaming around the planet, we'll check the hot-properties of the
+neighborhood. Any comment?"
+
+"Nope. Give 'em the works."
+
+Timkins drove the coupler button home and the _Haywire Queen_ swung
+gently to follow the pre-determined course.
+
+"You know, Steve, there's a cod-liver-oil smell about this, somewhere."
+
+"So? What's fishy?"
+
+"The old tub isn't behaving like a lady."
+
+"What do you mean?"
+
+"There's a big drop in efficiency compared to when we left the
+Plutonian Lens."
+
+"How much?"
+
+"Not too much. But it's getting progressively worse."
+
+"Y'don't suppose we've hit upon some saturation factor in the secondary
+drive?"
+
+"I'm not saying. What do we know about it? What does it work on?"
+
+"Glibly speaking, it works on the inherent qualities of space. We
+wrap ourselves up in a space-warp of sorts, and then shoot out
+a couple of hooks that catch on to the gravitic-propagational
+continuum that permits the planetary masses to exert Newton's Law of
+Universal Gravitation. It has been called 'sub-ether' but that is like
+multiplying with unreal numbers. After all, the 'ether' has never been
+defined, isolated, explained, or held in one hand. If the prime 'ether'
+has never been satisfactorily established, we shouldn't go on building
+our houses on a foundation that doesn't have any sound basis."
+
+"Both electronic and gravitic spectra must rely upon something for
+propagation," objected McBride. "For lack of taking it apart, brick by
+brick, and feeling each stone, let's continue to call them 'ether' and
+'sub-ether.'"
+
+"O.K., sport. But to get back to the drive. Have we got a saturation
+point? Or some sort of gravitic fatigue? Either of these would be
+indicated by a gradual decrease in efficiency."
+
+"Larry, set up a sigma recorder and let's see if we can check the curve
+of inefficiency. It's getting worse, you say?"
+
+"Apparently. I didn't notice it before. But it is quite apparent now.
+Must be non-linear, because if this falling-off had been linear, I
+would have noticed it long before this. An increasing curve would not
+be noticeable until a sufficient interval had been passed for it to
+become evident. Yeah, I'll slap a sigma recorder on him and see what
+makes."
+
+"Meanwhile, let's get busy with the detectors."
+
+The counters clicked for a few minutes, and McBride finally reported
+that Telfu was no higher than Terra in radioactivity. Hammond
+established the intrinsic electronic charge on Telfu as being only a
+few million volts negative with respect to Terra.
+
+"Not enough to worry about," he said. "The first touch with the
+stratosphere layers will take care of that without a glimmer. Wouldn't
+dare without an atmosphere, but we have plenty of air to cushion the
+charge and let it leak off in the upper layers where it is ionized by
+Sirius' radiations. What's with the gravitics?"
+
+"Bit of something in the electrogravitic. Can't place it. Not enough to
+worry about."
+
+"What is it like?"
+
+"Well, it is not E-grav radiation. It's a sort of dip, or valley, in
+the radiation-pattern of this part of space. A place where the normal
+density of E-grav is less."
+
+"How much?"
+
+"You tell me. The free-running gravitons are never high enough to do
+more than flicker the finest instrument. The threshold is way, way,
+way, way down in the mud. So here's a place where we have less."
+
+"Sort of like having nothing and wanting to share it with someone?"
+
+"Not much better. Oh well, a lack of free E-grav energy surely isn't
+anything to write home about. Might be a factor of the Sirian Double.
+After all, who knows what kind of effect that little, dark-red,
+dense-as-hell devil will do to gravitic threshold levels."
+
+"So it's a safe bet--"
+
+Timkins came running in, waving a sheet of cross-ruled paper. "Hell's
+bells," he yelled. "We're it! Our drive is approaching zero efficiency
+as the third power of--"
+
+       *       *       *       *       *
+
+Above, in the working innards of the _Haywire Queen_, great circuit
+breakers crashed open. Smaller switches added to the din as they
+clicked open, one after the other. Pilot lights on the polished black
+panel began to glow an angry red and alarm bells created such a din
+that speech became almost impossible.
+
+The drive went off.
+
+And the men and their portable equipment left the solid floor and began
+to float aimlessly across the room in midair.
+
+Hammond clutched wildly at a spectrograph, and caught it.
+
+"Catch!" he yelled at McBride, hurling the heavy instrument at John.
+
+McBride folded himself over the instrument with a grunt of escaping
+breath. The act did two things. It sent Hammond across the room to
+the emergency panel in one direction and McBride went in the opposite
+direction to the navigator's calculating machine. McBride caught the
+navigator's table at the same time that Hammond caught the emergency
+panel.
+
+Steve fought with the emergency panel and succeeded in setting up about
+eleven feet per second deceleration. McBride lowered the spectrograph
+to the table and seated himself in the chair.
+
+"Woah, Nellie," grunted McBride as the alarm bells ceased. "Where do we
+go from here and how fast?"
+
+"I dunno, but we're leaving both Sirius and Sol at a terrific velocity
+and a deceleration of eleven feet per. From a mental calculation of
+the fundamental drive at this velocity, I'd say it would take about
+fourteen years to get down to a stop."
+
+"What happened to the emergency relays?"
+
+"They worked," said Steve dryly. "Yeah, they worked. But the
+inefficiency extends to the fundamental drive, too, it seems. I'm
+beginning to think that this is not inherent."
+
+"That's a quick decision."
+
+"Sure. But the prime drive is O.K. The meters say so. It's just
+inefficient as the devil which is not true of a good drive. Holy smoke!
+We're getting efficient again!"
+
+Timkins picked himself off of the floor painfully. "Uh-huh," he
+grunted. "Also, we're leaving Telfu behind at a fierce rate. Can you
+keep that eleven feet prime acceleration for a bit?"
+
+"We're going to."
+
+"I'm going to dash madly upstairs and hang the sigma recorder on again.
+Something is slippery here."
+
+"What's our velocity at the present time?" asked McBride.
+
+"Up in the fifteen thousand miles per second," answered Hammond.
+
+"Hm-m-m. Then at what point with respect to Telfu did the drive go
+out?"
+
+"About a million and a half miles, roughly."
+
+"A minute and forty seconds from spot to conjunction," mused McBride.
+"If, little playmate, we can pet power again after one more minute and
+thirty seconds-odd, we'll feel more or less sure that it is Telfu and
+not us. Larry!" he yelled. "Any sign of upswing?"
+
+"Yup," said Larry. "Sure thing!"
+
+"Set the super drive up on test power with automatics to turn it on as
+soon as the overload point is passed," said McBride. "We won't blow any
+fuses with test power."
+
+       *       *       *       *       *
+
+Hammond hit the test buttons and then settled down to wait. Then the
+drive cut in again, and they all slid down in their chairs.
+
+McBride grinned. "They must not like us."
+
+"Something must not," laughed Hammond shakily.
+
+"Telfu?" asked Timkins entering with the last sigma curve.
+
+"What does it say?"
+
+"We passed through a negative peak. We hit a new low in efficiency at
+conjunction with Telfu."
+
+"How much?"
+
+"Less than a half percent."
+
+"Jeepers. That is a new low in gravitics. Can we think our way out of
+this one?"
+
+"Why?"
+
+"As much as I dislike seeing Drake, I'd not force her to live on an
+alien planet. I'd feel better at marooning her for a couple of years if
+I knew we could go in and get her."
+
+McBride laughed. "Got to have the last laugh, hey?"
+
+"Meaning?"
+
+"Marooning her wouldn't be half so much fun if it is impossible to get
+her out. Marooning her when we have the means to get her out puts it
+strictly in our own lap. Right?"
+
+"I suppose so. We could laugh at her honestly then."
+
+"She's strictly a stinker," agreed McBride. "I get that cod-liver-oil
+smell now. All that soft soap and palaver she was handing out about
+our being the boys with the brains. We were the guys who would
+be responsible for lifting a struggling civilization up from the
+primordial slime by our brain and our genius. Baloney!"
+
+"I get it," growled Hammond. "She's stuck. God knows how she
+landed--probably emergency and shot her load of battery juice. Anyway,
+she could land under emergency battery, but taking off is a megawatt of
+another color, battery-wise. They aren't equipped to make a take-off.
+Idea being the old one--don't start if you can't stop."
+
+"She's a bright girl in her own stinking way," said McBride. "She's
+been around this gang long enough to know that if a way is possible,
+we'll think of it. Oh, sure, that's a brag but we've done pretty well
+so far. So inveigle us into the same trap she's in and then ride out
+with us. She'd roast in the brimstone of the nether regions before
+she'd wail for help honestly. But if we get stuck with her she's got
+two outs. One, we may be able to think our way out. Two, at least we
+are Terrans like she is."
+
+"Meaning?" asked Hammond darkly.
+
+"Frankly, Sandra Drake is an awful lot of woman, and she knows it.
+She'd make a plaster saint turn to whistle at her if she turned on the
+old charm. And with no competition, we'd be fighting one another for
+the privilege of polishing her shoes."
+
+"Fine future."
+
+"No thanks."
+
+"I'll have a bit of that, too. Well, how can we slip her the old
+triple-cross?"
+
+"Steve, you'd throw a woman to the lions?"
+
+"With that woman, I'd hate to do it. The S.P.C.A, would haul me in
+to court for subjecting poor, dumb, defenseless lions to cruelty and
+inhuman tortures. You're darned right I'd heave her into the drink. But
+I want to do it in such a way that Sandra Drake will know that it was
+far from purely coincidental."
+
+"O.K., Steve. We're with you. Larry, throw the _Haywire Queen_ into an
+orbit around Telfu just outside of the danger zone and slap another
+recorder on the drive. Make it a high velocity orbit, powered all the
+way. We should be able to circle Telfu in about fifteen minutes with
+the super drive. Check?"
+
+"Sure. Here we go."
+
+"Meanwhile, Steve, we'll check a few items on the drive itself. I'm
+beginning to suspect a huge and celestial soak-up of gravitic power in
+the region of Telfu."
+
+"We can set up the small, experimental drive-model complete with power
+recorders, spring balances, and torque measuring devices and work on
+that."
+
+"Swell. That's the ticket. Let's go."
+
+Hammond hauled the model from the cabinet and plugged in a complex
+cable from the master control panel. He juggled the dials until the
+gadget started to work, and then they began to check the efficiency of
+the device.
+
+McBride muttered: "Power generating equipment is running O.K."
+
+"Yeah," agreed Hammond. "Everything's on the beam from the explosion
+chamber to the inverted alphatron. We've got plenty of potential power
+handy. Larry, zoop in close and check the power equipment on a pure,
+resistive load."
+
+"You mean shut off the drive and coast through the zero region with no
+drive and with the gravitron running at full output on resistance load?"
+
+"Right. This fishy smell has a rare odor. I think we're on the trail of
+it."
+
+"O.K., Steve. Can you wait about three minutes? The first encirclement
+of Telfu will be over then and we'll have our first experimental curve."
+
+"We'll wait."
+
+       *       *       *       *       *
+
+The sigma curve was completed, and Larry circled far out and made a
+fast run toward the planet, in a course similar to the one they used on
+their first try.
+
+Meanwhile, Hammond looked at the curve and grinned.
+
+McBride looked over his shoulder and grinned, too.
+
+Hammond slapped the curve down on a drawing board and began to plot
+efficiency against a polar co-ordinate. The curve was roughly circular,
+but exhibited a tendency towards a cardioid. McBride played with the
+figures for a minute, and as he opened his mouth to say something, the
+_Haywire Queen_ gave that sickening lurch and changed abruptly from
+super drive to the emergencies.
+
+"Darn!" said McBride. "This everlasting acceleration changing business
+is going to make a nervous wreck of me yet."
+
+"Also physical if it is taken in too large doses," grinned Steve. "The
+human anatomy can accept velocity without limit--well, up to the point
+where the ultimate velocity is reached. We've gone a goodly hunk of
+stuff over the speed of light."
+
+"That's questionable."
+
+"We came over from Terra in a lot less time than light. That'll be
+arriving nine years from now."
+
+"Uh-huh. But don't forget we wrapped ourselves in a space-warp and ran
+the space-warp. I think that we can safely assume that the warp is
+another space and that we were not traveling better than the speed of
+light with respect to our own space."
+
+"Whoof! What a theory! Drag that one past again, slow enough so I can
+climb aboard."
+
+"You got it," laughed McBride. "And if it smells, you fling out a
+better one for us to shoot holes in."
+
+"O.K. But to get back to velocity, the human anatomy can stand
+velocity without limit. Period. Argue if you like, Mac, but that's my
+statement. No one has ever been able to prove that velocity alone is
+harmful to man, beast, bird, or fish!"
+
+"I'm as silent as the tomb."
+
+"Acceleration can be adapted to--in meagre doses. A man can stand up
+under 4-G. On his tummy, lying down, 8- or 9-G isn't too hard on him.
+Dunk him up to the breathing-vents in a good grade of oxidized hydrogen
+and 15-G is possible without too much harm."
+
+"Yes. O Learned Scholar."
+
+"But, students," said Hammond standing up and taking a bow. He was
+interrupted by the resumption of the super drive which, being set at
+ninety feet per second per second apparent instead of eleven feet,
+caught him off balance and almost dropped him on the end of his nose.
+
+"What I was saying," laughed McBride, "was the effect that rates of
+change of acceleration have upon the anatomy."
+
+"As I demonstrated," grinned Hammond from the floor, "it is changes in
+acceleration that cause havoc. It causes jerks--"
+
+"To sit on the floor," chuckled McBride. "Get up. Stop playing on the
+floor, Steve, and take a squint at this curve. Plotting an exponential
+factor for the ordinates of the graph, using Telfu for the center, we
+find a locus of equal power-soak-up out here--which I estimate to be a
+little more than two hundred thousand miles!"
+
+"Ah, the wonders of analyst," said Hammond. "With a defunct drive and
+a wild idea, Jawn McBride hauls a satellite out of the sky and plants
+it--Here!"
+
+"What do you think?"
+
+"Who am I to argue with people who understand the mysteries of A to the
+Xth power equals zero, divided by the date of the month times the ace
+of spades, equals eleven o'clock. All joking aside, Mac, it looks right
+to my uninitiated mind."
+
+"Does, hey?"
+
+"Sure. That means that said moonlet--I say moonlet because our pix
+show that Telfu hasn't anything worthy of the name of a full, honest
+moon--must be high in cupralum."
+
+"Sort of hard to believe."
+
+"Yeah, but not impossible. It's quite believable that the right alloys
+should be found _au naturel_, so to speak. There's nothing tricky about
+cupralum. Mix it together and smelt it down--_voila_!--cupralum. A
+totally useless and good-for-nothing alloy prior to the discovery of
+the gravitic spectrum."
+
+"Must be fairly large," suggested Timkins.
+
+"Sure--according to man-made standards. Celestially, it might be a mere
+scrap of dirt. A sub-sub-sub-microscopic bit of cosmic dust less than a
+hundred miles in diameter."
+
+"Ugh," grunted Larry. "You make man and his works sort of
+insignificant."
+
+"We are. Do the planets care what we do on their miles-thick hides? Do
+the suns care that we wonder at them? Does the cosmos give a rap that
+we chase from planet to planet and from sun to sun?"
+
+"You make it sound as though they are capable of thinking."
+
+"If they did, we wouldn't know about it; and they wouldn't know we
+existed. Proportionally, man is smaller than the filterable virus. So
+we have a slab of cupralum, which is--according to Mac--Here! That's
+fine. It blankets Telfu like a complete shroud, as far as the good old
+gravitics go."
+
+Larry Timkins looked up from a page of scrawled equations. "A slab of
+cupralum a hundred miles in diameter, rotating in the mechanogravitic
+field thrown out by Sirius would certainly soak up every bit of power.
+Must be a slick tie-in. The gravitron puts our O.K. on a resistive
+load. Hooked to the drive, everything goes _phhht_."
+
+"Sure. That's part of the trouble. It's the drive, coupled with the
+general gravitic interference cut up by Soaky."
+
+"Soaky?"
+
+"I have hung a name on the satellite. Heretofore it has been nameless.
+We have named it _Soaky_."
+
+       *       *       *       *       *
+
+"There is a slight discrepancy between this cardioid and the calculated
+curve," said McBride. "Obviously, the cusp would be on a line between
+Telfu and Soaky, projected from the satellite through the planet to the
+far side. We orbited around the planet and were closer to Soaky on the
+side he was on--"
+
+"Is that syllogistic reasoning?" asked Hammond. "Or sheer conjecture?
+How about shadow?"
+
+"This is quite a wide effect."
+
+"Any shading of Soaky's sphere of influence would tend to deepen the
+cusp like that. That cardioid is such a curve; there's no reason to
+doubt that Telfu would tend to shade the field."
+
+"Larry. Can you calculate the field absorption of a standard model
+planet with the above figures?"
+
+"The attenuation?"
+
+"Yes."
+
+"Sure. It'd help if I knew the chemical components, mass, physical
+constants, electrical properties, gravitic properties, and nuclear
+emanations. How close do you want it?"
+
+"Plus or minus twenty percent."
+
+"I can give that to you without calculating," said Timkins. "Telfu is
+similar to Terra within twenty percent. Terra's attenuation amounts
+to twenty-nine percent; in other words, the attenuation due to the
+presence of Terra in the light-line between source and measuring device
+is twenty-nine percent greater than it would be if Terra were not there
+and the spacial attenuation only cut the strength."
+
+"Thirty percent, roughly, because it's easier to figure," said McBride.
+He made calculations, set them down linearly as to the magnitudes, and
+then transferred the vectors to the curve.
+
+"That's one large bit closer," he said. "We'll better that, some day.
+But for now, playmates, I've had my Idea-for-the-Week. Let's cut us
+another caper around Telfu at right angles to this curve. One side will
+pass the peak and the opposite side will cut the cusp. Same distance,
+same speed, same everything. Follow?"
+
+"At some distance."
+
+"I believe that we will find a place where the cusp really comes down
+closer to Telfu," said McBride. "How much drive inefficiency can we
+tolerate and still lift?"
+
+"From Telfu? Not enough to keep the breakers from blowing. And don't
+say wire 'em shut. They're right on the ragged edge now, on account
+of we know what we're doing and do not want to blow circuit breakers
+during experiments unless they are really in trouble. But the
+gravitron-cupralum driving equipment is not our only ace in the bucket.
+The emergency batteries, though inefficient, can still put us down
+and get us off. Providing, of course, that your map there gives us a
+chance."
+
+"Not knowing the orbital constants of Soaky; the plane of Soaky's
+ecliptic: the rotational features of Telfu, we are taking chances. One
+rotation of Telfu might be plenty safe if we hit it on the nose. Two
+might put us out here and then we'd have to go through seven years of
+astronomical investigations before we found the place where that cusp
+came in again--and we'd probably have to wait anything from sixteen
+to nine thousand years before Soaky passed overhead again. The latter
+might get boring. But we can take a chance on one day, plus whatever
+angular movement Soaky makes with Telfu as center."
+
+"Think Soaky's ecliptic is fairly close to Telfu's equator?"
+
+"Within twenty or thirty degrees. I'm assuming the old theory of the
+Planitesimal Hypothesis. Sling out your molten stuff, let it condense,
+and you'll find everything rotating in the same direction in about the
+same plane. Might be clockwise or counter-clockwise, but only one way
+per solar system. One moon in all of the junk that goes around Sol is
+contrariwise--and they think that was a captured wanderer. The greatest
+obliquity is somewhere near forty degrees, most of the large planets
+being less than ten, I think."
+
+"Celestially, I believe it may be impossible for a satellite to hold
+an orbit whose plane is vertical to the planet's orbit. I've never
+given it any thought, but it sounds dangerous to the satellite. Also,
+Sirius' tidal drag would tend to bring all the planets' axes into
+vertical line, too."
+
+"Oh the devil. I want to land. If waiting overnight is dangerous, we'll
+slide in there and out again inside of an hour. But, darn it, I want to
+plant my number eleven EE's on that planet. Anyone agree?"
+
+"Anyone who doesn't like the idea may get out and walk," said Hammond.
+"Hold your hat, fellows. Here we go again--"
+
+       *       *       *       *       *
+
+Sandra Drake reached out of her luxurious bed and pulled a cord. She
+did it in a languorous move, like a lithe and lazy cat. She did it with
+a sort of God-given right to do so, and her expression was one of deep
+self-delight. Whatever she got from Telfu, they owed to Sandra Drake--
+
+Her second pull on the call-cord was more of an impertinent yank. Her
+self-delight changed to exasperation that they should keep her waiting.
+Yet she would forgive them, for they were ignorant, in forgiving them
+her grace would be more evident. They would love her the more for
+forgiving them their sins of omission--
+
+Sandra's third pull caused the collapse of the call-bell box, and the
+cord fell, landing in long, graceful loops over her outstretched arm.
+
+Sandra rolled out of bed and threw the cord across the room, where it
+draped itself about the throat of a marble nude of a Telfan woman. It
+could not have been placed there with more delicacy; adding just the
+right touch of decoration to the nude. The center of the cord depended
+across the chest of the statue in a graceful loop, the bottom of which
+crossed just above the upper pair of breasts. The ends of the cord
+passed once more about the throat in opposite directions, and the ends
+crossed the looped center to dangle between the lower breasts.
+
+The decorative touch did not strike a responsive chord in Sandra Drake.
+She wanted rip-roaring action, not interior decoration. So she stamped
+over and jerked the cord from the statue and tried to rend it in her
+hands. She was not strong enough to do the cord any damage but she did
+succeed in breaking a one-inch fingernail.
+
+She stormed and stamped, and said a few things that are better
+mentioned in the abstract, including references to the statue's maker
+and his family for several generations coming and going. To Sandra's
+Terran-minded ideas of beauty, the statue was an abomination in spite
+of its perfection of workmanship. It was not merely un-Terran and
+therefore strange, it was almost-but-not-quite human, and therefore
+downright repulsive, and Sandra said so in unladylike language.
+That the same reactions, in reverse, applied in the Telfan-Sandra
+relationship was not yet clear to her. Her language sounded more
+adapted to caisson workers, space-ship builders, or mule skinners than
+it did the luxury of her present abode.
+
+Then at long and exasperating last, the door opened gingerly and a
+serving woman entered.
+
+"Well!" exploded Sandra. "Where have you been?"
+
+The woman said something clear and articulate, which meant she was very
+sorry but which meant nothing to Drake. That made Drake boil merrily.
+
+"Can't you speak Terran?" stormed Sandra.
+
+The woman came into the room, followed by another.
+
+"Who are you?" shouted Sandra. "Where's that other one--I can hardly
+tell you apart."
+
+The first Telfan woman turned to her friend and said: "She's throwing
+another fit."
+
+"She wants the Lady Thani. Thani is the only one who can speak much of
+her language."
+
+"If I were Thani, I'd slip a thumb into each eye and pry."
+
+"I wouldn't waste my time on that," returned the second woman. "I'd
+just make away with her and forget about it. I wouldn't care to have my
+sleep disturbed by blood, screams, and torture."
+
+Sandra huffed up tall. "Will you two creatures stop gabbling at one
+another and get me Thani. Where is that creature?"
+
+"Yes, she wants Thani. I heard her mention her name."
+
+"If Thani isn't here, get me Tet'h. Or Gormal. Or Elyon."
+
+"How can we tell her that Thani, Tet'h, Gormal, and Elyon went to meet
+the other Terrans?"
+
+Sandra heard the names and the word _Terrans_. "Did they run off and
+leave me here?" she yelled.
+
+They shook their heads.
+
+"Go ... yes?" asked Sandra.
+
+"Go ... yes!" answered Delya.
+
+"I want to go, too."
+
+"I ... go ... no," said Delya.
+
+"Not you, me."
+
+"You ... no?"
+
+"Me ... yes."
+
+"Me ... yes!" agreed Delya.
+
+Sandra put both palms against her cheeks and gave vent to a yell of
+sheer frustration. Then she calmed once more. "Did every one of you
+that knows a word of Terran go?"
+
+"Tonla, I think she's asking about Thani and the rest."
+
+"But how can we tell her?"
+
+"Do we want to? If all are like her--this Terra must be a bad, bad
+place indeed. And she is but a female. What must the males be?"
+
+       *       *       *       *       *
+
+At this point it must be recorded that the first Interstellar incident
+was averted by Sandra Drake's refusal to work in learning the Telfan
+language. Drake's possible actions if she had been able to understand
+Delya's remark might have led to the First Interplanetary War. Amicable
+relations resulted from Sandra Drake's ignorance.
+
+"After all," said Tonla, "they went because there isn't much of her
+language between all of them. All together they may be able to converse
+with the Terrans."
+
+"And Elyon says that she is quite uninformed as to the technicalities
+of this device which will not work on Telfu. She inferred that these
+others know much about it. They are the ones to contact if Telfu is to
+gain. Why shouldn't they all go?"
+
+"Had I the right, I'd have sent them," said Tonla. "We'd better get out
+of here before this woman gets violent. I think she's about to start
+throwing things."
+
+"She should throw a fit," sneered Delya. "Only the very beautiful can
+behave in that arrogant manner."
+
+"Or the very rich."
+
+"Name it the very desirable. Thani is very desirable, and yet she does
+not raise hob with Tet'h. And Thani is not only beautiful, but she is
+wealthy, too."
+
+"And Tet'h is not without his own desirability," smiled Tonla. "Nor his
+wealth. Beauty walks in the arms of grace. She has neither."
+
+"Let's get out. And let us hope that all Terrans are not as nasty as
+this one."
+
+"I fear, though. If I were a Terran, I'd never have come to get her,"
+said Tonla. "Unless she and they are well met."
+
+"Perhaps they are afraid of the bad impression she'll make if they
+leave her here."
+
+"You hope for that?"
+
+"No race could be that bad."
+
+Sandra mustered enough coherency to ask another question. "How can I
+get to my friends?"
+
+Much negation.
+
+"Can't anyone understand me?"
+
+More gestures of complete misunderstanding.
+
+"Get out!" yelled Sandra, and then as they started to leave, Sandra
+exploded again. The slamming of the door coincided with the first
+eruption, but the molten lava and hot ashes fell on an empty room.
+
+"If she'd bothered to learn one word of Telfan, they'd have taken her,"
+said Delya. "But they couldn't weigh down that little flier with one
+more--especially one who could be of no use to them. They'll return for
+her later."
+
+"Too bad we can't put postage on her and mail her back to this Terra of
+hers."
+
+"She'd come back stamped: 'Mail not wanted!'"
+
+Sandra swore a few blood-curdlers and won her point by making an
+impression on the marble statue with the hard, sharp corner of a heavy
+metal box that stood on the table beside her bed. Then she ripped
+out of her pajamas and dressed quickly. She ran from her room and
+confronted the first man she met.
+
+"Where are they?" she snapped.
+
+He shook his head and pointed down the hall.
+
+Drake followed the pointing finger to a large room. She stamped in,
+obviously interrupting some sort of governmental meeting.
+
+"I want to go to my friends," she said imperiously.
+
+The man at the head of the table shook his head sadly.
+
+"I must go to them! Or," she asked superciliously, "are they coming
+here?"
+
+More shaking of the patriarchal head.
+
+"Can't you understand, either?" she stormed.
+
+A shrug of the shoulder and a shake of the head gave Sandra to
+understand that she was speaking in an alien language to them.
+
+"Crano!" she snapped. She didn't know its meaning, but it was the only
+Telfan word she knew, and she did know that it was a term signifying
+that the receiver of the epithet was slightly less than educated.
+
+The elderly man went white. Two of the younger men arose, came forward,
+took Sandra Drake by the arms--one to each--and removed her from the
+chamber. They were not gentle, and on any inhabited planet employing
+the use of the Terran vernacular, she had been "Bounced!"
+
+And Sandra knew it.
+
+And then there came a bit of understanding. It hit hard. And in the
+brief minutes that Sandra looked facts in the face before she took to
+demanding impossible things once more, she realized that she had backed
+into her own trap. She had been demanding. She had chosen to teach
+those who met her the Terran language instead of learning Telfan. Now
+those who understood any bit of Terran had gone to meet the _Haywire
+Queen_, leaving her among those who could not understand her at all.
+She could not communicate her desires to any of them.
+
+She could not even tell them of the desire that they wanted to hear:
+That she wanted to leave.
+
+The whole city would have broken a blood vessel to get her out.
+
+But they didn't talk the same language.
+
+The _Haywire Queen_ came down in a screaming, wild landing. She rifled
+down out of the sky, careening. She slanted for a half mile, and
+then squared away and came plummeting down vertically. Inside, the
+accelerometer was making wild gyrations as Timkins fought the controls.
+
+The whistling of the big ship's passage through the air slid down the
+audible scale as the velocity dropped. The ship slowed, and came to a
+perfect landing--
+
+Twelve feet above the surface!
+
+Like a slug of lead, the _Haywire Queen_ poised for the barest instant,
+and then dropped the intervening distance. The landing plates sank into
+the soft soil of Telfu for several feet and the plates groaned, a rivet
+or two squeaked, and some welded joints disagreed. But spaceships are
+rigid structures, made for hard usage and considerable stresses and
+strains. It weathered the hard landing, though the angle was slightly
+cocked due to the unevenness of the turf's hardness. The _Haywire
+Queen_ was still space-worthy.
+
+"Rotten pilot," muttered Hammond.
+
+"Terrible," agreed McBride.
+
+"Look, you two grinning apes. I missed Telfu by exactly one hundred and
+forty-four inches. Twelve feet in 2,630,000,000,000,000,000 feet. Well
+within the experimental error, I think."
+
+"Twelve feet in nine light-years isn't bad," said McBride. "Some day,
+Larry, you can bend that mathematical mechanism you use instead of a
+brain into calculating whether the landing effect would have been worse
+at _plus_ twelve feet instead of minus."
+
+"A mere matter of kinetic energy dissipated--"
+
+"Yeah, we know. Well, you didn't kill us," laughed Hammond. "So let's
+go out and take a look at the wonders of the Telfan scenery."
+
+"Take a quick look," said McBride. "Here come some Telfans to take a
+look at some Terran science."
+
+"Wonder how they got here so quick," asked Timkins of no one in
+particular.
+
+"Ask 'em."
+
+Timkins stepped out of the space lock and smiled at the Telfans. "Ave,
+Canis Majoris," he said in a deep voice.
+
+"Lousy Latin," snorted McBride.
+
+"That's where they live."
+
+"Do they know that?"
+
+The foremost Telfan, who was Tet'h, stepped forward and smiled.
+"You ... Terrans?"
+
+"Yes."
+
+He pointed to the ship. "_'Aywire Queen?_"
+
+"Yes."
+
+Tet'h smiled once more and offered his hand.
+
+"Universal gesture?" asked Hammond.
+
+"No. Drake must have taught them that."
+
+"Drake?" asked Tet'h. "You like?"
+
+"Extremely doubtful," said Hammond. He was misunderstood. McBride said
+nothing but that pinching of the nose between thumb and forefinger
+conveyed the idea excellently.
+
+"Telfans ... no like Drake."
+
+"No?"
+
+"No. Tall. Ugly-bald." Tet'h indicated his own luxurious pelt and
+then became confused as he realized that the Terrans were of the
+same, "Ugly-bald" complexion. He covered his face with both hands and
+muttered something that sounded apologetic and humble.
+
+"Forget it," laughed McBride. "We ... like Telfans."
+
+"Not like Drake," said Tet'h.
+
+"Thanks," said Hammond honestly.
+
+"How know ... here?" asked Timkins.
+
+"You here?" asked Tet'h pointing to the ship and the surrounding
+landscape.
+
+"Aren't we?" grinned Timkins.
+
+"Save the fine rhetoric for later when they get the point of double
+talk," suggested Hammond.
+
+       *       *       *       *       *
+
+Tet'h led them to the plane and Gormal and Elyon lifted a large case
+out. Tet'h opened it and handed McBride a little instrument. It was a
+cabinetless job, every part exposed.
+
+"Holy spinach," he said. "A mechanogravitic detector."
+
+Hammond got a small mechanical planetarium showing Telfu and a minute
+sphere. Tet'h pulled a roller-map out of the base and indicated Telfu
+and the sphere. The map was a fairly accurate contour map of the
+blanketed region's contour.
+
+Tet'h signified the cusp and then pointed to the position of Soaky.
+Below the cusp, Tet'h indicated the planet and then pointed to the
+ground.
+
+"Here," he said.
+
+McBride and Hammond tangled in an effort to shake Tet'h's hand. The
+Telfan looked proud.
+
+"Many years," he said haltingly. "Work," indicating the detector. He
+made assembly motions. He pulled a book of mathematical identities
+from a pocket and said: "Found ... here." Then he made vast motions
+indicating a large construction. "Many years ... try like hell ... no
+work." He indicated the small satellite. "He make stop."
+
+"Bright lads," grinned Hammond. "Their civilization was ready to
+discover the gravitic spectra. They did. They found it in math. They
+tried it and it didn't click too well. They discovered why. Never
+having anything of any great power operating, they never got to the
+point where they could build anything big enough to get off of Telfu.
+Just plain stuck. Well, fellers, if that moonlet is cupralum, I can see
+a lot of birds mining it."
+
+"How're they going to land on it? Nothing gravitic will be worth a hoot
+that close."
+
+"Lift 'em off the dead spot by battery-powered gravitics. Inefficient
+as hell. Get into space and then use rockets to land on that moonlet.
+Mine it. Load it full of detonite and blast."
+
+"A hundred-mile moonlet?"
+
+"They've got a nine-thousand-mile planet here to support it. They
+can't power their machinery with gravitrons, but electronics is an art
+worth remembering. One of the earlier atomic gadgets would do plenty."
+
+"Might bore a large hole in it and pack in a mile of Atomite,"
+suggested McBride. "I'd hate to support that, though."
+
+"Better get some seetee meteors and pelt it by remote control," said
+Hammond. "Well, we can cover that later." To Tet'h he said: "You come
+in?"
+
+Tet'h and Thani held a quick conference. "She come, too?" he asked.
+
+"All of you."
+
+"No. They stay. We go Terra."
+
+"Terra!" exploded Hammond.
+
+"Much to learn--both of us. You and I. You learn Telfan. We learn
+Terran. Better talk. This ... lousy."
+
+"Easy to see Sandra's delicate hand in this language lesson," grinned
+Timkins.
+
+"Better call that wild woman. Tell her we're going to take off in one
+hour and ten minutes because if we don't, we'll be as stuck as she is
+and we don't like that. As long as we have a bit of Telfu to take back
+with us in the shape of Tet'h and his woman Thani, we needn't stick
+around. I'll feel better about getting off on this rotation anyway.
+G'wan, we'll listen to you make the excuses, Larry."
+
+"My turn to poke her on the pretty little schnozzola?"
+
+"You won that by that three times something to the minus umpty-umpth
+power percentage of landing error. Twelve feet in what?"
+
+"2,630,000,000,000,000,000 feet."
+
+"Was that the same he said before?" asked McBride with a smile. "Or was
+he working that old gag about our not remembering?"
+
+"I don't remember either."
+
+"So, you win," said McBride to Larry Timkins.
+
+       *       *       *       *       *
+
+Timkins called, and Sandra Drake's slightly hysterical voice replied.
+
+"How you doing?" asked Larry.
+
+"Where are you?"
+
+"I don't know."
+
+"Don't know?" said Sandra. Her voice went up in a crescendo and hit "G"
+above High "C" on the last note.
+
+"No," said Larry. "Chicago, Venuland, Canalport, and Sharon are my best
+landmarks and they're all equally distant and in the same direction
+from here."
+
+"Go to hell."
+
+"That's across the River Styx from Sharon, on Pluto," said Timkins.
+"And that expression is making the Sharonites unhappy because people
+have been going there for thousands of years. Sharon hasn't the
+popularity."
+
+"But look, Larry, I want to go along."
+
+"Can you get here in one hour and eleven minutes. That's the absolute
+deadline until we can get to Terra and cook up a drive that's detuned
+enough from the cupralum-absorption region to permit us to tinker off
+and on around here."
+
+"Where are you? How can I get there if you don't know where you are?"
+
+"Ask someone."
+
+Sandra's language became something that the communications commission
+has legislated against.
+
+"Can you come here and get me?"
+
+"We'll be doing fine if we get off with our skin," said Larry. "We
+definitely have not enough power to go roaming all over Telfu. We're on
+the one spot that will allow us to leave under the emergencies. An hour
+and thirty minutes from now that spot will be somewhere else. We'll
+wait an hour and ten and take off on the edge of the spot."
+
+"Won't they come back and get me?"
+
+"Wait a minute." Then he turned to Tet'h. "Could you send them back for
+Drake?"
+
+"Yes," answered Tet'h. "Better not, though. She bad ... but lazy. Teach
+Terran so not ... learn Telfan."
+
+"Sandra? No dice. That's it, toots. Take it or leave it."
+
+"Look, Larry, isn't there something you can do?"
+
+"I doubt it. Give you a tip, though. Next time you poke someone else's
+nose into a mess remember that he who laughs last isn't always too
+dumb to catch on quick. At the next sound, it will be exactly three
+people making with deep belly laughs. So long, until we meet again--in
+about six months! In-you, we're at these Telfan co-ordicidentally, if
+you should find someone who would like to get rid of nates: South
+Longitude.... Hey, Tet'h, how do you pronounce these figures?"
+
+Tet'h caught his meaning and said: "Me tell."
+
+He addressed the microphone, and spoke in Telfan. "There," he finished,
+"is where ... are!"
+
+Timkins added: "So now you can get here all right."
+
+He closed the mike as the speaker started to make little animal sounds.
+"Fellows," said Larry. "She's mad!"
+
+"Crazy mad or angry mad?"
+
+"Boiling mad."
+
+"She'll be hard-boiled by the time she gets through stewing in her own
+juice," grinned Hammond. "Let's get some sky, fellows. O.K. ... we go?"
+he asked Tet'h.
+
+"We go," said Tet'h cheerfully.
+
+There was a quick conference between the two men who were to stay and
+Tet'h. Then the air-lock door was closed, and Timkins started to set up
+the controls.
+
+Up in the emergency room, the batteries started to fume and fret as the
+terrible overload hit them. The _Haywire Queen_ lifted uncertainly,
+gained a little speed, and then took off into the cloudless sky at an
+acceleration that varied continuously between nine to twenty feet per
+second per second per second under the super drive.
+
+Not too long after, the gravitron-cupralum drive took over, and the
+_Haywire Queen_ pointed her dome upwards at tiny Sol, blinking there in
+the sky between the constellations Aquila and Ophiuchus.
+
+
+                               THE END.
+
+*** END OF THE PROJECT GUTENBERG EBOOK REDEVELOPMENT ***
+
+Updated editions will replace the previous one--the old editions will
+be renamed.
+
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the
+United States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg-tm electronic works to protect the PROJECT GUTENBERG-tm
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for an eBook, except by following
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away--you may
+do practically ANYTHING in the United States with eBooks not protected
+by U.S. copyright law. Redistribution is subject to the trademark
+license, especially commercial redistribution.
+
+START: FULL LICENSE
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full
+Project Gutenberg-tm License available with this file or online at
+www.gutenberg.org/license.
+
+Section 1. General Terms of Use and Redistributing Project
+Gutenberg-tm electronic works
+
+1.A. By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg-tm electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg-tm electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the
+person or entity to whom you paid the fee as set forth in paragraph
+1.E.8.
+
+1.B. "Project Gutenberg" is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg-tm
+electronic works. See paragraph 1.E below.
+
+1.C. The Project Gutenberg Literary Archive Foundation ("the
+Foundation" or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg-tm electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg-tm mission of promoting
+free access to electronic works by freely sharing Project Gutenberg-tm
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg-tm name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg-tm License when
+you share it without charge with others.
+
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg-tm work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country other than the United States.
+
+1.E. Unless you have removed all references to Project Gutenberg:
+
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg-tm License must appear
+prominently whenever any copy of a Project Gutenberg-tm work (any work
+on which the phrase "Project Gutenberg" appears, or with which the
+phrase "Project Gutenberg" is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+
+  This eBook is for the use of anyone anywhere in the United States and
+  most other parts of the world at no cost and with almost no
+  restrictions whatsoever. You may copy it, give it away or re-use it
+  under the terms of the Project Gutenberg License included with this
+  eBook or online at www.gutenberg.org. If you are not located in the
+  United States, you will have to check the laws of the country where
+  you are located before using this eBook.
+
+1.E.2. If an individual Project Gutenberg-tm electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase "Project
+Gutenberg" associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg-tm
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+
+1.E.3. If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg-tm License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg-tm work in a format
+other than "Plain Vanilla ASCII" or other format used in the official
+version posted on the official Project Gutenberg-tm website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original "Plain
+Vanilla ASCII" or other form. Any alternate format must include the
+full Project Gutenberg-tm License as specified in paragraph 1.E.1.
+
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works
+provided that:
+
+* You pay a royalty fee of 20% of the gross profits you derive from
+  the use of Project Gutenberg-tm works calculated using the method
+  you already use to calculate your applicable taxes. The fee is owed
+  to the owner of the Project Gutenberg-tm trademark, but he has
+  agreed to donate royalties under this paragraph to the Project
+  Gutenberg Literary Archive Foundation. Royalty payments must be paid
+  within 60 days following each date on which you prepare (or are
+  legally required to prepare) your periodic tax returns. Royalty
+  payments should be clearly marked as such and sent to the Project
+  Gutenberg Literary Archive Foundation at the address specified in
+  Section 4, "Information about donations to the Project Gutenberg
+  Literary Archive Foundation."
+
+* You provide a full refund of any money paid by a user who notifies
+  you in writing (or by e-mail) within 30 days of receipt that s/he
+  does not agree to the terms of the full Project Gutenberg-tm
+  License. You must require such a user to return or destroy all
+  copies of the works possessed in a physical medium and discontinue
+  all use of and all access to other copies of Project Gutenberg-tm
+  works.
+
+* You provide, in accordance with paragraph 1.F.3, a full refund of
+  any money paid for a work or a replacement copy, if a defect in the
+  electronic work is discovered and reported to you within 90 days of
+  receipt of the work.
+
+* You comply with all other terms of this agreement for free
+  distribution of Project Gutenberg-tm works.
+
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg-tm electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg-tm trademark. Contact the Foundation as set
+forth in Section 3 below.
+
+1.F.
+
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg-tm collection. Despite these efforts, Project Gutenberg-tm
+electronic works, and the medium on which they may be stored, may
+contain "Defects," such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg-tm
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg-tm work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg-tm work, and (c) any
+Defect you cause.
+
+Section 2. Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at
+www.gutenberg.org
+
+Section 3. Information about the Project Gutenberg Literary
+Archive Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation's EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state's laws.
+
+The Foundation's business office is located at 809 North 1500 West,
+Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up
+to date contact information can be found at the Foundation's website
+and official page at www.gutenberg.org/contact
+
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without
+widespread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular
+state visit www.gutenberg.org/donate
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate
+
+Section 5. General Information About Project Gutenberg-tm electronic works
+
+Professor Michael S. Hart was the originator of the Project
+Gutenberg-tm concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg-tm eBooks with only a loose network of
+volunteer support.
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+
+Most people start at our website which has the main PG search
+facility: www.gutenberg.org
+
+This website includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
