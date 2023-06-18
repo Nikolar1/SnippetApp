@@ -8,4 +8,5 @@ ARG JAR_FILE=snippet-backend.jar
 
 WORKDIR /opt/app
 COPY --from=maven /usr/src/app/target/${JAR_FILE} /opt/app/
+COPY ./data /opt/app/data
 ENTRYPOINT ["java","-jar","snippet-backend.jar"]

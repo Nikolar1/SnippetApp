@@ -18,6 +18,8 @@ public class DataParser {
     private String filepath;
     //Book Author
     private String author;
+    //Book name
+    private String book;
     public DataParser(String filepath, String author){
         this.filepath = filepath;
         this.author = author;
@@ -31,6 +33,8 @@ public class DataParser {
 
     //Change of book when going to the next one
     public void SetFile(String filename){
+        this.book = filename.replace(".txt", "");
+        this.book = this.book.replace("\'", "\\\'");
         this.filename = filepath + filename;
     }
 
@@ -70,7 +74,8 @@ public class DataParser {
         //Standardizes all ' characters because two types are used in original books
         //They would skew the data otherwise
         text = text.replace("’", "\\\'");
-        text = "\'" + text + "\'" +  ", " + author;
+        //Add author name to the end
+        text = "\'" + text + "\'" +  ", " + "\'" + book + "\'" + ", " + author;
         return text;
     }
 

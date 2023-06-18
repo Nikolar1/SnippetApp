@@ -118,7 +118,7 @@ public class SourceLists {
             "Atomic bonanza.txt",
             "Bombs awry.txt",
             "Booby prize.txt",
-            "Climate—Incorporated.txt",
+            "Climate Incorporated.txt",
             "Dark recess.txt",
             "Dynasty of the lost.txt",
             "Hellflower.txt",
@@ -165,7 +165,7 @@ public class SourceLists {
     };
 
     public static String[] StrangHerbertTraining = {
-            "A Hero of Liége A Story of the Great War.txt",
+            "A Hero of Liege A Story of the Great War.txt",
             "Barclay of the Guides.txt",
             "Boys of the Light Brigade A Story of Spain and the Peninsular War.txt",
             "Bright Ideas A Record of Invention and Misinvention.txt",

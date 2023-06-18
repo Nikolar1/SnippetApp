@@ -45,12 +45,12 @@ public class DataConverter {
         output.newLine();
     }
 
-    public String[] toArffTrainingTest(){
+    public String toArffTraining(){
         DataParser dp = new DataParser(SourceLists.TrainingPaths[0], SourceLists.Authors[0]);
         //Passes through pre-defined list of books for training by author and adds them to {outputFileName}-training.arff
         try {
             BufferedWriter output = new BufferedWriter(new FileWriter(outputFileName + "-training.arff", false));
-            String[] attributes = {"Text string"};
+            String[] attributes = {"Text string","Book string"};
             writeArffHeader(output, "writer-training", attributes,SourceLists.Authors);
             writeAuthor(dp, output, SourceLists.EbersGeorgTraining.length, SourceLists.EbersGeorgTraining);
             dp.ChangeAuthor(SourceLists.TrainingPaths[1], SourceLists.Authors[1]);
@@ -67,13 +67,17 @@ public class DataConverter {
             e.printStackTrace();
             return null;
         }
+        String rez = outputFileName + "-training.arff";
+        return rez;
+    }
 
+    public String toArffTest(){
+        DataParser dp = new DataParser(SourceLists.TrainingPaths[0] + "Test/", SourceLists.Authors[0]);
         //Passes through pre-defined list of books for testing by author and adds them to {outputFileName}-test.arff
         try {
             BufferedWriter output = new BufferedWriter(new FileWriter(outputFileName + "-test.arff", false));
-            String[] attributes = {"Text string"};
+            String[] attributes = {"Text string","Book string"};
             writeArffHeader(output, "writer-test", attributes,SourceLists.Authors);
-            dp.ChangeAuthor(SourceLists.TrainingPaths[0] + "Test/", SourceLists.Authors[0]);
             writeAuthor(dp, output, SourceLists.EbersGeorgTest.length, SourceLists.EbersGeorgTest);
             dp.ChangeAuthor(SourceLists.TrainingPaths[1] + "Test/", SourceLists.Authors[1]);
             writeAuthor(dp, output, SourceLists.TolstoyLeoTest.length, SourceLists.TolstoyLeoTest);
@@ -90,7 +94,7 @@ public class DataConverter {
             return null;
         }
 
-        String[] rez = {outputFileName + "-training.arff", outputFileName + "-test.arff"};
+        String rez = outputFileName + "-test.arff";
         return rez;
     }
 }

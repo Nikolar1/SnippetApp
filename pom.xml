@@ -46,6 +46,14 @@
 			<artifactId>lucene-queryparser</artifactId>
 			<version>8.0.0</version>
 		</dependency>
+
+		<dependency>
+			<groupId>nz.ac.waikato.cms.weka</groupId>
+			<artifactId>weka-dev</artifactId>
+			<version>3.9.5</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
@@ -65,7 +73,7 @@
 				<executions>
 					<execution>
 						<configuration>
-							<mainClass>com.nikolar.snippetBackend.SnippetBackendApplication</mainClass>
+							<mainClass>com.nikolar.snippetbackend.SnippetBackendApplication</mainClass>
 						</configuration>
 					</execution>
 				</executions>
