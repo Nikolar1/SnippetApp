@@ -9,7 +9,6 @@ import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
-
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -24,17 +23,17 @@ public class LuceneWriter {
         Analyzer analyzer = new StandardAnalyzer();
         IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
         iwc = iwc.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
-        IndexWriter indexer = new IndexWriter(indexDir, iwc);
+        indexer = new IndexWriter(indexDir, iwc);
     }
 
-    public boolean indexSnippet(String snippet, String author, String book) throws IOException{
+    public boolean indexSnippet(String snippet,  String book, String author) throws IOException{
         if(indexer== null){
             return false;
         }
         Document doc = new Document();
-        doc.add(new TextField("snippet", snippet, Field.Store.YES));
         doc.add(new TextField("author", author, Field.Store.YES));
         doc.add(new TextField("book", book, Field.Store.YES));
+        doc.add(new TextField("snippet", snippet, Field.Store.YES));
         indexer.addDocument(doc);
         return true;
     }
