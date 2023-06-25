@@ -25,6 +25,10 @@ public class DataParser {
         this.author = author;
     }
 
+    public String getAuthor() {
+        return author;
+    }
+
     //Change of autor when going to the next one
     public void ChangeAuthor(String filepath, String author){
         this.filepath = filepath;

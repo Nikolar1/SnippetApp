@@ -1,5 +1,6 @@
 package com.nikolar.gutenbergbooksparser;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -7,29 +8,71 @@ import java.util.LinkedList;
 
 public class DataConverter {
     private String outputFileName;
+    private BufferedWriter output;
+
+    private class authorWriteThread extends Thread{
+        private DataParser dp;
+        private String[] books;
+        public authorWriteThread(String[] books, String trainingPath, String author){
+            dp = new DataParser(trainingPath,author);
+            this.books = books;
+        }
+        public void run(){
+            try {
+                writeAuthor(dp, books.length, books);
+            }catch (IOException e){
+                System.out.println("Error while writing author: " + dp.getAuthor());
+                e.printStackTrace();
+            }
+        }
+        private void writeAuthor(DataParser dp, int length, String[] books) throws IOException {
+            for (int j = 0; j<length; j++) {
+                dp.SetFile(books[j]);
+                LinkedList<String> parsedText = dp.Parse();
+                for (int i = 0; i < parsedText.size(); i++) {
+                    writeLineAndGoToNext(parsedText.get(i));
+                }
+            }
+        }
+    }
 
     public DataConverter(String outputFileName){
         this.outputFileName = outputFileName;
     }
 
-    private void writeAuthor(DataParser dp, BufferedWriter output, int length, String[] books) throws IOException {
+    private synchronized void writeLineAndGoToNext(String line)throws IOException {
+        if(output == null) return;
+        output.append(line);
+        output.newLine();
+    }
+    private synchronized void writeLine(String line) throws IOException {
+        if(output == null) return;
+        output.append(line);
+    }
+
+    private synchronized void newLine() throws IOException {
+        if(output == null) return;
+        output.newLine();
+    }
+
+    private void writeAuthor(DataParser dp, int length, String[] books) throws IOException {
         for (int j = 0; j<length; j++) {
             dp.SetFile(books[j]);
             LinkedList<String> parsedText = dp.Parse();
             for (int i = 0; i < parsedText.size(); i++) {
-                output.append(parsedText.get(i));
-                output.newLine();
+                writeLine(parsedText.get(i));
+                newLine();
             }
         }
     }
 
-    private void writeArffHeader(BufferedWriter output, String name, String[] attributes, String[] classes) throws IOException {
-        output.append("@RELATION " + name);
-        output.newLine();
+    private void writeArffHeader(String name, String[] attributes, String[] classes) throws IOException {
+        writeLine("@RELATION " + name);
+        newLine();
         for (int i = 0; i<attributes.length; i++) {
-            output.newLine();
-            output.append("@attribute " + attributes[i]);
-            output.newLine();
+            newLine();
+            writeLine("@attribute " + attributes[i]);
+            newLine();
         }
         String classLine = "@attribute class {";
         for (int i = 0; i<classes.length; i++) {
@@ -38,31 +81,36 @@ public class DataConverter {
                 classLine+= ",";
             }
         }
-        output.append(classLine + "}");
-        output.newLine();
-        output.newLine();
-        output.append("@data");
-        output.newLine();
+        writeLine(classLine + "}");
+        newLine();
+        newLine();
+        writeLine("@data");
+        newLine();
     }
 
     public String toArffTraining(){
-        DataParser dp = new DataParser(SourceLists.TrainingPaths[0], SourceLists.Authors[0]);
         //Passes through pre-defined list of books for training by author and adds them to {outputFileName}-training.arff
         try {
-            BufferedWriter output = new BufferedWriter(new FileWriter(outputFileName + "-training.arff", false));
+            output = new BufferedWriter(new FileWriter(outputFileName + "-training.arff", false));
             String[] attributes = {"Text string","Book string"};
-            writeArffHeader(output, "writer-training", attributes,SourceLists.Authors);
-            writeAuthor(dp, output, SourceLists.EbersGeorgTraining.length, SourceLists.EbersGeorgTraining);
-            dp.ChangeAuthor(SourceLists.TrainingPaths[1], SourceLists.Authors[1]);
-            writeAuthor(dp, output, SourceLists.TolstoyLeoTraining.length, SourceLists.TolstoyLeoTraining);
-            dp.ChangeAuthor(SourceLists.TrainingPaths[2], SourceLists.Authors[2]);
-            writeAuthor(dp, output, SourceLists.GeorgeOSmithTraining.length, SourceLists.GeorgeOSmithTraining);
-            dp.ChangeAuthor(SourceLists.TrainingPaths[3], SourceLists.Authors[3]);
-            writeAuthor(dp, output, SourceLists.StrangHerbertTraining.length, SourceLists.StrangHerbertTraining);
-            dp.ChangeAuthor(SourceLists.TrainingPaths[4], SourceLists.Authors[4]);
-            writeAuthor(dp, output, SourceLists.WebsterFrankVTraining.length, SourceLists.WebsterFrankVTraining);
+            writeArffHeader("writer-training", attributes,SourceLists.Authors);
+            authorWriteThread awt1 = new authorWriteThread(SourceLists.EbersGeorgTraining, SourceLists.TrainingPaths[0], SourceLists.Authors[0]);
+            authorWriteThread awt2 = new authorWriteThread(SourceLists.TolstoyLeoTraining, SourceLists.TrainingPaths[1], SourceLists.Authors[1]);
+            authorWriteThread awt3 = new authorWriteThread(SourceLists.GeorgeOSmithTraining, SourceLists.TrainingPaths[2], SourceLists.Authors[2]);
+            authorWriteThread awt4 = new authorWriteThread(SourceLists.StrangHerbertTraining, SourceLists.TrainingPaths[3], SourceLists.Authors[3]);
+            authorWriteThread awt5 = new authorWriteThread(SourceLists.WebsterFrankVTraining, SourceLists.TrainingPaths[4], SourceLists.Authors[4]);
+            awt1.start();
+            awt2.start();
+            awt3.start();
+            awt4.start();
+            awt5.start();
+            awt1.join();
+            awt2.join();
+            awt3.join();
+            awt4.join();
+            awt5.join();
             output.close();
-        }catch (IOException e){
+        }catch (IOException | InterruptedException e){
             System.out.println("Error while writing arff training file");
             e.printStackTrace();
             return null;
@@ -72,23 +120,28 @@ public class DataConverter {
     }
 
     public String toArffTest(){
-        DataParser dp = new DataParser(SourceLists.TrainingPaths[0] + "Test/", SourceLists.Authors[0]);
         //Passes through pre-defined list of books for testing by author and adds them to {outputFileName}-test.arff
         try {
-            BufferedWriter output = new BufferedWriter(new FileWriter(outputFileName + "-test.arff", false));
+            output = new BufferedWriter(new FileWriter(outputFileName + "-test.arff", false));
             String[] attributes = {"Text string","Book string"};
-            writeArffHeader(output, "writer-test", attributes,SourceLists.Authors);
-            writeAuthor(dp, output, SourceLists.EbersGeorgTest.length, SourceLists.EbersGeorgTest);
-            dp.ChangeAuthor(SourceLists.TrainingPaths[1] + "Test/", SourceLists.Authors[1]);
-            writeAuthor(dp, output, SourceLists.TolstoyLeoTest.length, SourceLists.TolstoyLeoTest);
-            dp.ChangeAuthor(SourceLists.TrainingPaths[2] + "Test/", SourceLists.Authors[2]);
-            writeAuthor(dp, output, SourceLists.GeorgeOSmithTest.length, SourceLists.GeorgeOSmithTest);
-            dp.ChangeAuthor(SourceLists.TrainingPaths[3] + "Test/", SourceLists.Authors[3]);
-            writeAuthor(dp, output, SourceLists.StrangHerbertTest.length, SourceLists.StrangHerbertTest);
-            dp.ChangeAuthor(SourceLists.TrainingPaths[4] + "Test/", SourceLists.Authors[4]);
-            writeAuthor(dp, output, SourceLists.WebsterFrankVTest.length, SourceLists.WebsterFrankVTest);
+            writeArffHeader("writer-test", attributes,SourceLists.Authors);
+            authorWriteThread awt1 = new authorWriteThread(SourceLists.EbersGeorgTest, SourceLists.TrainingPaths[0] + "Test/", SourceLists.Authors[0]);
+            authorWriteThread awt2 = new authorWriteThread(SourceLists.TolstoyLeoTest, SourceLists.TrainingPaths[1] + "Test/", SourceLists.Authors[1]);
+            authorWriteThread awt3 = new authorWriteThread(SourceLists.GeorgeOSmithTest, SourceLists.TrainingPaths[2] + "Test/", SourceLists.Authors[2]);
+            authorWriteThread awt4 = new authorWriteThread(SourceLists.StrangHerbertTest, SourceLists.TrainingPaths[3] + "Test/", SourceLists.Authors[3]);
+            authorWriteThread awt5 = new authorWriteThread(SourceLists.WebsterFrankVTest, SourceLists.TrainingPaths[4] + "Test/", SourceLists.Authors[4]);
+            awt1.start();
+            awt2.start();
+            awt3.start();
+            awt4.start();
+            awt5.start();
+            awt1.join();
+            awt2.join();
+            awt3.join();
+            awt4.join();
+            awt5.join();
             output.close();
-        }catch (IOException e){
+        }catch (IOException | InterruptedException e){
             System.out.println("Error while writing arff test file");
             e.printStackTrace();
             return null;
