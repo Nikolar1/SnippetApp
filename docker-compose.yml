@@ -9,3 +9,9 @@ services:
     ports:
       - 8080:8080
     restart: always
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile-frontend
+    ports:
+      - 3000:3000
