@@ -1,5 +1,6 @@
 package com.nikolar.gutenbergbooksparser;
 
+import com.nikolar.snippetbackend.learning.LearningThread;
 import com.nikolar.snippetbackend.lucene.IndexerThread;
 import com.nikolar.snippetbackend.lucene.LuceneConfig;
 import com.nikolar.snippetbackend.lucene.LuceneWriter;
@@ -16,9 +17,12 @@ public class FileWatcher {
     private String testFileName;
     private String trainingFileName;
     private  boolean snippetsIndexed;
+    private boolean trainingComplete;
     private FileWatcher(){
         testFileCreated = false;
         trainingFileCreated = false;
+        snippetsIndexed = false;
+        trainingComplete = false;
     }
 
     public static synchronized FileWatcher getInstance(){
@@ -57,6 +61,14 @@ public class FileWatcher {
                 e.printStackTrace();
             }
             //Start training and evaluation process(tbd)
+           /* try {
+                LearningThread lt = new LearningThread("./" + trainingFileName, "./" + testFileName);
+                lt.start();
+            } catch (Exception e) {
+                System.out.println("Error while learning");
+                e.printStackTrace();
+            }*/
+
         }
     }
 
@@ -69,8 +81,17 @@ public class FileWatcher {
         System.out.println("Snippets have been indexed in " + (((System.currentTimeMillis() - startTime)*1.0)/1000) + " seconds");
     }
 
+    public synchronized void setTrainingComplete(){
+        trainingComplete = true;
+        System.out.println("Training is complete in " + (((System.currentTimeMillis() - startTime)*1.0)/1000) + " seconds");
+    }
+
     public boolean areFilesCreated(){
         return testFileCreated && trainingFileCreated;
     }
     public boolean areSnippetsIndexed(){ return snippetsIndexed; }
+
+    public boolean isTrainingComplete(){
+        return trainingComplete;
+    }
 }
