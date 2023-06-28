@@ -58,16 +58,67 @@ public class DataParser {
     }
 
     private String processLine(String text){
-        if (text == ""){
+        // Remove special cases
+        if (text == "" || text.contains("CHAPTER")
+                || text.contains("BOOK") || text.contains("PAGE")
+                || text.contains("CONTENTS") || text.contains("Contents")
+                || text.contains("INTRODUCTION") || text.contains("CONCLUSION")
+                || text.contains("Conclusion") || text.contains("EPILOGUE")
+                || text.contains("VOLUME") || text.contains("Price per volume")
+                || text.contains("Price, per volume") || text.contains("Publisher")
+                || text.contains("PUBLISHER") || text.contains("APPENDIX")
+                || text.contains("Appendix") || text.contains("PREFACE")
+                || text.contains("FOURTH") || text.contains("EDITION")
+                || text.contains("CHAP") || text.contains("ILLUSTRATED BY")
+                || text.contains("By")){
             return "";
         }
-        //Skip snippets that contain word chapter
-        if (text.contains("CHAPTER")){
-            return "";
-        }
-        //If the current text does not contain any letters, skip it
-        String regex = ".*[a-zA-Z].*";
+        //Skip snippets that contain word chapter followed by roman numerals or a number up to two digits long
+        String regex = "(?i)\\bChapter\\s+(?:[IVXLCDM]+|\\d{1,2})\\b";
         Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(text);
+        if (matcher.find()){
+            return "";
+        }
+        //Skip snippets containing word page followed by a number
+        regex = "(?i)page\\s+(\\d+)";
+        pattern = Pattern.compile(regex);
+        matcher = pattern.matcher(text);
+
+        if (matcher.find()) {
+            return "";
+        }
+
+        //Skip snippets containing word section followed by a number
+        regex = "(?i)section\\s+(\\d+)";
+        pattern = Pattern.compile(regex);
+        matcher = pattern.matcher(text);
+
+        if (matcher.find()) {
+            return "";
+        }
+
+        //Skip snippets containing word volume followed by a number
+        regex = "(?i)volume\\s+(\\d+)";
+        pattern = Pattern.compile(regex);
+        matcher = pattern.matcher(text);
+
+        if (matcher.find()) {
+            return "";
+        }
+
+        //Skip snippets containing word footnote followed by a number or a capital letter
+        regex = "(?i)\\bfootnote\\s+([A-Z]|\\d+)\\b";
+        pattern = Pattern.compile(regex);
+        matcher = pattern.matcher(text);
+
+        if (matcher.find()) {
+            return "";
+        }
+
+        //If the current text does not contain any letters, skip it
+        regex = ".*[a-zA-Z].*";
+        pattern = Pattern.compile(regex);
         Matcher matcherText = pattern.matcher(text);
         if (!matcherText.matches()){
             return "";

@@ -3,6 +3,7 @@ package com.nikolar.snippetbackend.controller;
 import com.nikolar.gutenbergbooksparser.FileWatcher;
 import com.nikolar.snippetbackend.dto.SnippetDto;
 import com.nikolar.snippetbackend.lucene.QueryProccesor;
+import com.nikolar.snippetbackend.service.SanitazationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,18 +17,25 @@ import java.util.List;
 
 @Component
 @RestController
+@CrossOrigin(origins = "http://localhost:3000")
 public class LuceneController {
     @Autowired
     private QueryProccesor queryProccesor;
+    @Autowired
+    private SanitazationService sanitazationService;
 
     @GetMapping("/search")
-    public ResponseEntity index(@RequestParam(value = "author", required=false) String author, @RequestParam(value = "book", required=false) String book, @RequestParam(value = "snnipet", required=false) String snnipet){
+    public ResponseEntity index(@RequestParam(value = "author", required=false) String author, @RequestParam(value = "book", required=false) String book, @RequestParam(value = "snippet", required=false) String snippet){
         FileWatcher fl = FileWatcher.getInstance();
         //If the files aren't created yet send service unavailable indicating a temporary overload
         if (!fl.areFilesCreated() || !fl.areSnippetsIndexed()){
             return new ResponseEntity(HttpStatus.SERVICE_UNAVAILABLE);
         }
-        List<SnippetDto> rez = queryProccesor.query(author, book, snnipet);
+        String sanitizedAuthor = sanitazationService.sanitizeQueryParam(author);
+        String sanitizedBook = sanitazationService.sanitizeQueryParam(book);
+        String sanitizedSnippet = sanitazationService.sanitizeQueryParam(snippet);
+
+        List<SnippetDto> rez = queryProccesor.query(sanitizedAuthor, sanitizedBook, sanitizedSnippet);
         return ResponseEntity.ok(rez);
     }
 }

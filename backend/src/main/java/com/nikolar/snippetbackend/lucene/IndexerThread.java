@@ -10,7 +10,7 @@ public class IndexerThread extends Thread{
     public void run(){
         Instance inst;
         while ((inst = lc.nextInstance()) != null) {
-            lc.indexSnippet(inst.stringValue(0), inst.stringValue(1), inst.stringValue(2));
+            lc.indexSnippet(inst.stringValue(0), inst.stringValue(1), inst.stringValue(2).replace("-"," "));
         }
     }
 }

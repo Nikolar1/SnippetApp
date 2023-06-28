@@ -55,7 +55,7 @@ public class QueryProccesor {
         }
         String query = "";
         for(int i = 0; i< field.size();i++){
-            query += field.get(i) + ":" + queries.get(i);
+            query += field.get(i) + ":\"" + queries.get(i) + "\"";
             if(i+1< field.size()){
                 query += " AND ";
             }
@@ -80,15 +80,15 @@ public class QueryProccesor {
         }
         List<String> fields = new ArrayList<>();
         List<String> queries = new ArrayList<>();
-        if(author != null){
+        if(author != null && author != ""){
             fields.add("author");
             queries.add(author);
         }
-        if(book != null){
+        if(book != null && book != ""){
             fields.add("book");
             queries.add(book);
         }
-        if(snippet != null){
+        if(snippet != null && snippet != ""){
             fields.add("snippet");
             queries.add(snippet);
         }

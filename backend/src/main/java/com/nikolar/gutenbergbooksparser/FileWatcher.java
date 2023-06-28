@@ -7,6 +7,9 @@ import com.nikolar.snippetbackend.lucene.LuceneWriter;
 import org.apache.logging.log4j.util.Timer;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.sql.Time;
 
 public class FileWatcher {
@@ -69,6 +72,23 @@ public class FileWatcher {
                 e.printStackTrace();
             }*/
 
+        }
+    }
+
+    //Delete index directory so the files are re-indexed each time
+    public void deleteIndexDirectory(){
+        try {
+            Path directory = Paths.get(LuceneConfig.INDEX_PATH);
+            if(directory.toFile().exists()) {
+                Files.walk(directory)
+                        .sorted(java.util.Comparator.reverseOrder())
+                        .map(Path::toFile)
+                        .forEach(java.io.File::delete);
+
+                System.out.println("Directory deleted successfully.");
+            }
+        } catch (IOException e) {
+            System.out.println("Error deleting directory: " + e.getMessage());
         }
     }
 
