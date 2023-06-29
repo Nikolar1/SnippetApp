@@ -17,8 +17,8 @@ The app will start and be accessible at `http://localhost:3000`.
 
 ### Home page
 
-![Home page](front page.png)
+![Home page](front%20page.png)
 
-![Search page](Search page.png)
+![Search page](Search%20page.png)
 
-![Search page found](Search page found.png)
+![Search page found](Search%20page%20found.png)
