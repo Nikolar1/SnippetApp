@@ -12,3 +12,12 @@ The app will start and be accessible at `http://localhost:3000`.
 > **Note:** Make sure that docker engine is running before executing the command.
 
 > **Note 2:** The app needs some time to parse the books and index snippets some functionality will be unavailable during that process.
+
+##Screenshots
+
+###Home page
+![Home page](./front page.png)
+
+![Search page](./Search page.png)
+
+![Search page found](./Search page found.png)
