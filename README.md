@@ -13,9 +13,9 @@ The app will start and be accessible at `http://localhost:3000`.
 
 > **Note 2:** The app needs some time to parse the books and index snippets some functionality will be unavailable during that process.
 
-##Screenshots
+## Screenshots
 
-###Home page
+### Home page
 
 ![Home page](front page.png)
 
