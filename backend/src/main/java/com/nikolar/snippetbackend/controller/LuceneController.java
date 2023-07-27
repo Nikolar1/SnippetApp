@@ -25,7 +25,7 @@ public class LuceneController {
     private SanitazationService sanitazationService;
 
     @GetMapping("/search")
-    public ResponseEntity index(@RequestParam(value = "author", required=false) String author, @RequestParam(value = "book", required=false) String book, @RequestParam(value = "snippet", required=false) String snippet){
+    public ResponseEntity search(@RequestParam(value = "author", required=false) String author, @RequestParam(value = "book", required=false) String book, @RequestParam(value = "snippet", required=false) String snippet){
         FileWatcher fl = FileWatcher.getInstance();
         //If the files aren't created yet send service unavailable indicating a temporary overload
         if (!fl.areFilesCreated() || !fl.areSnippetsIndexed()){
@@ -36,6 +36,19 @@ public class LuceneController {
         String sanitizedSnippet = sanitazationService.sanitizeQueryParam(snippet);
 
         List<SnippetDto> rez = queryProccesor.query(sanitizedAuthor, sanitizedBook, sanitizedSnippet);
+        return ResponseEntity.ok(rez);
+    }
+
+    @GetMapping("/aidedSearch")
+    public ResponseEntity aidedSearch(@RequestParam(value = "snippet", required=false) String snippet){
+        FileWatcher fl = FileWatcher.getInstance();
+        //If the files aren't created yet send service unavailable indicating a temporary overload
+        if (!fl.areFilesCreated() || !fl.areSnippetsIndexed() || !fl.isTrainingComplete()){
+            return new ResponseEntity(HttpStatus.SERVICE_UNAVAILABLE);
+        }
+        String sanitizedSnippet = sanitazationService.sanitizeQueryParam(snippet);
+
+        List<SnippetDto> rez = queryProccesor.aidedQuery(sanitizedSnippet);
         return ResponseEntity.ok(rez);
     }
 }

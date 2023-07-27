@@ -14,13 +14,15 @@ import java.sql.Time;
 
 public class FileWatcher {
     private static  FileWatcher instance;
-    private long startTime = System.currentTimeMillis();
+    private final long startTime = System.currentTimeMillis();
     private boolean testFileCreated;
     private boolean trainingFileCreated;
     private String testFileName;
     private String trainingFileName;
     private  boolean snippetsIndexed;
     private boolean trainingComplete;
+    private LearningThread learningThread;
+
     private FileWatcher(){
         testFileCreated = false;
         trainingFileCreated = false;
@@ -64,13 +66,13 @@ public class FileWatcher {
                 e.printStackTrace();
             }
             //Start training and evaluation process(tbd)
-           /* try {
-                LearningThread lt = new LearningThread("./" + trainingFileName, "./" + testFileName);
-                lt.start();
+            try {
+                learningThread = new LearningThread("./" + trainingFileName, "./" + testFileName);
+                learningThread.start();
             } catch (Exception e) {
                 System.out.println("Error while learning");
                 e.printStackTrace();
-            }*/
+            }
 
         }
     }
@@ -94,6 +96,10 @@ public class FileWatcher {
 
     public void printTime(){
         System.out.println((((System.currentTimeMillis() - startTime)*1.0)/1000) + " seconds");
+    }
+
+    public void printMessageWithTime( String message ){
+        System.out.println( message + " in " + ( ( ( System.currentTimeMillis() - startTime ) * 1.0 ) / 1000 ) + " seconds" );
     }
 
     public synchronized void setSnippetsIndexed() {

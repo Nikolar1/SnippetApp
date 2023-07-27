@@ -33,8 +33,10 @@ const SearchPage = () => {
   };
 
   return (
-    <div >
-    <Header />
+    <div>
+      <Header />
+    <div className="container mt-5">
+    
       <h1>Search Page</h1>
       <div className="row">
         <div className="col-md-4">
@@ -92,6 +94,7 @@ const SearchPage = () => {
           ))}
         </tbody>
       </table>
+    </div>
     </div>
   );
 };

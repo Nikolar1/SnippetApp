@@ -16,10 +16,10 @@ const Header = () => {
             <a className="nav-link" href="/SearchPage">Search snippets</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Predict snippet author</a>
+            <a className="nav-link" href="/PredictPage">Predict snippet author</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Prediction aided snippet search</a>
+            <a className="nav-link" href="/AidedSearchPage">Prediction aided snippet search</a>
           </li>
         </ul>
       </div>

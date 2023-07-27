@@ -2,6 +2,7 @@ package com.nikolar.snippetbackend.lucene;
 
 import com.nikolar.gutenbergbooksparser.FileWatcher;
 import com.nikolar.snippetbackend.dto.SnippetDto;
+import com.nikolar.snippetbackend.learning.LearningThread;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
@@ -70,6 +71,11 @@ public class QueryProccesor {
             rez.add(new SnippetDto(d.get("author"), d.get("book"), d.get("snippet")));
         }
         return rez;
+    }
+
+    public List<SnippetDto> aidedQuery(String snippet){
+
+        return query("", "", snippet);
     }
     public List<SnippetDto> query(String author, String book, String snippet){
         if (!isInitialized){

@@ -17,14 +17,18 @@ const Home = () => {
           </Link>
         </div>
         <div className="col-md-4">
-          <button className="btn btn-dark btn-lg btn-square" disabled>
+        <Link to="/PredictPage">
+          <button className="btn btn-dark btn-lg btn-square">
             Predict snippet author
           </button>
+          </Link>
         </div>
         <div className="col-md-4">
-          <button className="btn btn-dark btn-lg btn-square" disabled>
+        <Link to="/AidedSearchPage">
+          <button className="btn btn-dark btn-lg btn-square">
             Prediction aided snippet search
           </button>
+          </Link>
         </div>
       </div>
     </div>
