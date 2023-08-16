@@ -6,7 +6,7 @@ For indexing and searching through snippets lucene library is used.
 
 Machine learning is done using the weka library. The arff files created after parsing are filter throug StringToWordVector filter twice seperatly to get bag-of-words representation of snippets.
 
-The snippets are represented through 5-1 word n-grams and 3-1 character n-grams and then joined into one by adding all unique attributes together.
+The snippets are represented through 5-2 word n-grams and 3-1 character n-grams and then joined into one by adding all unique attributes together.
 
 Because of large number of attributes, attribute selection is done based on info gain.
 
