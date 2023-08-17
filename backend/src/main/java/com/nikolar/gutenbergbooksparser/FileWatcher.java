@@ -1,16 +1,14 @@
 package com.nikolar.gutenbergbooksparser;
 
-import com.nikolar.snippetbackend.learning.LearningThread;
-import com.nikolar.snippetbackend.lucene.IndexerThread;
+import com.nikolar.snippetbackend.learning.MergedPresentationLearningThread;
+import com.nikolar.snippetbackend.learning.SoftVotingLearningThread;
 import com.nikolar.snippetbackend.lucene.LuceneConfig;
 import com.nikolar.snippetbackend.lucene.LuceneWriter;
-import org.apache.logging.log4j.util.Timer;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.sql.Time;
 
 public class FileWatcher {
     private static  FileWatcher instance;
@@ -21,13 +19,18 @@ public class FileWatcher {
     private String trainingFileName;
     private  boolean snippetsIndexed;
     private boolean trainingComplete;
-    private LearningThread learningThread;
+    private boolean classifierReady;
+
+    public String getTestFileName() {
+        return testFileName;
+    }
 
     private FileWatcher(){
         testFileCreated = false;
         trainingFileCreated = false;
         snippetsIndexed = false;
         trainingComplete = false;
+        classifierReady = false;
     }
 
     public static synchronized FileWatcher getInstance(){
@@ -67,8 +70,8 @@ public class FileWatcher {
             }
             //Start training and evaluation process(tbd)
             try {
-                learningThread = new LearningThread("./" + trainingFileName, "./" + testFileName);
-                learningThread.start();
+                SoftVotingLearningThread softVotingLearningThread = new SoftVotingLearningThread("./" + trainingFileName, "./" + testFileName);
+                softVotingLearningThread.start();
             } catch (Exception e) {
                 System.out.println("Error while learning");
                 e.printStackTrace();
@@ -107,6 +110,10 @@ public class FileWatcher {
         System.out.println("Snippets have been indexed in " + (((System.currentTimeMillis() - startTime)*1.0)/1000) + " seconds");
     }
 
+    public void setClassifierReady(){
+        this.classifierReady = true;
+    }
+
     public synchronized void setTrainingComplete(){
         trainingComplete = true;
         System.out.println("Training is complete in " + (((System.currentTimeMillis() - startTime)*1.0)/1000) + " seconds");
@@ -120,4 +127,5 @@ public class FileWatcher {
     public boolean isTrainingComplete(){
         return trainingComplete;
     }
+    public boolean isClassifierReady(){ return classifierReady; }
 }

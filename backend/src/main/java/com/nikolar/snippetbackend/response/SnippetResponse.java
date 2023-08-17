@@ -1,11 +1,11 @@
-package com.nikolar.snippetbackend.dto;
+package com.nikolar.snippetbackend.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class SnippetDto {
+public class SnippetResponse {
     private String author;
     private String book;
     private String snippet;

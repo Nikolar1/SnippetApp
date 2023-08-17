@@ -1,8 +1,8 @@
 package com.nikolar.snippetbackend.lucene;
 
 import com.nikolar.gutenbergbooksparser.FileWatcher;
-import com.nikolar.snippetbackend.dto.SnippetDto;
-import com.nikolar.snippetbackend.learning.LearningThread;
+import com.nikolar.snippetbackend.response.SnippetResponse;
+import com.nikolar.snippetbackend.learning.LearningService;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
@@ -15,6 +15,7 @@ import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -30,6 +31,8 @@ public class QueryProccesor {
     private IndexSearcher searcher;
     private StandardAnalyzer queryAnalyzer;
     private boolean isInitialized;
+    @Autowired
+    private LearningService learningService;
 
     public QueryProccesor(){
         isInitialized = false;
@@ -49,7 +52,7 @@ public class QueryProccesor {
         }
     }
 
-    private List<SnippetDto> search(List<String> field, List<String> queries) throws ParseException, IOException {
+    private List<SnippetResponse> search(List<String> field, List<String> queries) throws ParseException, IOException {
         if (field.isEmpty()){
             System.out.println("Fields where empty");
             return null;
@@ -64,20 +67,23 @@ public class QueryProccesor {
         Query q = new QueryParser("snippet", queryAnalyzer).parse(query);
         TopDocs docs = searcher.search(q, LuceneConfig.NUM_HITS);
         ScoreDoc[] hits = docs.scoreDocs;
-        List<SnippetDto> rez = new ArrayList<>();
+        List<SnippetResponse> rez = new ArrayList<>();
         for(int i = 0; i< hits.length; i++){
             int docId = hits[i].doc;
             Document d = searcher.doc(docId);
-            rez.add(new SnippetDto(d.get("author"), d.get("book"), d.get("snippet")));
+            rez.add(new SnippetResponse(d.get("author"), d.get("book"), d.get("snippet")));
         }
         return rez;
     }
 
-    public List<SnippetDto> aidedQuery(String snippet){
-
-        return query("", "", snippet);
+    public List<SnippetResponse> aidedQuery(String snippet){
+        String[] data = new String[1];
+        data[0] = snippet;
+        String author = learningService.evaluateInstance( data );
+        return query(author, "", snippet);
     }
-    public List<SnippetDto> query(String author, String book, String snippet){
+
+    public List<SnippetResponse> query(String author, String book, String snippet){
         if (!isInitialized){
             this.initialize();
         }
@@ -99,7 +105,7 @@ public class QueryProccesor {
             queries.add(snippet);
         }
         try {
-            List<SnippetDto> rez = search(fields,queries);
+            List<SnippetResponse> rez = search(fields,queries);
             return rez;
         }catch (ParseException e){
             System.out.println("Error while parsing query");

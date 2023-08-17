@@ -1,7 +1,6 @@
 package com.nikolar.snippetbackend.learning;
 
 import com.nikolar.gutenbergbooksparser.FileWatcher;
-import org.springframework.boot.info.JavaInfo;
 import weka.attributeSelection.InfoGainAttributeEval;
 import weka.attributeSelection.Ranker;
 import weka.classifiers.Classifier;
@@ -17,25 +16,17 @@ import weka.filters.Filter;
 import weka.filters.supervised.instance.Resample;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 import weka.filters.supervised.attribute.AttributeSelection;
-import weka.attributeSelection.CfsSubsetEval;
-import weka.attributeSelection.GreedyStepwise;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 
-enum LearningFilesState{
-    NO_FILE_EXIST,
-    WORD_NGRAM_FILE_EXISTS,
-    CHARACTER_NGRAM_FILE_EXISTS,
-    MERGED_FILE_EXISTS,
-    ATTRIBUTE_SELECTION_FILE_EXISTS,
-    RESAMPLED_FILE_EXISTS,
-    MODEL_EXISTS
-}
+/*
 
-public class LearningThread extends Thread{
+This learning method gives non-satisfactory results so further development on this class was halted.
+
+ */
+public class MergedPresentationLearningThread extends Thread{
     //Set to 100 for whole dataset
     private final double PERCENTAGE_OF_TRAINING_SET_TO_TRAIN_ON = 25;
     //Set to 0 for unlimited
@@ -52,7 +43,7 @@ public class LearningThread extends Thread{
         saver.setFile(new File(filePath));
         saver.writeBatch();
     }
-    public LearningThread(String trainingFileName, String testFileName) throws Exception {
+    public MergedPresentationLearningThread(String trainingFileName, String testFileName) throws Exception {
         FileWatcher.getInstance().printMessageWithTime( "Started learning" );
         ConverterUtils.DataSource dt = new ConverterUtils.DataSource(trainingFileName);
         data = dt.getDataSet();
