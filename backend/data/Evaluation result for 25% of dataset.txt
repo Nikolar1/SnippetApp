@@ -1,0 +1,25 @@
+api                        | Started Learning thread in 16.827 seconds
+api                        | Finished Attribute selection in 16.828 seconds
+snippetbackend-frontend-1  | Compiled successfully!
+snippetbackend-frontend-1  | webpack compiled successfully
+api                        | Snippets have been indexed in 40.702 seconds
+api                        | 2023-08-16T17:55:08.937+03:00  WARN 1 --- [      Thread-28] com.github.fommil.netlib.ARPACK          : Failed to load implementation from: com.github.fommil.netlib.NativeSystemARPACK
+api                        | 2023-08-16T17:55:09.028+03:00  WARN 1 --- [      Thread-28] com.github.fommil.netlib.ARPACK          : Failed to load implementation from: com.github.fommil.netlib.NativeRefARPACK
+api                        | Started building Clasifier in 105.428 seconds
+api                        | 2023-08-16T22:03:10.763+03:00  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'api                        | 2023-08-16T22:03:10.779+03:00  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+api                        | 2023-08-16T22:03:10.879+03:00  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 98 ms
+api                        | Training is complete in 93709.605 seconds
+api                        | Evaluation results:
+api                        | Correctly Classified Instances        7280               30.0777 %
+api                        | Incorrectly Classified Instances     16924               69.9223 %
+api                        | Kappa statistic                          0.1138
+api                        | Mean absolute error                      0.3041
+api                        | Root mean squared error                  0.4038
+api                        | Relative absolute error                 96.0856 %
+api                        | Root relative squared error            101.5236 %
+api                        | Total Number of Instances            24204
+api                        |
+api                        |
+api                        | 93717.185 seconds
+api                        | Training is complete in 93717.186 seconds
+api                        | Finnished learning in 93717.186 seconds
