@@ -58,10 +58,6 @@ public class LuceneController {
     @GetMapping("/predict")
     public ResponseEntity predict(@RequestParam(value = "snippet", required=false) String snippet){
         FileWatcher fl = FileWatcher.getInstance();
-        if( !fl.isClassifierReady() ){
-            learningService.loadClassifier();
-            return new ResponseEntity(HttpStatus.SERVICE_UNAVAILABLE);
-        }
         //If the files aren't created yet send service unavailable indicating a temporary overload
         if ( !fl.areFilesCreated() || !fl.areSnippetsIndexed() || !fl.isTrainingComplete() || !fl.isClassifierReady() ){
             return new ResponseEntity(HttpStatus.SERVICE_UNAVAILABLE);
