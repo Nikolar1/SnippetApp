@@ -1,6 +1,7 @@
 package com.nikolar.gutenbergbooksparser;
 
-import com.nikolar.snippetbackend.learning.MergedPresentationLearningThread;
+import com.nikolar.snippetbackend.SpringContext;
+import com.nikolar.snippetbackend.learning.LearningService;
 import com.nikolar.snippetbackend.learning.SoftVotingLearningThread;
 import com.nikolar.snippetbackend.lucene.LuceneConfig;
 import com.nikolar.snippetbackend.lucene.LuceneWriter;
@@ -9,6 +10,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+
 
 public class FileWatcher {
     private static  FileWatcher instance;
@@ -117,6 +119,9 @@ public class FileWatcher {
     public synchronized void setTrainingComplete(){
         trainingComplete = true;
         System.out.println("Training is complete in " + (((System.currentTimeMillis() - startTime)*1.0)/1000) + " seconds");
+
+        LearningService learningService = SpringContext.getBean(LearningService.class);
+        learningService.loadClassifier();
     }
 
     public boolean areFilesCreated(){

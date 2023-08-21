@@ -1,19 +1,10 @@
 package com.nikolar.snippetbackend.learning;
 
-import com.nikolar.gutenbergbooksparser.FileWatcher;
-import weka.classifiers.AbstractClassifier;
 import weka.classifiers.Classifier;
 import weka.classifiers.functions.SMO;
-import weka.classifiers.functions.supportVector.Kernel;
 import weka.classifiers.functions.supportVector.PolyKernel;
 import weka.core.*;
-import weka.core.converters.ArffLoader;
 import weka.core.converters.ConverterUtils;
-import weka.filters.Filter;
-import weka.filters.unsupervised.attribute.StringToWordVector;
-
-import java.io.File;
-import java.util.Arrays;
 
 public class SoftVotingClassifer implements Classifier, CapabilitiesHandler {
 
@@ -57,8 +48,8 @@ public class SoftVotingClassifer implements Classifier, CapabilitiesHandler {
 
     @Override
     public double[] distributionForInstance(Instance instance) throws Exception {
-        Instance w = tokenizeInstanceToWNG(instance);
-        Instance c = tokenizeInstanceToCNG(instance);
+        Instance w = tokenizeInstance( instance, wordNGDataset );
+        Instance c = tokenizeInstance( instance, characterNGDataset );
         double[] distForWordNG = wordNGClassifier.distributionForInstance(w);
         double[] distForCharNG = characterNGClassifier.distributionForInstance(c);
         double[] rez = new double[distForWordNG.length];
@@ -86,41 +77,23 @@ public class SoftVotingClassifer implements Classifier, CapabilitiesHandler {
         return result;
     }
 
-    public Instance tokenizeInstanceToWNG( Instance instance ){
+    //Makes Bag of Words representation of instance that's same as dataset
+    public Instance tokenizeInstance( Instance instance, Instances dataset ){
         String value = instance.stringValue(0);
-        DenseInstance denseInstance = new DenseInstance(wordNGDataset.numAttributes());
-        for(int i = 0; i < wordNGDataset.numAttributes(); i++){
+        DenseInstance denseInstance = new DenseInstance(dataset.numAttributes());
+        for(int i = 0; i < dataset.numAttributes(); i++){
             int count = 0;
             int lastIndex = 0;
             while (lastIndex != -1) {
-                lastIndex = value.indexOf(wordNGDataset.attribute(i).name(), lastIndex);
+                lastIndex = value.indexOf(dataset.attribute(i).name(), lastIndex);
                 if (lastIndex != -1) {
                     count++;
-                    lastIndex += wordNGDataset.attribute(i).name().length();
+                    lastIndex += dataset.attribute(i).name().length();
                 }
             }
             denseInstance.setValue( i, count);
         }
-        denseInstance.setDataset(wordNGDataset);
-        return denseInstance;
-    }
-
-    public Instance tokenizeInstanceToCNG( Instance instance ){
-        String value = instance.stringValue(0);
-        DenseInstance denseInstance = new DenseInstance(characterNGDataset.numAttributes());
-        for(int i = 0; i < characterNGDataset.numAttributes(); i++){
-            int count = 0;
-            int lastIndex = 0;
-            while (lastIndex != -1) {
-                lastIndex = value.indexOf(characterNGDataset.attribute(i).name(), lastIndex);
-                if (lastIndex != -1) {
-                    count++;
-                    lastIndex += characterNGDataset.attribute(i).name().length();
-                }
-            }
-            denseInstance.setValue( i, count);
-        }
-        denseInstance.setDataset(characterNGDataset);
+        denseInstance.setDataset(dataset);
         return denseInstance;
     }
 }

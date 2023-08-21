@@ -5,7 +5,7 @@ import weka.filters.unsupervised.attribute.StringToWordVector;
 
 
 public class LearningConfig {
-    public static final double PERCENTAGE_OF_TRAINING_SET_TO_TRAIN_ON = 25;
+    public static final double PERCENTAGE_OF_TRAINING_SET_TO_TRAIN_ON = 100;
     public static final String WORD_N_GRAM_FILE = "data/ngram.arff";
     public static final String CHARACTER_N_GRAM_FILE = "data/characterngram.arff";
     public static final String WORD_N_GRAM_MODEL_FILE = "./data/smoWNG.model";

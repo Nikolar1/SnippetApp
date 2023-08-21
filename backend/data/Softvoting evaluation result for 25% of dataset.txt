@@ -1,0 +1,65 @@
+2023-08-18 02:10:52   .   ____          _            __ _ _
+2023-08-18 02:10:52  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-08-18 02:10:52 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-08-18 02:10:52  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-08-18 02:10:52   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-08-18 02:10:52  =========|_|==============|___/=/_/_/_/
+2023-08-18 02:10:52  :: Spring Boot ::                (v3.1.0)
+2023-08-18 02:10:52 
+2023-08-18 02:10:52 2023-08-18T03:10:52.697+03:00  INFO 1 --- [           main] c.n.s.SnippetBackendApplication          : Starting SnippetBackendApplication v0.0.1-SNAPSHOT using Java 20.0.1 with PID 1 (/opt/app/snippet-backend.jar started by root in /opt/app)
+2023-08-18 02:10:52 2023-08-18T03:10:52.700+03:00  INFO 1 --- [           main] c.n.s.SnippetBackendApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-08-18 02:10:54 2023-08-18T03:10:54.031+03:00  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-18 02:10:54 2023-08-18T03:10:54.043+03:00  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18 02:10:54 2023-08-18T03:10:54.043+03:00  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-18 02:10:54 2023-08-18T03:10:54.137+03:00  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-18 02:10:54 2023-08-18T03:10:54.140+03:00  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1333 ms
+2023-08-18 02:10:54 2023-08-18T03:10:54.612+03:00  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-18 02:10:54 2023-08-18T03:10:54.628+03:00  INFO 1 --- [           main] c.n.s.SnippetBackendApplication          : Started SnippetBackendApplication in 2.535 seconds (process running for 3.639)
+2023-08-18 02:10:59 Training arff file created in 8.563 seconds
+2023-08-18 02:10:59 Started learning in 8.642 seconds
+2023-08-18 02:11:04 Started Learning thread in 13.243 seconds
+2023-08-18 02:11:04 Character and word ngrams created in 13.244 seconds
+2023-08-18 02:11:05 2023-08-18T03:11:05.085+03:00  WARN 1 --- [      Thread-28] com.github.fommil.netlib.ARPACK          : Failed to load implementation from: com.github.fommil.netlib.NativeSystemARPACK
+2023-08-18 02:11:05 2023-08-18T03:11:05.120+03:00  WARN 1 --- [      Thread-28] com.github.fommil.netlib.ARPACK          : Failed to load implementation from: com.github.fommil.netlib.NativeRefARPACK
+2023-08-18 02:11:12 Snippets have been indexed in 20.962 seconds
+2023-08-18 02:11:13 Started building Clasifier in 22.204 seconds
+2023-08-18 02:11:13 Started building Clasifier in 22.204 seconds
+2023-08-18 03:02:20 Evaluation results: 
+2023-08-18 03:02:20 Correctly Classified Instances        5595               23.116  %
+2023-08-18 03:02:20 Incorrectly Classified Instances     18609               76.884  %
+2023-08-18 03:02:20 Kappa statistic                          0.0119
+2023-08-18 03:02:20 Mean absolute error                      0.314 
+2023-08-18 03:02:20 Root mean squared error                  0.416 
+2023-08-18 03:02:20 Relative absolute error                 99.222  %
+2023-08-18 03:02:20 Root relative squared error            104.5752 %
+2023-08-18 03:02:20 Total Number of Instances            24204     
+2023-08-18 03:02:20 
+2023-08-18 03:02:20 3089.088 seconds
+2023-08-18 21:21:18 Evaluation results: 
+2023-08-18 21:21:18 Correctly Classified Instances        5427               22.4219 %
+2023-08-18 21:21:18 Incorrectly Classified Instances     18777               77.5781 %
+2023-08-18 21:21:18 Kappa statistic                          0.0013
+2023-08-18 21:21:18 Mean absolute error                      0.3145
+2023-08-18 21:21:18 Root mean squared error                  0.4166
+2023-08-18 21:21:18 Relative absolute error                 99.374  %
+2023-08-18 21:21:18 Root relative squared error            104.718  %
+2023-08-18 21:21:18 Total Number of Instances            24204     
+2023-08-18 21:21:18 
+2023-08-18 21:21:18 69026.883 seconds
+2023-08-18 21:21:18 Training is complete in 69026.886 seconds
+2023-08-18 21:21:18 Finnished learning in 69026.897 seconds
+2023-08-19 20:28:25 2023-08-19T21:28:25.592+03:00  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-19 20:28:25 2023-08-19T21:28:25.595+03:00  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-19 20:28:25 2023-08-19T21:28:25.615+03:00  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2023-08-19 20:28:25 Checking Classifier...
+2023-08-19 20:28:44 Started evaluating in 152273.139 seconds
+2023-08-19 20:31:57 Evaluation results: 
+2023-08-19 20:31:57 Correctly Classified Instances       11635               48.0706 %
+2023-08-19 20:31:57 Incorrectly Classified Instances     12569               51.9294 %
+2023-08-19 20:31:57 Kappa statistic                          0.3496
+2023-08-19 20:31:57 Mean absolute error                      0.3683
+2023-08-19 20:31:57 Root mean squared error                  0.4239
+2023-08-19 20:31:57 Relative absolute error                116.3905 %
+2023-08-19 20:31:57 Root relative squared error            106.5619 %
+2023-08-19 20:31:57 Total Number of Instances            24204     
+2023-08-19 20:31:57
