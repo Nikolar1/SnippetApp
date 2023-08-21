@@ -1,4 +1,4 @@
-# snippetBackend
+# Snippet App
 
 This app reads provided books from www.gutenberg.org, and then parses them into snippets, provides easy search through them, and predicts authors of snippets using machine learning. 
 
@@ -6,11 +6,11 @@ For indexing and searching through snippets lucene library is used.
 
 Machine learning is done using the weka library. The arff files created after parsing are filter throug StringToWordVector filter twice seperatly to get bag-of-words representation of snippets.
 
-The snippets are represented through 5-2 word n-grams and 3-1 character n-grams and then joined into one by adding all unique attributes together.
+The snippets are represented through 5-2 word n-grams and 3-1 character n-grams.
 
-Because of large number of attributes, attribute selection is done based on info gain.
+Two sepreate SMO classifiers are trained on these representations.
 
-In the end SMO classifier is used to build a model which is then evaluated on the test set, and used in the future for predicting authors of snippets.
+In the end a new soft voting classifier is made using these two which is then evaluated on the test set, and used in the future for predicting authors of snippets.
 
 ## Starting the app
 The app is dockerized so to easily run it you need docker. In the project root folder run the following command:
