@@ -28,7 +28,7 @@ public class LearningService {
                 classifier.buildClassifier(data);
                 FileWatcher.getInstance().setClassifierReady();
                 FileWatcher.getInstance().printMessageWithTime( "Started evaluating" );
-                evaluateOnTestSet(classifier);
+                //evaluateOnTestSet(classifier);
             }catch (Exception e){
                 e.printStackTrace();
             }

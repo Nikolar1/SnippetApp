@@ -35,11 +35,11 @@ public class LuceneController {
         if (!fl.areFilesCreated() || !fl.areSnippetsIndexed()){
             return new ResponseEntity(HttpStatus.SERVICE_UNAVAILABLE);
         }
-        String sanitizedAuthor = sanitazationService.sanitizeQueryParam(author);
+       /* String sanitizedAuthor = sanitazationService.sanitizeQueryParam(author);
         String sanitizedBook = sanitazationService.sanitizeQueryParam(book);
-        String sanitizedSnippet = sanitazationService.sanitizeQueryParam(snippet);
+        String sanitizedSnippet = sanitazationService.sanitizeQueryParam(snippet);*/
 
-        List<SnippetResponse> rez = queryProccesor.query(sanitizedAuthor, sanitizedBook, sanitizedSnippet);
+        List<SnippetResponse> rez = queryProccesor.query(author, book, snippet);
         return ResponseEntity.ok(rez);
     }
 
@@ -50,9 +50,9 @@ public class LuceneController {
         if (!fl.areFilesCreated() || !fl.areSnippetsIndexed() || !fl.isTrainingComplete() || !fl.isClassifierReady()){
             return new ResponseEntity(HttpStatus.SERVICE_UNAVAILABLE);
         }
-        String sanitizedSnippet = sanitazationService.sanitizeQueryParam(snippet);
+        //String sanitizedSnippet = sanitazationService.sanitizeQueryParam(snippet);
 
-        List<SnippetResponse> rez = queryProccesor.aidedQuery(sanitizedSnippet);
+        List<SnippetResponse> rez = queryProccesor.aidedQuery(snippet);
         return ResponseEntity.ok(rez);
     }
     @GetMapping("/predict")
@@ -63,9 +63,9 @@ public class LuceneController {
             return new ResponseEntity(HttpStatus.SERVICE_UNAVAILABLE);
         }
 
-        String sanitizedSnippet = sanitazationService.sanitizeQueryParam(snippet);
+//        String sanitizedSnippet = sanitazationService.sanitizeQueryParam(snippet);
         String[] data = new String[1];
-        data[0] = sanitizedSnippet;
+        data[0] = snippet;
         String author = learningService.evaluateInstance(data);
         AuthorResponse rez = new AuthorResponse( author );
         return ResponseEntity.ok(rez);
