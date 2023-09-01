@@ -1,7 +1,5 @@
 # Snippet App
 
-> **Warning:** I disabled sanitazation service due to a new bug i found with it. It's purpose was to stop code injection. I think it worked before so I'll have to look into the changes that were made.
-
 This app reads provided books from www.gutenberg.org, and then parses them into snippets, provides easy search through them, and predicts authors of snippets using machine learning. 
 
 For indexing and searching through snippets lucene library is used.

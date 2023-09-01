@@ -8,7 +8,10 @@ import java.nio.charset.StandardCharsets;
 public class SanitazationService {
     public String sanitizeQueryParam(String param) {
         if (param != null) {
-            return UriUtils.encodeQueryParam(param, StandardCharsets.UTF_8);
+            String rez = UriUtils.encodeQueryParam(param, StandardCharsets.UTF_8);
+            rez = rez.replace("%20", " ");
+            rez = rez.replace("%22", "\"");
+            return rez;
         }
         return null;
     }
