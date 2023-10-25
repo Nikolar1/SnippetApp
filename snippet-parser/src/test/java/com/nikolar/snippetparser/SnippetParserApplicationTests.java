@@ -1,0 +1,13 @@
+package com.nikolar.snippetparser;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SnippetParserApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
