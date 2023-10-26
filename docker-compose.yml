@@ -5,6 +5,7 @@ services:
     container_name: PostgresCont 
     restart: always
     environment:
+      - POSTGRES_DB=snippet
       - POSTGRES_USER=root
       - POSTGRES_PASSWORD=root
     ports:

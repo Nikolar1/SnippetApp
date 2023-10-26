@@ -1,10 +1,7 @@
 package com.nikolar.snippetbackend.controller;
 
-import com.nikolar.gutenbergbooksparser.FileWatcher;
-import com.nikolar.snippetbackend.learning.LearningService;
 import com.nikolar.snippetbackend.response.AuthorResponse;
 import com.nikolar.snippetbackend.response.SnippetResponse;
-import com.nikolar.snippetbackend.lucene.QueryProccesor;
 import com.nikolar.snippetbackend.service.SanitazationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -21,7 +18,7 @@ import java.util.List;
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
 public class LuceneController {
-    @Autowired
+    /*@Autowired
     private QueryProccesor queryProccesor;
     @Autowired
     private SanitazationService sanitazationService;
@@ -69,5 +66,5 @@ public class LuceneController {
         String author = learningService.evaluateInstance(data);
         AuthorResponse rez = new AuthorResponse( author );
         return ResponseEntity.ok(rez);
-    }
+    }*/
 }
