@@ -38,4 +38,15 @@ public class AuthorMapper {
         }
         return entities;
     }
+
+    public AuthorDto entityToDto(Author entity){
+        if(entity == null){
+            return null;
+        }
+        AuthorDto dto = new AuthorDto();
+        dto.setId(entity.getId());
+        dto.setName(entity.getName());
+        dto.setBooks(bookMapper.entityToDto(entity.getBooks()));
+        return dto;
+    }
 }

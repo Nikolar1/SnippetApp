@@ -1,7 +1,9 @@
 package com.nikolar.snippetbackend.mapper;
 
 import com.nikolar.snippetbackend.dto.BookDto;
+import com.nikolar.snippetbackend.dto.SnippetDto;
 import com.nikolar.snippetbackend.model.Book;
+import com.nikolar.snippetbackend.model.Snippet;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -40,4 +42,31 @@ public class BookMapper {
         }
         return entities;
     }
+
+    public BookDto entityToDto(Book entity){
+        if (entity == null){
+            return null;
+        }
+        BookDto dto = new BookDto();
+        dto.setId(entity.getId());
+        dto.setName(entity.getName());
+        dto.setForTraining(entity.isForTraining());
+        dto.setSnippets(snippetMapper.entityToDto(entity.getSnippets()));
+        return dto;
+    }
+
+    public List<BookDto> entityToDto(List<Book> entities){
+        if (entities == null){
+            return null;
+        }
+        if (entities.isEmpty()){
+            return new LinkedList<BookDto>();
+        }
+        List<BookDto> dtos = new LinkedList<>();
+        for (Book entity : entities){
+            dtos.add(entityToDto(entity));
+        }
+        return dtos;
+    }
+
 }

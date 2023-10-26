@@ -34,4 +34,29 @@ public class SnippetMapper {
         }
         return entities;
     }
+
+    public SnippetDto entityToDto(Snippet entity){
+        if (entity == null){
+            return null;
+        }
+        SnippetDto dto = new SnippetDto();
+        dto.setId(entity.getId());
+        dto.setText(entity.getText());
+        return dto;
+    }
+
+    public List<SnippetDto> entityToDto(List<Snippet> entities){
+        if (entities == null){
+            return null;
+        }
+        if (entities.isEmpty()){
+            return new LinkedList<SnippetDto>();
+        }
+        List<SnippetDto> dtos = new LinkedList<>();
+        for (Snippet entity : entities){
+            dtos.add(entityToDto(entity));
+        }
+        return dtos;
+    }
+
 }
