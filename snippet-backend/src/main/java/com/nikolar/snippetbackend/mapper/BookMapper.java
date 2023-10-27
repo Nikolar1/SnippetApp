@@ -16,7 +16,7 @@ import java.util.List;
 public class BookMapper {
 
     @Autowired
-    private SnippetMapper snippetMapper;
+    private AuthorMapper authorMapper;
     public Book dtoToEntity(BookDto dto){
         if (dto == null){
             return null;
@@ -25,7 +25,7 @@ public class BookMapper {
         entity.setId(dto.getId());
         entity.setName(dto.getName());
         entity.setForTraining(dto.isForTraining());
-        entity.setSnippets(snippetMapper.dtoToEntity(dto.getSnippets()));
+        entity.setAuthor(authorMapper.dtoToEntity(dto.getAuthor()));
         return entity;
     }
 
@@ -51,7 +51,7 @@ public class BookMapper {
         dto.setId(entity.getId());
         dto.setName(entity.getName());
         dto.setForTraining(entity.isForTraining());
-        dto.setSnippets(snippetMapper.entityToDto(entity.getSnippets()));
+        dto.setAuthor(authorMapper.entityToDto(entity.getAuthor()));
         return dto;
     }
 

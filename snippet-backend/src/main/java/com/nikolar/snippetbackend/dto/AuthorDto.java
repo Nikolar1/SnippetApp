@@ -12,5 +12,4 @@ import java.util.List;
 public class AuthorDto {
     private long id;
     private String name;
-    private List<BookDto> books;
 }

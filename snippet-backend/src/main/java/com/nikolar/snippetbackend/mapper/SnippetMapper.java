@@ -3,6 +3,7 @@ package com.nikolar.snippetbackend.mapper;
 import com.nikolar.snippetbackend.dto.SnippetDto;
 import com.nikolar.snippetbackend.model.Snippet;
 import lombok.NoArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.LinkedList;
@@ -11,6 +12,8 @@ import java.util.List;
 @Component
 @NoArgsConstructor
 public class SnippetMapper {
+    @Autowired
+    private BookMapper bookMapper;
     public Snippet dtoToEntity(SnippetDto dto){
         if (dto == null){
             return null;
@@ -18,6 +21,7 @@ public class SnippetMapper {
         Snippet entity = new Snippet();
         entity.setId(dto.getId());
         entity.setText(dto.getText());
+        entity.setBook(bookMapper.dtoToEntity(dto.getBook()));
         return entity;
     }
 
@@ -42,6 +46,7 @@ public class SnippetMapper {
         SnippetDto dto = new SnippetDto();
         dto.setId(entity.getId());
         dto.setText(entity.getText());
+        dto.setBook(bookMapper.entityToDto(entity.getBook()));
         return dto;
     }
 

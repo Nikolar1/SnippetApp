@@ -12,6 +12,6 @@ import java.util.List;
 public class BookDto {
     private long id;
     private String name;
-    private List<SnippetDto> snippets;
     private boolean isForTraining;
+    private AuthorDto author;
 }

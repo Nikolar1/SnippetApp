@@ -10,4 +10,5 @@ import lombok.*;
 public class SnippetDto {
     private Long id;
     private String text;
+    private BookDto book;
 }
