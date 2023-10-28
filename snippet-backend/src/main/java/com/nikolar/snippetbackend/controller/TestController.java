@@ -2,9 +2,12 @@ package com.nikolar.snippetbackend.controller;
 
 import com.nikolar.snippetbackend.dto.AuthorDto;
 import com.nikolar.snippetbackend.dto.BookDto;
+import com.nikolar.snippetbackend.dto.ServiceStatusDto;
 import com.nikolar.snippetbackend.dto.SnippetDto;
+import com.nikolar.snippetbackend.model.Status;
 import com.nikolar.snippetbackend.service.AuthorService;
 import com.nikolar.snippetbackend.service.BookService;
+import com.nikolar.snippetbackend.service.ServiceStatusService;
 import com.nikolar.snippetbackend.service.SnippetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -13,6 +16,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Controller
@@ -24,6 +28,8 @@ public class TestController {
     SnippetService snippetService;
     @Autowired
     AuthorService authorService;
+    @Autowired
+    ServiceStatusService serviceStatusService;
 
     @GetMapping("getBookById")
     public ResponseEntity<BookDto> getBookById(long id){
@@ -64,6 +70,11 @@ public class TestController {
     public ResponseEntity<List<SnippetDto>> getSnippetsByBookId(long id){
         List<SnippetDto> res = snippetService.getSnippetsByBookId(id);
         return new ResponseEntity<List<SnippetDto>>(res, HttpStatus.OK);
+    }
+
+    @GetMapping("getStatus")
+    public ResponseEntity<ServiceStatusDto> getStatus(){
+        return new ResponseEntity<>(serviceStatusService.getLatestServiceStatus(), HttpStatus.OK);
     }
 
     @GetMapping("makeTestDatabase")
@@ -160,6 +171,20 @@ public class TestController {
         snippetDto.setBook(b6);
         snippetDto.setText("a swift glance round the room she went to the door");
         snippetService.saveSnippet(snippetDto);
+
+        ServiceStatusDto s1 = new ServiceStatusDto();
+        s1.setParserService(Status.STARTING);
+        s1.setSearchService(Status.STARTING);
+        s1.setClassificationService(Status.STARTING);
+        s1.setDateTime(LocalDateTime.now());
+        serviceStatusService.saveServiceStatus(s1);
+        s1 = new ServiceStatusDto();
+        s1.setParserService(Status.DOWNED);
+        s1.setSearchService(Status.DOWNED);
+        s1.setClassificationService(Status.DOWNED);
+        s1.setDateTime(LocalDateTime.now());
+        serviceStatusService.saveServiceStatus(s1);
+
 
     }
 
