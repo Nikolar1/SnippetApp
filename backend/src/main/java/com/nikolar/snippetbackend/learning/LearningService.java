@@ -27,8 +27,8 @@ public class LearningService {
                 classifier = new SoftVotingClassifer();
                 classifier.buildClassifier(data);
                 FileWatcher.getInstance().setClassifierReady();
-                FileWatcher.getInstance().printMessageWithTime( "Started evaluating" );
-                evaluateOnTestSet(classifier);
+                /*FileWatcher.getInstance().printMessageWithTime( "Started evaluating" );
+                evaluateOnTestSet(classifier);*/
             }catch (Exception e){
                 e.printStackTrace();
             }
