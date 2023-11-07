@@ -9,9 +9,10 @@ import java.util.regex.Pattern;
 
 public class DataParser {
     //Number of lines to delete from the begining of the book
-    private static int firstLinesToDelete = 35;
+    private static final int FIRST_LINES_TO_DELETE = 35;
     //Number of lines to delete from the end of the book
-    private static int lastLinesToDelete = 400;
+    private static final int LAST_LINES_TO_DELETE = 400;
+    private static final int ALLOWED_LENGTH_OF_SNIPPET = 8000;
     //Name of the current book
     private String filename;
     //Route to the book folder
@@ -44,11 +45,11 @@ public class DataParser {
 
     private LinkedList<String> removeFirstAndLast(LinkedList<String> inputText){
         //Deletes excess lines from the beggining of the book
-        for (int i = 0; i<firstLinesToDelete; i++){
+        for (int i = 0; i< FIRST_LINES_TO_DELETE; i++){
             inputText.removeFirst();
         }
         //Deletes lines from the end of the book but checks if there are enough lines to avoid an error
-        int size = Math.max(inputText.size() - lastLinesToDelete,0);
+        int size = Math.max(inputText.size() - LAST_LINES_TO_DELETE,0);
         if (size!=0) {
             for (int i = inputText.size(); i > size; i--) {
                 inputText.remove(i - 1);
@@ -155,7 +156,7 @@ public class DataParser {
             for (int i = 0; i<inputText.size()-1; i++){
                 line = inputText.get(i);
                 //Forms a snippet if it reaches the end
-                if (line.trim().isEmpty()){
+                if (line.trim().isEmpty() || ( (text.length() + line.length())< ALLOWED_LENGTH_OF_SNIPPET - 500)){
                     text = processLine(text);
                     if (text != "") {
                         parsedText.add(text);

@@ -1,9 +1,9 @@
 package com.nikolar.snippetparser.service;
 
-import com.nikolar.snippetbackend.dto.AuthorDto;
-import com.nikolar.snippetbackend.mapper.AuthorMapper;
-import com.nikolar.snippetbackend.model.Author;
-import com.nikolar.snippetbackend.repository.AuthorRepository;
+import com.nikolar.snippetparser.dto.AuthorDto;
+import com.nikolar.snippetparser.mapper.AuthorMapper;
+import com.nikolar.snippetparser.model.Author;
+import com.nikolar.snippetparser.repository.AuthorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

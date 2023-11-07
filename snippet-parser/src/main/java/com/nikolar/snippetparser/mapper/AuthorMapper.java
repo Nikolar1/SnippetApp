@@ -1,7 +1,7 @@
 package com.nikolar.snippetparser.mapper;
 
-import com.nikolar.snippetbackend.dto.AuthorDto;
-import com.nikolar.snippetbackend.model.Author;
+import com.nikolar.snippetparser.dto.AuthorDto;
+import com.nikolar.snippetparser.model.Author;
 import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 

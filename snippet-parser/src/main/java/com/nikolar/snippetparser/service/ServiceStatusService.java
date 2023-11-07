@@ -1,9 +1,9 @@
 package com.nikolar.snippetparser.service;
 
-import com.nikolar.snippetbackend.dto.ServiceStatusDto;
-import com.nikolar.snippetbackend.mapper.ServiceStatusMapper;
-import com.nikolar.snippetbackend.model.ServiceStatus;
-import com.nikolar.snippetbackend.repository.ServiceStatusRepository;
+import com.nikolar.snippetparser.dto.ServiceStatusDto;
+import com.nikolar.snippetparser.mapper.ServiceStatusMapper;
+import com.nikolar.snippetparser.model.ServiceStatus;
+import com.nikolar.snippetparser.repository.ServiceStatusRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

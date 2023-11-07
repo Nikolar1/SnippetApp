@@ -1,7 +1,7 @@
 package com.nikolar.snippetparser.mapper;
 
-import com.nikolar.snippetbackend.dto.ServiceStatusDto;
-import com.nikolar.snippetbackend.model.ServiceStatus;
+import com.nikolar.snippetparser.dto.ServiceStatusDto;
+import com.nikolar.snippetparser.model.ServiceStatus;
 import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 

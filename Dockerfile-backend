@@ -10,5 +10,5 @@ WORKDIR /opt/app
 COPY --from=maven /usr/src/app/target/${JAR_FILE} /opt/app/
 COPY ./snippet-backend/data /opt/app/data
 ENTRYPOINT ["java", "-Xmx10g", "-jar","snippet-backend.jar"]
-EXPOSE 8080
+EXPOSE 8084
 HEALTHCHECK --interval=10s --retries=5 --start-period=6s --timeout=10s CMD wget --no-verbose --tries=1 --spider localhost:8080/actuator/health || exit 1

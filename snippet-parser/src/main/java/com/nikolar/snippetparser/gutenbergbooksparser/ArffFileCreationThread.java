@@ -13,14 +13,15 @@ public class ArffFileCreationThread extends Thread{
 
     public void run(){
         FileWatcher fl = FileWatcher.getInstance();
-        DataConverter dc = new DataConverter(outputfile);
+        DataConverter dc = new DataConverter();
+        dc.setOutputFileName(outputfile);
         if (makeTrainingFile) {
-            String trainingFileName = dc.toArffTraining();
-            fl.setTrainingFileCreated(trainingFileName);
+            //String trainingFileName = dc.toArffTraining();
+            //fl.setTrainingFileCreated(trainingFileName);
         }
         if (makeTestFile) {
-            String testFileName = dc.toArffTest();
-            fl.setTestFileCreated(testFileName);
+            //String testFileName = dc.toArffTest();
+            //fl.setTestFileCreated(testFileName);
         }
     }
 }

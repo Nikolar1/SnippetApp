@@ -1,7 +1,7 @@
 package com.nikolar.snippetparser.repository;
 
-import com.nikolar.snippetbackend.model.Author;
-import com.nikolar.snippetbackend.model.Book;
+import com.nikolar.snippetparser.model.Author;
+import com.nikolar.snippetparser.model.Book;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

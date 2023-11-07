@@ -1,6 +1,6 @@
 package com.nikolar.snippetparser.dto;
 
-import com.nikolar.snippetbackend.model.Status;
+import com.nikolar.snippetparser.model.Status;
 import lombok.*;
 
 import java.time.LocalDateTime;

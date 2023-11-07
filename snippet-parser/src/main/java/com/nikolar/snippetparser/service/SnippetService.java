@@ -1,10 +1,10 @@
 package com.nikolar.snippetparser.service;
 
-import com.nikolar.snippetbackend.dto.SnippetDto;
-import com.nikolar.snippetbackend.mapper.SnippetMapper;
-import com.nikolar.snippetbackend.model.Snippet;
-import com.nikolar.snippetbackend.repository.BookRepository;
-import com.nikolar.snippetbackend.repository.SnippetRepository;
+import com.nikolar.snippetparser.dto.SnippetDto;
+import com.nikolar.snippetparser.mapper.SnippetMapper;
+import com.nikolar.snippetparser.model.Snippet;
+import com.nikolar.snippetparser.repository.BookRepository;
+import com.nikolar.snippetparser.repository.SnippetRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
