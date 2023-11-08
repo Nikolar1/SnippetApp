@@ -22,7 +22,11 @@ public class AuthorService {
     }
 
     public AuthorDto saveAuthor(AuthorDto authorDto){
-        Author author = authorMapper.dtoToEntity(authorDto);
+        Author author = authorRepository.findByName(authorDto.getName());
+        if(author != null){
+            return authorMapper.entityToDto(author);
+        }
+        author = authorMapper.dtoToEntity(authorDto);
         return authorMapper.entityToDto(authorRepository.save(author));
     }
 }

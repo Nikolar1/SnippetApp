@@ -31,7 +31,12 @@ public class BookService {
     }
 
     public BookDto saveBook(BookDto bookDto){
-        Book book = bookMapper.dtoToEntity(bookDto);
+        Book book = bookRepository.findByName(bookDto.getName());
+        if (book != null){
+            return bookMapper.entityToDto(book);
+        }
+        book = bookMapper.dtoToEntity(bookDto);
+
         return bookMapper.entityToDto(bookRepository.save(book));
     }
 }

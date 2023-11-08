@@ -11,6 +11,6 @@ public class DataIntegrityService {
     DataConverter dataConverter;
     public void checkDataIntegrity(){
         dataConverter.saveToDatabaseTraining();
-        //dataConverter.saveToDatabaseTest();
+        dataConverter.saveToDatabaseTest();
     }
 }

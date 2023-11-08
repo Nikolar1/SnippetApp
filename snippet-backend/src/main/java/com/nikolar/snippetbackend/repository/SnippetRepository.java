@@ -8,6 +8,6 @@ import java.util.List;
 
 public interface SnippetRepository extends CrudRepository<Snippet, Long> {
     Snippet findById(long id);
-    Snippet findByText(String text);
+    List<Snippet> findByText(String text);
     List<Snippet> findByBook(Book book);
 }

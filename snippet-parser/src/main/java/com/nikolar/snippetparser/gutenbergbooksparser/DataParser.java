@@ -12,7 +12,7 @@ public class DataParser {
     private static final int FIRST_LINES_TO_DELETE = 35;
     //Number of lines to delete from the end of the book
     private static final int LAST_LINES_TO_DELETE = 400;
-    private static final int ALLOWED_LENGTH_OF_SNIPPET = 8000;
+    private static final int ALLOWED_LENGTH_OF_SNIPPET = 10000;
     //Name of the current book
     private String filename;
     //Route to the book folder
@@ -125,13 +125,13 @@ public class DataParser {
             return "";
         }
 
-        //Escapes all ' characters, because they represent end of an instance in .arff files
-        text = text.replace("\'", "\\\'");
         //Standardizes all ' characters because two types are used in original books
         //They would skew the data otherwise
-        text = text.replace("’", "\\\'");
+        text = text.replace("’", "\'");
+        //Escapes all ' characters, because they represent end of an instance in .arff files
+        //text = text.replace("\'", "\\\'");
         //Add author name to the end
-        text = "\'" + text + "\'" +  ", " + "\'" + book + "\'" + ", " + author;
+        //text = "\'" + text + "\'" +  ", " + "\'" + book + "\'" + ", " + author;
         return text;
     }
 
@@ -156,10 +156,14 @@ public class DataParser {
             for (int i = 0; i<inputText.size()-1; i++){
                 line = inputText.get(i);
                 //Forms a snippet if it reaches the end
-                if (line.trim().isEmpty() || ( (text.length() + line.length())< ALLOWED_LENGTH_OF_SNIPPET - 500)){
+
+                if (line.trim().isEmpty()){
+
                     text = processLine(text);
                     if (text != "") {
-                        parsedText.add(text);
+                        if(text.length() < ALLOWED_LENGTH_OF_SNIPPET){
+                            parsedText.add(text);
+                        }
                         text = "";
                     }
                 }

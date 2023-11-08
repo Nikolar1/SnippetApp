@@ -62,7 +62,7 @@ public class TestController {
     }
 
     @GetMapping("getSnippetByText")
-    public ResponseEntity<SnippetDto> getSnippetByText(String text){
+    public ResponseEntity<List<SnippetDto>> getSnippetByText(String text){
         return new ResponseEntity<>(snippetService.getSnippetByText(text), HttpStatus.OK);
     }
 

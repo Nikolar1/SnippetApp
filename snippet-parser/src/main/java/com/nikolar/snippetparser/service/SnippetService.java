@@ -23,7 +23,7 @@ public class SnippetService {
         return snippetMapper.entityToDto(snippetRepository.findById(id));
     }
 
-    public SnippetDto getSnippetByText(String text){
+    public List<SnippetDto> getSnippetByText(String text){
         return snippetMapper.entityToDto(snippetRepository.findByText(text));
     }
 
@@ -32,6 +32,10 @@ public class SnippetService {
     }
 
     public SnippetDto saveSnippet(SnippetDto snippetDto){
+        List<Snippet> snippets = snippetRepository.findByText(snippetDto.getText());
+        if (snippets != null && !snippets.isEmpty()){
+            return snippetMapper.entityToDto(snippets.get(0));
+        }
         Snippet snippet = snippetMapper.dtoToEntity(snippetDto);
         return snippetMapper.entityToDto(snippetRepository.save(snippet));
     }
