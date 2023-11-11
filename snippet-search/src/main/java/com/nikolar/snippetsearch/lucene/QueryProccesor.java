@@ -1,6 +1,7 @@
 package com.nikolar.snippetsearch.lucene;
 
 import com.nikolar.snippetsearch.response.SnippetResponse;
+import lombok.Getter;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
@@ -27,6 +28,7 @@ public class QueryProccesor {
     private IndexReader indexReader;
     private IndexSearcher searcher;
     private StandardAnalyzer queryAnalyzer;
+    @Getter
     private boolean isInitialized;
 
     public QueryProccesor(){

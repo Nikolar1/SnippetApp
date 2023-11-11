@@ -1,10 +1,12 @@
 package com.nikolar.snippetbackend.response;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*;
 
 @Data
+@NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 public class SnippetResponse {
     private String author;
     private String book;

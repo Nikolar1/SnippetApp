@@ -1,7 +1,7 @@
-package com.nikolar.snippetbackend.mapper;
+package com.nikolar.snippetsearch.mapper;
 
-import com.nikolar.snippetbackend.dto.ServiceStatusDto;
-import com.nikolar.snippetbackend.model.ServiceStatus;
+import com.nikolar.snippetsearch.dto.ServiceStatusDto;
+import com.nikolar.snippetsearch.model.ServiceStatus;
 import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -9,8 +9,6 @@ import org.springframework.stereotype.Component;
 @NoArgsConstructor
 public class ServiceStatusMapper {
     public ServiceStatus dtoToEntity(ServiceStatusDto dto){
-        if (dto == null)
-            return null;
         ServiceStatus serviceStatus = new ServiceStatus();
         serviceStatus.setId(dto.getId());
         serviceStatus.setDateTime(dto.getDateTime());
@@ -21,8 +19,6 @@ public class ServiceStatusMapper {
     }
 
     public ServiceStatusDto entityToDto(ServiceStatus serviceStatus){
-        if (serviceStatus == null)
-            return null;
         ServiceStatusDto dto = new ServiceStatusDto();
         dto.setId(serviceStatus.getId());
         dto.setDateTime(serviceStatus.getDateTime());
