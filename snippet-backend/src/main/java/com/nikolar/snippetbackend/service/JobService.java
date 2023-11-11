@@ -147,7 +147,7 @@ public class JobService {
 
         CompletableFuture<Void> classificationFuture = classificationService
                 .get()
-                .uri("/")
+                .uri("/classification/train")
                 .retrieve()
                 .bodyToMono(String.class)
                 .timeout(REQUEST_TIMEOUT)

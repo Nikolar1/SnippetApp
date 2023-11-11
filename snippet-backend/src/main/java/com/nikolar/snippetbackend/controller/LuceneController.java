@@ -35,21 +35,12 @@ public class LuceneController {
 
     @GetMapping("/aidedSearch")
     public ResponseEntity aidedSearch(@RequestParam(value = "snippet", required=false) String snippet){
-        return queryService.aidedSearch(snippet);
-    }
-    /*@GetMapping("/predict")
-    public ResponseEntity predict(@RequestParam(value = "snippet", required=false) String snippet){
-        FileWatcher fl = FileWatcher.getInstance();
-        //If the files aren't created yet send service unavailable indicating a temporary overload
-        if ( !fl.areFilesCreated() || !fl.areSnippetsIndexed() || !fl.isTrainingComplete() || !fl.isClassifierReady() ){
-            return new ResponseEntity(HttpStatus.SERVICE_UNAVAILABLE);
-        }
-
         String sanitizedSnippet = sanitazationService.sanitizeQueryParam(snippet);
-        String[] data = new String[1];
-        data[0] = sanitizedSnippet;
-        String author = learningService.evaluateInstance(data);
-        AuthorResponse rez = new AuthorResponse( author );
-        return ResponseEntity.ok(rez);
-    }*/
+        return queryService.aidedSearch(sanitizedSnippet);
+    }
+    @GetMapping("/predict")
+    public ResponseEntity predict(@RequestParam(value = "snippet", required=false) String snippet){
+        String sanitizedSnippet = sanitazationService.sanitizeQueryParam(snippet);
+        return queryService.predict(sanitizedSnippet);
+    }
 }

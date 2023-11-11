@@ -38,14 +38,27 @@ public class QueryService {
                 .block(REQUEST_TIMEOUT);
     }
 
+    public ResponseEntity<AuthorResponse> predict(String snippet){
+        return classificationService
+                .get()
+                .uri(uriBuilder -> uriBuilder
+                        .path("/classification/predict")
+                        .queryParam("snippet", snippet)
+                        .build())
+                .retrieve()
+                .toEntity(AuthorResponse.class)
+                .onErrorStop()
+                .block(REQUEST_TIMEOUT);
+    }
+
     public ResponseEntity<List<SnippetResponse>> aidedSearch(String snippet){
-        AuthorResponse authorResponse = new AuthorResponse("TBD");
+        ResponseEntity<AuthorResponse> authorResponse = predict(snippet);
         return searchService
                 .get()
                 .uri(uriBuilder -> uriBuilder
                         .path("/lucene/search")
                         .queryParam("snippet", snippet)
-                        .queryParam("author", authorResponse.getAuthor())
+                        .queryParam("author", authorResponse.getBody().getAuthor())
                         .build())
                 .retrieve()
                 .toEntityList(SnippetResponse.class)

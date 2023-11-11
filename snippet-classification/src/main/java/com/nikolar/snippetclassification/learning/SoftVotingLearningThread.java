@@ -13,7 +13,7 @@ import weka.filters.unsupervised.attribute.StringToWordVector;
 
 import java.io.File;
 
-public class SoftVotingLearningThread extends Thread{
+public class SoftVotingLearningThread{
     private Instances training;
     private Instances test;
     private Instances data;

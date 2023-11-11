@@ -1,6 +1,8 @@
 package com.nikolar.snippetclassification;
 
 import com.nikolar.snippetclassification.learning.LearningService;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -14,10 +16,11 @@ public class FileWatcher {
     private  boolean snippetsIndexed;
     private boolean trainingComplete;
     private boolean classifierReady;
+    @Getter
+    @Setter
+    private String testFileName;
 
-    public String getTestFileName() {
-        return "testFileName";
-    }
+
 
     private FileWatcher(){
         snippetsIndexed = false;

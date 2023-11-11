@@ -24,7 +24,7 @@ public class LuceneController {
     }
     @GetMapping("/search")
     public ResponseEntity<List<SnippetResponse>> search(@RequestParam(value = "author", required=false) String author, @RequestParam(value = "book", required=false) String book, @RequestParam(value = "snippet", required=false) String snippet){
-        //If the files aren't created yet send service unavailable indicating a temporary overload
+        //If indexing isn't finished yet send service unavailable indicating a temporary overload
         if (!luceneService.snippetsIndexed()){
             return new ResponseEntity(HttpStatus.SERVICE_UNAVAILABLE);
         }

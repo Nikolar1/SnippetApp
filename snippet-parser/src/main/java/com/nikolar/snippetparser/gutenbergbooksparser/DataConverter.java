@@ -53,7 +53,7 @@ public class DataConverter {
                 dp.SetFile(books[j]);
                 BookDto bookDto = new BookDto();
                 bookDto.setAuthor(authorDto);
-                bookDto.setName(books[j]);
+                bookDto.setName(books[j].replace(".txt",""));
                 bookDto.setForTraining(isForTraining);
                 bookDto = bookService.saveBook(bookDto);
                 LinkedList<String> parsedText = dp.Parse();

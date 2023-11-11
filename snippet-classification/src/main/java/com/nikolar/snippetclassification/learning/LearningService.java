@@ -26,8 +26,6 @@ public class LearningService {
                 classifier = new SoftVotingClassifer();
                 classifier.buildClassifier(data);
                 FileWatcher.getInstance().setClassifierReady();
-                FileWatcher.getInstance().printMessageWithTime( "Started evaluating" );
-                evaluateOnTestSet(classifier);
             }catch (Exception e){
                 e.printStackTrace();
             }
@@ -52,6 +50,8 @@ public class LearningService {
     }
 
     public String evaluateInstance(String[] values){
+        if (classifier == null)
+            return null;
         try {
             return data.classAttribute().value((int)classifier.classifyInstance(createInstance(values)));
         }catch (Exception e){
@@ -59,7 +59,8 @@ public class LearningService {
         }
         return "";
     }
-    private String evaluateOnTestSet(Classifier classifier){
+    private String evaluateOnTestSet(){
+        FileWatcher.getInstance().printMessageWithTime( "Started evaluating" );
         try {
             Evaluation evaluation = new Evaluation(data);
             evaluation.evaluateModel(classifier,data);
