@@ -73,9 +73,6 @@ public class QueryProccesor {
         return rez;
     }
 
-    public List<SnippetResponse> aidedQuery(String snippet, String author){
-        return query(author, "", snippet);
-    }
 
     public List<SnippetResponse> query(String author, String book, String snippet){
         if (!isInitialized){

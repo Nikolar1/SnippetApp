@@ -28,9 +28,6 @@ import java.util.Iterator;
 @Component
 @NoArgsConstructor
 public class LuceneWriter{
-   /* private ArffLoader.ArffReader arffReader = null;
-    private Instances data;
-    private int fileNumber;*/
 
     @Autowired
     SnippetService snippetService;
@@ -47,16 +44,11 @@ public class LuceneWriter{
     private BookDto currentBookDto;
 
     public void initialize() throws IOException, NoSnippetsFound {
-        LuceneConfig lc = LuceneConfig.getInstance();
         Path indexDirectoryPath = Paths.get(LuceneConfig.INDEX_PATH);
         Directory indexDir = FSDirectory.open(indexDirectoryPath);
         Analyzer analyzer = new StandardAnalyzer();
         IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
         iwc = iwc.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
-        /*fileNumber = 0;
-        if (lc.getFilePaths().isEmpty()){
-            throw new IOException("No files set");
-        }*/
         indexer = new IndexWriter(indexDir, iwc);
         boolean initializedIterators = false;
         authorDtos = authorService.getAllAuthors().iterator();
@@ -80,22 +72,6 @@ public class LuceneWriter{
         }
     }
 
-    /*private boolean nextFile(){
-        if(fileNumber < LuceneConfig.getInstance().getFilePaths().size()){
-            try {
-                BufferedReader in = new BufferedReader(new FileReader(LuceneConfig.getInstance().getFilePaths().get(fileNumber)));
-                arffReader = new ArffLoader.ArffReader(in, 100);
-                data = arffReader.getStructure();
-                data.setClassIndex(data.numAttributes()-1);
-                fileNumber++;
-                return true;
-            }catch (IOException e){
-                System.out.println("Error while changing file to be indexed");
-                e.printStackTrace();
-            }
-        }
-        return false;
-    }*/
 
 
     public synchronized String[] nextInstance(){
@@ -114,19 +90,6 @@ public class LuceneWriter{
             currentBookDto = bookDtos.next();
             snippetDtos = snippetService.getSnippetsByBookId(currentBookDto.getId()).iterator();
         }
-       /* if(arffReader == null){
-            if(!nextFile()) {
-                return null;
-            }
-        }
-        Instance rez;
-        try {
-            while((rez = arffReader.readInstance(data)) == null && nextFile());
-            return rez;
-        } catch (IOException e) {
-            System.out.println("Error while reading arff file");
-            e.printStackTrace();
-        }*/
     }
 
     public void run(){
@@ -178,6 +141,5 @@ public class LuceneWriter{
             return;
         }
         indexer.close();
-        //FileWatcher.getInstance().setSnippetsIndexed();
     }
 }
