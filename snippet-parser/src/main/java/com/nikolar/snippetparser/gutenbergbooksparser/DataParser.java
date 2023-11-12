@@ -30,11 +30,6 @@ public class DataParser {
         return author;
     }
 
-    //Change of autor when going to the next one
-    public void ChangeAuthor(String filepath, String author){
-        this.filepath = filepath;
-        this.author = author;
-    }
 
     //Change of book when going to the next one
     public void SetFile(String filename){
@@ -128,10 +123,6 @@ public class DataParser {
         //Standardizes all ' characters because two types are used in original books
         //They would skew the data otherwise
         text = text.replace("’", "\'");
-        //Escapes all ' characters, because they represent end of an instance in .arff files
-        //text = text.replace("\'", "\\\'");
-        //Add author name to the end
-        //text = "\'" + text + "\'" +  ", " + "\'" + book + "\'" + ", " + author;
         return text;
     }
 

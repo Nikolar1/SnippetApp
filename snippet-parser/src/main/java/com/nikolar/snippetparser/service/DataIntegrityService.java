@@ -1,6 +1,5 @@
 package com.nikolar.snippetparser.service;
 
-import com.nikolar.snippetparser.gutenbergbooksparser.ArffFileCreationThread;
 import com.nikolar.snippetparser.gutenbergbooksparser.DataConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

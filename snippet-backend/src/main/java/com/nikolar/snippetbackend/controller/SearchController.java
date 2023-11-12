@@ -1,11 +1,8 @@
 package com.nikolar.snippetbackend.controller;
 
-import com.nikolar.snippetbackend.response.AuthorResponse;
-import com.nikolar.snippetbackend.response.SnippetResponse;
 import com.nikolar.snippetbackend.service.QueryService;
 import com.nikolar.snippetbackend.service.SanitazationService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -13,12 +10,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
-
 @Component
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
-public class LuceneController {
+public class SearchController {
     @Autowired
     private QueryService queryService;
     @Autowired
