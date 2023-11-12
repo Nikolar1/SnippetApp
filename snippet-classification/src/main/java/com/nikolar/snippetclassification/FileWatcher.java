@@ -13,7 +13,6 @@ import java.nio.file.Paths;
 public class FileWatcher {
     private static  FileWatcher instance;
     private final long startTime = System.currentTimeMillis();
-    private  boolean snippetsIndexed;
     private boolean trainingComplete;
     private boolean classifierReady;
     @Getter
@@ -23,7 +22,6 @@ public class FileWatcher {
 
 
     private FileWatcher(){
-        snippetsIndexed = false;
         trainingComplete = false;
         classifierReady = false;
     }
@@ -42,11 +40,6 @@ public class FileWatcher {
 
     public void printMessageWithTime( String message ){
         System.out.println( message + " in " + ( ( ( System.currentTimeMillis() - startTime ) * 1.0 ) / 1000 ) + " seconds" );
-    }
-
-    public synchronized void setSnippetsIndexed() {
-        this.snippetsIndexed = true;
-        System.out.println("Snippets have been indexed in " + (((System.currentTimeMillis() - startTime)*1.0)/1000) + " seconds");
     }
 
     public void setClassifierReady(){

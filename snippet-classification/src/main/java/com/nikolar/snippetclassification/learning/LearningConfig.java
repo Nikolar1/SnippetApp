@@ -14,29 +14,5 @@ public class LearningConfig {
     public static final double VOTING_WEIGHT_FOR_CHARACTER_N_GRAM = 1.0;
     public static final String FILTER_FOR_WORD_N_GRAM = "./data/filterWNG.model";
     public static final String FILTER_FOR_CHARACTER_N_GRAM = "./data/filterCNG.model";
-    private StringToWordVector wordNGFilter;
-    private StringToWordVector charNGFilter;
 
-    public Filter getWordNGFilter() {
-        return wordNGFilter;
-    }
-
-    public Filter getCharNGFilter() {
-        return charNGFilter;
-    }
-
-
-
-    private static LearningConfig instance;
-
-    private LearningConfig(){
-
-    }
-
-    public static synchronized LearningConfig getInstance(){
-        if (instance == null){
-            instance = new LearningConfig();
-        }
-        return instance;
-    }
 }

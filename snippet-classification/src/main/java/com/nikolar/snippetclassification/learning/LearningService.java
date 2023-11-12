@@ -1,6 +1,7 @@
 package com.nikolar.snippetclassification.learning;
 
 import com.nikolar.snippetclassification.FileWatcher;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
@@ -26,6 +27,7 @@ public class LearningService {
                 classifier = new SoftVotingClassifer();
                 classifier.buildClassifier(data);
                 FileWatcher.getInstance().setClassifierReady();
+                writeEvaluation();
             }catch (Exception e){
                 e.printStackTrace();
             }
@@ -59,12 +61,18 @@ public class LearningService {
         }
         return "";
     }
+    @Async
+    protected void writeEvaluation(){
+        System.out.println("Evaluation results: " + evaluateOnTestSet());
+    }
     private String evaluateOnTestSet(){
+        if (classifier == null || data == null)
+            return null;
         FileWatcher.getInstance().printMessageWithTime( "Started evaluating" );
         try {
             Evaluation evaluation = new Evaluation(data);
             evaluation.evaluateModel(classifier,data);
-            System.out.println("Evaluation results: " + evaluation.toSummaryString());
+            FileWatcher.getInstance().printMessageWithTime( "Finished evaluating" );
             return evaluation.toSummaryString();
         }catch (Exception e){
             e.printStackTrace();
