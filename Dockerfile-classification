@@ -10,3 +10,4 @@ WORKDIR /opt/app
 COPY --from=maven /usr/src/app/target/${JAR_FILE} /opt/app/
 COPY ./snippet-classification/data /opt/app/data
 ENTRYPOINT ["java", "-Xmx10g", "-jar","snippet-classification.jar"]
+EXPOSE 8081

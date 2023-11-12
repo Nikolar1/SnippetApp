@@ -12,7 +12,7 @@
 	<artifactId>snippet-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>snippet-backend</name>
-	<description>Demo project for Spring Boot</description>
+	<description>SnippetApp API</description>
 	<packaging>jar</packaging>
 	<properties>
 		<java.version>17</java.version>

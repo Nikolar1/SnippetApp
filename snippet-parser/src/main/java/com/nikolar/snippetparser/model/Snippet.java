@@ -11,7 +11,7 @@ public class Snippet {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(length = 10000)
+    @Column(columnDefinition = "TEXT")
     private String text;
     @ManyToOne
     private Book book;
