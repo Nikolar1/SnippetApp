@@ -27,7 +27,8 @@ public class LearningService {
                 classifier = new SoftVotingClassifer();
                 classifier.buildClassifier(data);
                 FileWatcher.getInstance().setClassifierReady();
-                writeEvaluation();
+                //No need to taunt 11% accuracy...
+                //writeEvaluation();
             }catch (Exception e){
                 e.printStackTrace();
             }
