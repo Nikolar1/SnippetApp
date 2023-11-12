@@ -61,7 +61,8 @@ public class DataConverter {
                     SnippetDto snippetDto = new SnippetDto();
                     snippetDto.setBook(bookDto);
                     snippetDto.setText(parsedText.get(i));
-                    snippetService.saveSnippet(snippetDto);
+                    snippetDto.generateTextHashCode(parsedText.get(i), bookDto.getName(), authorDto.getName());
+                    snippetService.checkSnippetIntegrity(snippetDto);
                     //writeLineAndGoToNext(parsedText.get(i));
                 }
             }

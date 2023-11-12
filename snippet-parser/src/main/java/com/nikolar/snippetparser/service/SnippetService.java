@@ -39,4 +39,13 @@ public class SnippetService {
         Snippet snippet = snippetMapper.dtoToEntity(snippetDto);
         return snippetMapper.entityToDto(snippetRepository.save(snippet));
     }
+
+    public SnippetDto checkSnippetIntegrity(SnippetDto snippetDto){
+        List<Snippet> snippets = snippetRepository.findByTextHashCode(snippetDto.getTextHashCode());
+        if (snippets != null && !snippets.isEmpty()){
+            return snippetMapper.entityToDto(snippets.get(0));
+        }
+        Snippet snippet = snippetMapper.dtoToEntity(snippetDto);
+        return snippetMapper.entityToDto(snippetRepository.save(snippet));
+    }
 }

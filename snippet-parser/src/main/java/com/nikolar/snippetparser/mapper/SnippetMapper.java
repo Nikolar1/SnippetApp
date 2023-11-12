@@ -21,6 +21,7 @@ public class SnippetMapper {
         Snippet entity = new Snippet();
         entity.setId(dto.getId());
         entity.setText(dto.getText());
+        entity.setTextHashCode(dto.getTextHashCode());
         entity.setBook(bookMapper.dtoToEntity(dto.getBook()));
         return entity;
     }
@@ -46,6 +47,7 @@ public class SnippetMapper {
         SnippetDto dto = new SnippetDto();
         dto.setId(entity.getId());
         dto.setText(entity.getText());
+        dto.setTextHashCode(entity.getTextHashCode());
         dto.setBook(bookMapper.entityToDto(entity.getBook()));
         return dto;
     }

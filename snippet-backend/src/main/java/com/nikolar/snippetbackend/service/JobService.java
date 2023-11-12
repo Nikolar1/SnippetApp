@@ -62,7 +62,6 @@ public class JobService {
             response = new ResponseEntity<>(HttpStatus.SERVICE_UNAVAILABLE);
         }
         ServiceStatusDto newServiceStatus = new ServiceStatusDto();
-        System.out.println(response.getStatusCode());
         boolean isRunning = response.getStatusCode() == HttpStatus.OK;
         switch (serviceType){
             case PARSER:
@@ -85,7 +84,6 @@ public class JobService {
         if (!oldServiceStatus.equalServicesStatus(newServiceStatus)){
             serviceStatusService.saveServiceStatus(newServiceStatus);
         }
-        System.out.println(isRunning);
         return isRunning;
     }
 
