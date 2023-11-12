@@ -34,12 +34,7 @@ public class LuceneController {
 
     @GetMapping("/serviceStatus")
     public  ResponseEntity<StatusResponse> serviceStatus(){
-        jobService.checkServiceStatus();
-        ServiceStatusDto serviceStatusDto = serviceStatusService.getLatestServiceStatus();
-        if (serviceStatusDto == null){
-            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
-        }
-        return new ResponseEntity<>(new StatusResponse(serviceStatusDto.getClassificationService(),serviceStatusDto.getParserService(),serviceStatusDto.getSearchService(),serviceStatusDto.getDateTime()), HttpStatus.OK);
+        return new ResponseEntity<>(jobService.checkServiceStatus(), HttpStatus.OK);
     }
 
     @GetMapping("/search")

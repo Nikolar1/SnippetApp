@@ -2,6 +2,7 @@ package com.nikolar.snippetbackend.service;
 
 import com.nikolar.snippetbackend.dto.ServiceStatusDto;
 import com.nikolar.snippetbackend.model.Status;
+import com.nikolar.snippetbackend.response.StatusResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
@@ -23,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 @EnableAsync
 public class JobService {
     private static final Duration REQUEST_TIMEOUT = Duration.ofMinutes(10);
-    private static final Duration PING_REQUEST_TIMEOUT = Duration.ofSeconds(5);
+    private static final Duration PING_REQUEST_TIMEOUT = Duration.ofSeconds(1);
     @Autowired
     private WebClient parserService;
     @Autowired
@@ -34,10 +35,13 @@ public class JobService {
     private ServiceStatusService serviceStatusService;
 
     @Scheduled(fixedDelay = 300000, initialDelay = 10000)
-    public void checkServiceStatus(){
-        pingService(parserService, ServiceType.PARSER);
-        pingService(searchService, ServiceType.SEARCH);
-        pingService(classificationService, ServiceType.CLASSIFICATION);
+    public StatusResponse checkServiceStatus(){
+        StatusResponse statusResponse = new StatusResponse();
+        statusResponse.setParserService(pingService(parserService, ServiceType.PARSER) ? Status.RUNNING : Status.DOWNED );
+        statusResponse.setSearchService(pingService(searchService, ServiceType.SEARCH) ? Status.RUNNING : Status.DOWNED);
+        statusResponse.setClassificationService(pingService(classificationService, ServiceType.CLASSIFICATION)? Status.RUNNING : Status.DOWNED);
+        statusResponse.setLocalDateTime(LocalDateTime.now());
+        return statusResponse;
     }
 
     private boolean pingService(WebClient service, ServiceType serviceType) {
@@ -116,47 +120,55 @@ public class JobService {
     }
 
     private void performIntegrityCheck() {
-        ResponseEntity<String> response;
-        System.out.println("Parser running starting integrity check");
-        do {
-            response = parserService
-                    .get()
-                    .uri("/integrity/checkDataIntegrity")
-                    .retrieve()
-                    .toEntity(String.class)
-                    .onErrorStop()
-                    .block(REQUEST_TIMEOUT);
-        }while (response.getStatusCode() != HttpStatus.OK);
-        System.out.println("Finished integrity check");
+        try {
+            ResponseEntity<String> response;
+            System.out.println("Parser running starting integrity check");
+            do {
+                response = parserService
+                        .get()
+                        .uri("/integrity/checkDataIntegrity")
+                        .retrieve()
+                        .toEntity(String.class)
+                        .onErrorStop()
+                        .block(REQUEST_TIMEOUT);
+            } while (response.getStatusCode() != HttpStatus.OK);
+            System.out.println("Finished integrity check");
+        }catch (Exception e){
+            System.out.println("Error trying again");
+            performIntegrityCheck();
+        }
     }
 
     private void startIndexingAndClassifying() {
         System.out.println("Started indexing and classifying");
+        try {
+            CompletableFuture<Void> indexingFuture = searchService
+                    .get()
+                    .uri("/lucene/indexSnippets")
+                    .retrieve()
+                    .bodyToMono(String.class)
+                    .timeout(REQUEST_TIMEOUT)
+                    .subscribeOn(Schedulers.single())
+                    .toFuture()
+                    .thenAccept(result -> {
+                        // Handle the result if needed
+                    });
 
-        CompletableFuture<Void> indexingFuture = searchService
-                .get()
-                .uri("/lucene/indexSnippets")
-                .retrieve()
-                .bodyToMono(String.class)
-                .timeout(REQUEST_TIMEOUT)
-                .subscribeOn(Schedulers.single())
-                .toFuture()
-                .thenAccept(result -> {
-                    // Handle the result if needed
-                });
+            CompletableFuture<Void> classificationFuture = classificationService
+                    .get()
+                    .uri("/classification/train")
+                    .retrieve()
+                    .bodyToMono(String.class)
+                    .timeout(REQUEST_TIMEOUT)
+                    .subscribeOn(Schedulers.single())
+                    .toFuture()
+                    .thenAccept(result -> {
+                        // Handle the result if needed
+                    });
 
-        CompletableFuture<Void> classificationFuture = classificationService
-                .get()
-                .uri("/classification/train")
-                .retrieve()
-                .bodyToMono(String.class)
-                .timeout(REQUEST_TIMEOUT)
-                .subscribeOn(Schedulers.single())
-                .toFuture()
-                .thenAccept(result -> {
-                    // Handle the result if needed
-                });
-
-        CompletableFuture.allOf(indexingFuture, classificationFuture).join();
+            CompletableFuture.allOf(indexingFuture, classificationFuture).join();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }

@@ -1,7 +1,5 @@
 # Snippet App
 
-> **Warning:** The app isn't working at the moment because it is being moved to microservice arhitecture.
-
 This app reads provided books from www.gutenberg.org, and then parses them into snippets, provides easy search through them, and predicts authors of snippets using machine learning. 
 
 For indexing and searching through snippets lucene library is used.
@@ -38,3 +36,5 @@ The app will start and be accessible at `http://localhost:3000`.
 ### Author prediction page
 
 ### Prediction aided search page
+
+### Status page

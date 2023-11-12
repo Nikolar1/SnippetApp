@@ -1,0 +1,52 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.service-container {
+    display: flex;
+}
+
+.service-box {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.status-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.green {
+    background-color: #4caf50; /* Green */
+}
+
+.red {
+    background-color: #f44336; /* Red */
+}
+
+.service-content {
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}

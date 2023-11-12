@@ -1,6 +1,7 @@
 package com.nikolar.snippetparser.service;
 
 import com.nikolar.snippetparser.gutenbergbooksparser.DataConverter;
+import com.nikolar.snippetparser.repository.SnippetRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -8,8 +9,12 @@ import org.springframework.stereotype.Service;
 public class DataIntegrityService {
     @Autowired
     DataConverter dataConverter;
+    @Autowired
+    SnippetRepository snippetRepository;
     public void checkDataIntegrity(){
-        dataConverter.saveToDatabaseTraining();
-        dataConverter.saveToDatabaseTest();
+        if (snippetRepository.count() < 194000) {
+            dataConverter.saveToDatabaseTraining();
+            dataConverter.saveToDatabaseTest();
+        }
     }
 }

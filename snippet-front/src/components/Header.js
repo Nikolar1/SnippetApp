@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Header.css';
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -20,6 +20,9 @@ const Header = () => {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/AidedSearchPage">Prediction aided snippet search</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/StatusPage">Microservice status</a>
           </li>
         </ul>
       </div>

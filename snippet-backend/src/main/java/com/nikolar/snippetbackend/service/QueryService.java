@@ -24,21 +24,27 @@ public class QueryService {
 
 
     public ResponseEntity<List<SnippetResponse>> query(String author, String book, String snippet){
-        return searchService
-                .get()
-                .uri(uriBuilder -> uriBuilder
-                        .path("/lucene/search")
-                        .queryParam("snippet", snippet)
-                        .queryParam("book", book)
-                        .queryParam("author", author)
-                        .build())
-                .retrieve()
-                .toEntityList(SnippetResponse.class)
-                .onErrorStop()
-                .block(REQUEST_TIMEOUT);
+        try {
+            return searchService
+                    .get()
+                    .uri(uriBuilder -> uriBuilder
+                            .path("/lucene/search")
+                            .queryParam("snippet", snippet)
+                            .queryParam("book", book)
+                            .queryParam("author", author)
+                            .build())
+                    .retrieve()
+                    .toEntityList(SnippetResponse.class)
+                    .onErrorStop()
+                    .block(REQUEST_TIMEOUT);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return null;
     }
 
     public ResponseEntity<AuthorResponse> predict(String snippet){
+        try {
         return classificationService
                 .get()
                 .uri(uriBuilder -> uriBuilder
@@ -49,9 +55,14 @@ public class QueryService {
                 .toEntity(AuthorResponse.class)
                 .onErrorStop()
                 .block(REQUEST_TIMEOUT);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return null;
     }
 
     public ResponseEntity<List<SnippetResponse>> aidedSearch(String snippet){
+        try {
         ResponseEntity<AuthorResponse> authorResponse = predict(snippet);
         return searchService
                 .get()
@@ -64,5 +75,9 @@ public class QueryService {
                 .toEntityList(SnippetResponse.class)
                 .onErrorStop()
                 .block(REQUEST_TIMEOUT);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return null;
     }
 }
