@@ -1,0 +1,13 @@
+FROM maven:3.9.2 AS maven
+LABEL authors="Nikola Radojcic"
+WORKDIR /usr/src/app
+COPY ./snippet-classification /usr/src/app
+RUN mvn package
+FROM respo/jdk20
+ARG JAR_FILE=snippet-classification.jar
+
+WORKDIR /opt/app
+COPY --from=maven /usr/src/app/target/${JAR_FILE} /opt/app/
+COPY ./snippet-classification/data /opt/app/data
+ENTRYPOINT ["java", "-Xmx10g", "-jar","snippet-classification.jar"]
+EXPOSE 8081

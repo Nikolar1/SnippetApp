@@ -11,6 +11,12 @@
 # production
 /build
 
+### WebStorm ###
+.idea
+*.iws
+*.iml
+*.ipr
+
 # misc
 .DS_Store
 .env.local

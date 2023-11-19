@@ -36,3 +36,5 @@ The app will start and be accessible at `http://localhost:3000`.
 ### Author prediction page
 
 ### Prediction aided search page
+
+### Status page

@@ -6,6 +6,7 @@ import SearchPage from './pages/SearchPage';
 import NotFound from './pages/NotFound';
 import AuthorPredictionPage from './pages/AuthorPredictionPage';
 import PredictionAidedSearchPage from './pages/PredictionAidedSearchPage';
+import StatusPage from "./pages/StatusPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/SearchPage" element={<SearchPage />} />
       <Route path="/PredictPage" element={<AuthorPredictionPage />} />
       <Route path="/AidedSearchPage" element={<PredictionAidedSearchPage />} />
+      <Route path="/StatusPage" element={<StatusPage />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
     </div>
