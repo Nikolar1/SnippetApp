@@ -21,20 +21,24 @@ The app will start and be accessible at `http://localhost:3000`.
 
 > **Note:** Make sure that docker engine is running before executing the command.
 
-> **Note 2:** The app needs some time to parse the books, index snippets and load classifier some functionality will be unavailable during that process.
+> **Note 2:** The app needs some time to check data integrity, index snippets and load classifier some functionality will be unavailable during that process.
 
+> **Note 3:** During initial start up a lot of time needs to pass for all snippets to be sent into the database (around 10 minutes)
 ## Screenshots
 
 ### Home page
 
-![Home page](front%20page.png)
+![Home page](front-page.png)
 
 ### Search page
 
-![Search page found](Search%20page%20found.png)
+![Search page found](search-page-found.png)
 
 ### Author prediction page
+![Author prediction page](author-prediction-page.png)
 
 ### Prediction aided search page
+![Prediction aided search page](prediction-aided-page.png)
 
 ### Status page
+![Microservice status page](microservice-status-page.png)
