@@ -8,7 +8,7 @@ const StatusPage = () => {
     const [isClassificationServiceRunning, setClassificationServiceRunning] = useState(false);
 
     const handleSearch = () => {
-            const url = "http://localhost:8080/serviceStatus";
+            const url = "http://localhost:8085/serviceStatus";
             fetch(url, {
                 method: 'GET',
 
