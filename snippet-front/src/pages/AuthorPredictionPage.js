@@ -11,7 +11,7 @@ const AuthorPredictionPage = () => {
 
   const handleGetAuthor = () => {
     if(snippet){
-        const url = "http://localhost:8080/predict?" + (snippet ? `snippet=${encodeURIComponent(snippet)}` : '');
+        const url = "http://localhost:8085/predict?" + (snippet ? `snippet=${encodeURIComponent(snippet)}` : '');
         fetch(url, {
           method: 'GET',
     

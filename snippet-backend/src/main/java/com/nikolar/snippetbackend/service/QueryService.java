@@ -2,14 +2,19 @@ package com.nikolar.snippetbackend.service;
 
 import com.nikolar.snippetbackend.dto.AuthorDto;
 import com.nikolar.snippetbackend.repository.AuthorRepository;
+import com.nikolar.snippetbackend.request.SummaryRequest;
 import com.nikolar.snippetbackend.response.AuthorResponse;
 import com.nikolar.snippetbackend.response.SnippetResponse;
+import com.nikolar.snippetbackend.response.SnippetSummarizedResponse;
+import com.nikolar.snippetbackend.response.SummaryResponse;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -20,8 +25,26 @@ public class QueryService {
     @Autowired
     WebClient classificationService;
     @Autowired
+    private WebClient summaryService;
+    @Autowired
     AuthorService authorService;
 
+
+
+    public ResponseEntity<SummaryResponse> sumarize(SummaryRequest summaryRequest){
+        try {
+            return summaryService.post()
+                    .uri("/model/predict")
+                    .bodyValue(summaryRequest)
+                    .retrieve()
+                    .toEntity(SummaryResponse.class)
+                    .onErrorStop()
+                    .block(REQUEST_TIMEOUT);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return null;
+    }
 
     public ResponseEntity<List<SnippetResponse>> query(String author, String book, String snippet){
         try {

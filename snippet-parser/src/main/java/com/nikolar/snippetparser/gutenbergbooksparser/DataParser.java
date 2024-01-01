@@ -12,6 +12,8 @@ public class DataParser {
     private static final int FIRST_LINES_TO_DELETE = 35;
     //Number of lines to delete from the end of the book
     private static final int LAST_LINES_TO_DELETE = 400;
+    //Minimum length of snippet because less than that isn't realy a snippet
+    private static final int MINIMUM_LETTER_LENGTH_OF_SNIPPET = 40;
     private static final int ALLOWED_LENGTH_OF_SNIPPET = 10000;
     //Name of the current book
     private String filename;
@@ -152,7 +154,7 @@ public class DataParser {
 
                     text = processLine(text);
                     if (text != "") {
-                        if(text.length() < ALLOWED_LENGTH_OF_SNIPPET){
+                        if(text.length() < ALLOWED_LENGTH_OF_SNIPPET && text.replace(" ", "").length() > MINIMUM_LETTER_LENGTH_OF_SNIPPET){
                             parsedText.add(text);
                         }
                         text = "";
