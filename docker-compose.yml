@@ -21,12 +21,12 @@ services:
       context: ./
       dockerfile: Dockerfile-backend
     ports:
-      - 8080:8080
+      - 8085:8085
     restart: always
     depends_on:
       - postgres_db
     healthcheck:
-      test: wget --no-verbose --tries=1 --spider localhost:8080/actuator/health || exit 1
+      test: wget --no-verbose --tries=1 --spider localhost:8085/actuator/health || exit 1
       interval: 10s
       retries: 5
       start_period: 6s
@@ -73,6 +73,11 @@ services:
       dockerfile: Dockerfile-frontend
     ports:
       - 3000:3000
+  summarizer:
+    image: quay.io/codait/max-text-summarizer
+    ports:
+      - 5000:5000
+    restart: always
 volumes:
   postgres_db:
     driver: local
