@@ -1,0 +1,1247 @@
+@relation 'writer-training-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.CharacterNGramTokenizer -max 3 -min 1'
+
+@attribute class {Frank-V-Webster,Herbert-Strang,Leo-Tolstoy,Georg-Ebers,George-O-Smith}
+@attribute ' ' numeric
+@attribute '  ' numeric
+@attribute '   ' numeric
+@attribute ' \"' numeric
+@attribute ' \"I' numeric
+@attribute ' \"T' numeric
+@attribute ' \"W' numeric
+@attribute ' A' numeric
+@attribute ' An' numeric
+@attribute ' B' numeric
+@attribute ' Bo' numeric
+@attribute ' Bu' numeric
+@attribute ' C' numeric
+@attribute ' D' numeric
+@attribute ' Da' numeric
+@attribute ' F' numeric
+@attribute ' H' numeric
+@attribute ' He' numeric
+@attribute ' I' numeric
+@attribute ' I ' numeric
+@attribute ' I\\' numeric
+@attribute ' J' numeric
+@attribute ' M' numeric
+@attribute ' Mr' numeric
+@attribute ' N' numeric
+@attribute ' P' numeric
+@attribute ' R' numeric
+@attribute ' S' numeric
+@attribute ' T' numeric
+@attribute ' Th' numeric
+@attribute ' To' numeric
+@attribute ' W' numeric
+@attribute ' a' numeric
+@attribute ' a ' numeric
+@attribute ' ab' numeric
+@attribute ' af' numeric
+@attribute ' al' numeric
+@attribute ' an' numeric
+@attribute ' ar' numeric
+@attribute ' as' numeric
+@attribute ' at' numeric
+@attribute ' b' numeric
+@attribute ' ba' numeric
+@attribute ' be' numeric
+@attribute ' bo' numeric
+@attribute ' br' numeric
+@attribute ' bu' numeric
+@attribute ' by' numeric
+@attribute ' c' numeric
+@attribute ' ca' numeric
+@attribute ' ch' numeric
+@attribute ' cl' numeric
+@attribute ' co' numeric
+@attribute ' cr' numeric
+@attribute ' d' numeric
+@attribute ' da' numeric
+@attribute ' de' numeric
+@attribute ' di' numeric
+@attribute ' do' numeric
+@attribute ' dr' numeric
+@attribute ' e' numeric
+@attribute ' en' numeric
+@attribute ' ev' numeric
+@attribute ' ex' numeric
+@attribute ' f' numeric
+@attribute ' fa' numeric
+@attribute ' fe' numeric
+@attribute ' fi' numeric
+@attribute ' fo' numeric
+@attribute ' fr' numeric
+@attribute ' g' numeric
+@attribute ' ge' numeric
+@attribute ' go' numeric
+@attribute ' gr' numeric
+@attribute ' h' numeric
+@attribute ' ha' numeric
+@attribute ' he' numeric
+@attribute ' hi' numeric
+@attribute ' ho' numeric
+@attribute ' i' numeric
+@attribute ' if' numeric
+@attribute ' in' numeric
+@attribute ' is' numeric
+@attribute ' it' numeric
+@attribute ' j' numeric
+@attribute ' k' numeric
+@attribute ' kn' numeric
+@attribute ' l' numeric
+@attribute ' la' numeric
+@attribute ' le' numeric
+@attribute ' li' numeric
+@attribute ' lo' numeric
+@attribute ' m' numeric
+@attribute ' ma' numeric
+@attribute ' me' numeric
+@attribute ' mi' numeric
+@attribute ' mo' numeric
+@attribute ' mu' numeric
+@attribute ' my' numeric
+@attribute ' n' numeric
+@attribute ' ne' numeric
+@attribute ' no' numeric
+@attribute ' o' numeric
+@attribute ' of' numeric
+@attribute ' on' numeric
+@attribute ' or' numeric
+@attribute ' ou' numeric
+@attribute ' ov' numeric
+@attribute ' p' numeric
+@attribute ' pa' numeric
+@attribute ' pl' numeric
+@attribute ' po' numeric
+@attribute ' pr' numeric
+@attribute ' pu' numeric
+@attribute ' q' numeric
+@attribute ' qu' numeric
+@attribute ' r' numeric
+@attribute ' ra' numeric
+@attribute ' re' numeric
+@attribute ' ri' numeric
+@attribute ' ro' numeric
+@attribute ' s' numeric
+@attribute ' sa' numeric
+@attribute ' se' numeric
+@attribute ' sh' numeric
+@attribute ' si' numeric
+@attribute ' so' numeric
+@attribute ' sp' numeric
+@attribute ' st' numeric
+@attribute ' su' numeric
+@attribute ' t' numeric
+@attribute ' ta' numeric
+@attribute ' te' numeric
+@attribute ' th' numeric
+@attribute ' ti' numeric
+@attribute ' to' numeric
+@attribute ' tr' numeric
+@attribute ' u' numeric
+@attribute ' un' numeric
+@attribute ' up' numeric
+@attribute ' v' numeric
+@attribute ' w' numeric
+@attribute ' wa' numeric
+@attribute ' we' numeric
+@attribute ' wh' numeric
+@attribute ' wi' numeric
+@attribute ' wo' numeric
+@attribute ' y' numeric
+@attribute ' yo' numeric
+@attribute ' “' numeric
+@attribute ' “I' numeric
+@attribute ! numeric
+@attribute '! ' numeric
+@attribute '!\"' numeric
+@attribute '\"' numeric
+@attribute '\" ' numeric
+@attribute '\"I' numeric
+@attribute '\"I ' numeric
+@attribute '\"T' numeric
+@attribute '\"W' numeric
+@attribute '\'' numeric
+@attribute '\' ' numeric
+@attribute '\'l' numeric
+@attribute '\'ll' numeric
+@attribute '\'s' numeric
+@attribute '\'s ' numeric
+@attribute '\'t' numeric
+@attribute '\'t ' numeric
+@attribute ',' numeric
+@attribute ', ' numeric
+@attribute ', I' numeric
+@attribute ', a' numeric
+@attribute ', b' numeric
+@attribute ', f' numeric
+@attribute ', h' numeric
+@attribute ', i' numeric
+@attribute ', s' numeric
+@attribute ', t' numeric
+@attribute ', w' numeric
+@attribute ',\"' numeric
+@attribute ',\" ' numeric
+@attribute ',”' numeric
+@attribute ',” ' numeric
+@attribute - numeric
+@attribute -- numeric
+@attribute . numeric
+@attribute '. ' numeric
+@attribute '.  ' numeric
+@attribute '. \"' numeric
+@attribute '. B' numeric
+@attribute '. H' numeric
+@attribute '. I' numeric
+@attribute '. T' numeric
+@attribute '. “' numeric
+@attribute '.\"' numeric
+@attribute .” numeric
+@attribute '?' numeric
+@attribute '?\"' numeric
+@attribute A numeric
+@attribute An numeric
+@attribute And numeric
+@attribute B numeric
+@attribute Bo numeric
+@attribute Bob numeric
+@attribute Bu numeric
+@attribute But numeric
+@attribute C numeric
+@attribute D numeric
+@attribute Da numeric
+@attribute E numeric
+@attribute F numeric
+@attribute G numeric
+@attribute H numeric
+@attribute He numeric
+@attribute 'He ' numeric
+@attribute I numeric
+@attribute 'I ' numeric
+@attribute 'I w' numeric
+@attribute 'I\\' numeric
+@attribute 'I\\\'' numeric
+@attribute It numeric
+@attribute 'It ' numeric
+@attribute J numeric
+@attribute L numeric
+@attribute M numeric
+@attribute Mr numeric
+@attribute Mr. numeric
+@attribute N numeric
+@attribute No numeric
+@attribute O numeric
+@attribute P numeric
+@attribute R numeric
+@attribute S numeric
+@attribute T numeric
+@attribute Th numeric
+@attribute The numeric
+@attribute To numeric
+@attribute Tom numeric
+@attribute W numeric
+@attribute We numeric
+@attribute Wh numeric
+@attribute Y numeric
+@attribute Yo numeric
+@attribute You numeric
+@attribute '\\' numeric
+@attribute '\\\'' numeric
+@attribute '\\\' ' numeric
+@attribute '\\\'l' numeric
+@attribute '\\\'s' numeric
+@attribute '\\\'t' numeric
+@attribute a numeric
+@attribute 'a ' numeric
+@attribute 'a c' numeric
+@attribute 'a l' numeric
+@attribute 'a s' numeric
+@attribute ab numeric
+@attribute abo numeric
+@attribute ac numeric
+@attribute ace numeric
+@attribute ack numeric
+@attribute ad numeric
+@attribute 'ad ' numeric
+@attribute ade numeric
+@attribute af numeric
+@attribute aft numeric
+@attribute ag numeric
+@attribute age numeric
+@attribute ai numeric
+@attribute aid numeric
+@attribute ail numeric
+@attribute ain numeric
+@attribute ak numeric
+@attribute ake numeric
+@attribute al numeric
+@attribute 'al ' numeric
+@attribute all numeric
+@attribute am numeric
+@attribute ame numeric
+@attribute an numeric
+@attribute 'an ' numeric
+@attribute anc numeric
+@attribute and numeric
+@attribute ang numeric
+@attribute ank numeric
+@attribute ant numeric
+@attribute any numeric
+@attribute ap numeric
+@attribute app numeric
+@attribute ar numeric
+@attribute 'ar ' numeric
+@attribute ard numeric
+@attribute are numeric
+@attribute arr numeric
+@attribute art numeric
+@attribute as numeric
+@attribute 'as ' numeric
+@attribute ask numeric
+@attribute ass numeric
+@attribute ast numeric
+@attribute at numeric
+@attribute 'at ' numeric
+@attribute ate numeric
+@attribute ath numeric
+@attribute ati numeric
+@attribute att numeric
+@attribute au numeric
+@attribute av numeric
+@attribute ave numeric
+@attribute aw numeric
+@attribute ay numeric
+@attribute 'ay ' numeric
+@attribute b numeric
+@attribute 'b ' numeric
+@attribute ba numeric
+@attribute bac numeric
+@attribute be numeric
+@attribute 'be ' numeric
+@attribute bee numeric
+@attribute bi numeric
+@attribute bl numeric
+@attribute ble numeric
+@attribute bo numeric
+@attribute bou numeric
+@attribute boy numeric
+@attribute br numeric
+@attribute bu numeric
+@attribute but numeric
+@attribute by numeric
+@attribute 'by ' numeric
+@attribute c numeric
+@attribute ca numeric
+@attribute can numeric
+@attribute ce numeric
+@attribute 'ce ' numeric
+@attribute ch numeric
+@attribute 'ch ' numeric
+@attribute cha numeric
+@attribute che numeric
+@attribute ci numeric
+@attribute ck numeric
+@attribute 'ck ' numeric
+@attribute cl numeric
+@attribute cla numeric
+@attribute co numeric
+@attribute com numeric
+@attribute con numeric
+@attribute cou numeric
+@attribute cr numeric
+@attribute ct numeric
+@attribute cu numeric
+@attribute d numeric
+@attribute 'd ' numeric
+@attribute 'd a' numeric
+@attribute 'd b' numeric
+@attribute 'd c' numeric
+@attribute 'd d' numeric
+@attribute 'd f' numeric
+@attribute 'd h' numeric
+@attribute 'd i' numeric
+@attribute 'd m' numeric
+@attribute 'd n' numeric
+@attribute 'd o' numeric
+@attribute 'd s' numeric
+@attribute 'd t' numeric
+@attribute 'd w' numeric
+@attribute 'd,' numeric
+@attribute 'd, ' numeric
+@attribute d. numeric
+@attribute 'd. ' numeric
+@attribute da numeric
+@attribute dd numeric
+@attribute de numeric
+@attribute 'de ' numeric
+@attribute ded numeric
+@attribute den numeric
+@attribute der numeric
+@attribute di numeric
+@attribute did numeric
+@attribute din numeric
+@attribute dis numeric
+@attribute do numeric
+@attribute 'do ' numeric
+@attribute don numeric
+@attribute dow numeric
+@attribute dr numeric
+@attribute ds numeric
+@attribute dy numeric
+@attribute e numeric
+@attribute 'e ' numeric
+@attribute 'e a' numeric
+@attribute 'e b' numeric
+@attribute 'e c' numeric
+@attribute 'e d' numeric
+@attribute 'e e' numeric
+@attribute 'e f' numeric
+@attribute 'e g' numeric
+@attribute 'e h' numeric
+@attribute 'e i' numeric
+@attribute 'e l' numeric
+@attribute 'e m' numeric
+@attribute 'e n' numeric
+@attribute 'e o' numeric
+@attribute 'e p' numeric
+@attribute 'e r' numeric
+@attribute 'e s' numeric
+@attribute 'e t' numeric
+@attribute 'e w' numeric
+@attribute 'e y' numeric
+@attribute 'e,' numeric
+@attribute 'e, ' numeric
+@attribute e. numeric
+@attribute 'e. ' numeric
+@attribute 'e\\' numeric
+@attribute 'e\\\'' numeric
+@attribute ea numeric
+@attribute ead numeric
+@attribute ear numeric
+@attribute eas numeric
+@attribute eat numeric
+@attribute ec numeric
+@attribute ect numeric
+@attribute ed numeric
+@attribute 'ed ' numeric
+@attribute 'ed,' numeric
+@attribute ed. numeric
+@attribute ee numeric
+@attribute 'ee ' numeric
+@attribute een numeric
+@attribute ef numeric
+@attribute ei numeric
+@attribute eir numeric
+@attribute el numeric
+@attribute ell numeric
+@attribute em numeric
+@attribute 'em ' numeric
+@attribute eme numeric
+@attribute en numeric
+@attribute 'en ' numeric
+@attribute end numeric
+@attribute ent numeric
+@attribute ep numeric
+@attribute er numeric
+@attribute 'er ' numeric
+@attribute 'er,' numeric
+@attribute er. numeric
+@attribute ere numeric
+@attribute ers numeric
+@attribute ery numeric
+@attribute es numeric
+@attribute 'es ' numeric
+@attribute 'es,' numeric
+@attribute ess numeric
+@attribute est numeric
+@attribute et numeric
+@attribute 'et ' numeric
+@attribute ett numeric
+@attribute ev numeric
+@attribute eve numeric
+@attribute ew numeric
+@attribute 'ew ' numeric
+@attribute ex numeric
+@attribute ey numeric
+@attribute 'ey ' numeric
+@attribute f numeric
+@attribute 'f ' numeric
+@attribute 'f a' numeric
+@attribute 'f h' numeric
+@attribute 'f t' numeric
+@attribute fa numeric
+@attribute fe numeric
+@attribute ff numeric
+@attribute fi numeric
+@attribute fo numeric
+@attribute for numeric
+@attribute fr numeric
+@attribute fro numeric
+@attribute ft numeric
+@attribute fte numeric
+@attribute fu numeric
+@attribute g numeric
+@attribute 'g ' numeric
+@attribute 'g a' numeric
+@attribute 'g h' numeric
+@attribute 'g o' numeric
+@attribute 'g t' numeric
+@attribute 'g,' numeric
+@attribute ga numeric
+@attribute ge numeric
+@attribute 'ge ' numeric
+@attribute get numeric
+@attribute gh numeric
+@attribute 'gh ' numeric
+@attribute ght numeric
+@attribute gi numeric
+@attribute gl numeric
+@attribute go numeric
+@attribute gr numeric
+@attribute h numeric
+@attribute 'h ' numeric
+@attribute 'h a' numeric
+@attribute 'h t' numeric
+@attribute 'h,' numeric
+@attribute 'h, ' numeric
+@attribute ha numeric
+@attribute had numeric
+@attribute han numeric
+@attribute hat numeric
+@attribute hav numeric
+@attribute he numeric
+@attribute 'he ' numeric
+@attribute hea numeric
+@attribute hed numeric
+@attribute hei numeric
+@attribute hem numeric
+@attribute hen numeric
+@attribute her numeric
+@attribute hey numeric
+@attribute hi numeric
+@attribute hic numeric
+@attribute him numeric
+@attribute hin numeric
+@attribute his numeric
+@attribute ho numeric
+@attribute 'ho ' numeric
+@attribute hou numeric
+@attribute how numeric
+@attribute hr numeric
+@attribute ht numeric
+@attribute 'ht ' numeric
+@attribute hu numeric
+@attribute i numeric
+@attribute ic numeric
+@attribute ice numeric
+@attribute ich numeric
+@attribute ick numeric
+@attribute id numeric
+@attribute 'id ' numeric
+@attribute ide numeric
+@attribute ie numeric
+@attribute ied numeric
+@attribute if numeric
+@attribute 'if ' numeric
+@attribute ig numeric
+@attribute igh numeric
+@attribute ik numeric
+@attribute ike numeric
+@attribute il numeric
+@attribute ile numeric
+@attribute ill numeric
+@attribute im numeric
+@attribute 'im ' numeric
+@attribute ime numeric
+@attribute in numeric
+@attribute 'in ' numeric
+@attribute ind numeric
+@attribute ine numeric
+@attribute ing numeric
+@attribute ink numeric
+@attribute ins numeric
+@attribute int numeric
+@attribute io numeric
+@attribute ion numeric
+@attribute ip numeric
+@attribute ir numeric
+@attribute 'ir ' numeric
+@attribute ire numeric
+@attribute is numeric
+@attribute 'is ' numeric
+@attribute ist numeric
+@attribute it numeric
+@attribute 'it ' numeric
+@attribute ith numeric
+@attribute itt numeric
+@attribute iv numeric
+@attribute ive numeric
+@attribute j numeric
+@attribute ju numeric
+@attribute k numeric
+@attribute 'k ' numeric
+@attribute 'k,' numeric
+@attribute ke numeric
+@attribute 'ke ' numeric
+@attribute ked numeric
+@attribute ki numeric
+@attribute kin numeric
+@attribute kn numeric
+@attribute kno numeric
+@attribute ks numeric
+@attribute l numeric
+@attribute 'l ' numeric
+@attribute 'l t' numeric
+@attribute 'l,' numeric
+@attribute 'l, ' numeric
+@attribute la numeric
+@attribute lai numeric
+@attribute lar numeric
+@attribute ld numeric
+@attribute 'ld ' numeric
+@attribute le numeric
+@attribute 'le ' numeric
+@attribute lea numeric
+@attribute led numeric
+@attribute les numeric
+@attribute lf numeric
+@attribute li numeric
+@attribute lin numeric
+@attribute ll numeric
+@attribute 'll ' numeric
+@attribute 'll,' numeric
+@attribute lle numeric
+@attribute lly numeric
+@attribute lo numeric
+@attribute lon numeric
+@attribute loo numeric
+@attribute low numeric
+@attribute ls numeric
+@attribute ly numeric
+@attribute 'ly ' numeric
+@attribute m numeric
+@attribute 'm ' numeric
+@attribute 'm a' numeric
+@attribute 'm t' numeric
+@attribute 'm,' numeric
+@attribute 'm, ' numeric
+@attribute m. numeric
+@attribute ma numeric
+@attribute man numeric
+@attribute me numeric
+@attribute 'me ' numeric
+@attribute med numeric
+@attribute men numeric
+@attribute mi numeric
+@attribute min numeric
+@attribute mo numeric
+@attribute mor numeric
+@attribute mp numeric
+@attribute ms numeric
+@attribute mu numeric
+@attribute my numeric
+@attribute 'my ' numeric
+@attribute n numeric
+@attribute 'n ' numeric
+@attribute 'n a' numeric
+@attribute 'n h' numeric
+@attribute 'n i' numeric
+@attribute 'n o' numeric
+@attribute 'n s' numeric
+@attribute 'n t' numeric
+@attribute 'n w' numeric
+@attribute 'n,' numeric
+@attribute 'n, ' numeric
+@attribute n. numeric
+@attribute 'n. ' numeric
+@attribute 'n\\' numeric
+@attribute 'n\\\'' numeric
+@attribute na numeric
+@attribute nc numeric
+@attribute nce numeric
+@attribute nd numeric
+@attribute 'nd ' numeric
+@attribute nde numeric
+@attribute ne numeric
+@attribute 'ne ' numeric
+@attribute ned numeric
+@attribute ner numeric
+@attribute nes numeric
+@attribute ng numeric
+@attribute 'ng ' numeric
+@attribute nge numeric
+@attribute ni numeric
+@attribute nin numeric
+@attribute nk numeric
+@attribute 'nk ' numeric
+@attribute nl numeric
+@attribute nly numeric
+@attribute nn numeric
+@attribute no numeric
+@attribute not numeric
+@attribute now numeric
+@attribute ns numeric
+@attribute nt numeric
+@attribute 'nt ' numeric
+@attribute nte numeric
+@attribute nti numeric
+@attribute ny numeric
+@attribute 'ny ' numeric
+@attribute o numeric
+@attribute 'o ' numeric
+@attribute 'o a' numeric
+@attribute 'o b' numeric
+@attribute 'o d' numeric
+@attribute 'o g' numeric
+@attribute 'o h' numeric
+@attribute 'o m' numeric
+@attribute 'o s' numeric
+@attribute 'o t' numeric
+@attribute 'o w' numeric
+@attribute oa numeric
+@attribute ob numeric
+@attribute oc numeric
+@attribute od numeric
+@attribute 'od ' numeric
+@attribute of numeric
+@attribute 'of ' numeric
+@attribute off numeric
+@attribute oi numeric
+@attribute oin numeric
+@attribute ok numeric
+@attribute ol numeric
+@attribute old numeric
+@attribute om numeric
+@attribute 'om ' numeric
+@attribute ome numeric
+@attribute on numeric
+@attribute 'on ' numeric
+@attribute 'on,' numeric
+@attribute 'on\\' numeric
+@attribute one numeric
+@attribute ong numeric
+@attribute ons numeric
+@attribute oo numeric
+@attribute ood numeric
+@attribute ook numeric
+@attribute op numeric
+@attribute ope numeric
+@attribute or numeric
+@attribute 'or ' numeric
+@attribute ore numeric
+@attribute ort numeric
+@attribute os numeric
+@attribute ose numeric
+@attribute ot numeric
+@attribute 'ot ' numeric
+@attribute oth numeric
+@attribute ou numeric
+@attribute 'ou ' numeric
+@attribute oug numeric
+@attribute oul numeric
+@attribute oun numeric
+@attribute our numeric
+@attribute ous numeric
+@attribute out numeric
+@attribute ov numeric
+@attribute ove numeric
+@attribute ow numeric
+@attribute 'ow ' numeric
+@attribute own numeric
+@attribute oy numeric
+@attribute 'oy ' numeric
+@attribute p numeric
+@attribute 'p ' numeric
+@attribute pa numeric
+@attribute par numeric
+@attribute pe numeric
+@attribute per numeric
+@attribute pi numeric
+@attribute pl numeric
+@attribute pla numeric
+@attribute po numeric
+@attribute pos numeric
+@attribute pp numeric
+@attribute ppe numeric
+@attribute pr numeric
+@attribute pre numeric
+@attribute pro numeric
+@attribute pt numeric
+@attribute pu numeric
+@attribute q numeric
+@attribute qu numeric
+@attribute qui numeric
+@attribute r numeric
+@attribute 'r ' numeric
+@attribute 'r a' numeric
+@attribute 'r h' numeric
+@attribute 'r o' numeric
+@attribute 'r s' numeric
+@attribute 'r t' numeric
+@attribute 'r w' numeric
+@attribute 'r,' numeric
+@attribute 'r, ' numeric
+@attribute r. numeric
+@attribute 'r. ' numeric
+@attribute ra numeric
+@attribute rai numeric
+@attribute ran numeric
+@attribute rd numeric
+@attribute 'rd ' numeric
+@attribute re numeric
+@attribute 're ' numeric
+@attribute rea numeric
+@attribute rec numeric
+@attribute red numeric
+@attribute ree numeric
+@attribute res numeric
+@attribute rg numeric
+@attribute ri numeric
+@attribute rie numeric
+@attribute rig numeric
+@attribute rin numeric
+@attribute rk numeric
+@attribute rl numeric
+@attribute rm numeric
+@attribute rn numeric
+@attribute ro numeric
+@attribute rom numeric
+@attribute rou numeric
+@attribute rr numeric
+@attribute rry numeric
+@attribute rs numeric
+@attribute 'rs ' numeric
+@attribute rt numeric
+@attribute ru numeric
+@attribute ry numeric
+@attribute 'ry ' numeric
+@attribute s numeric
+@attribute 's ' numeric
+@attribute 's a' numeric
+@attribute 's b' numeric
+@attribute 's c' numeric
+@attribute 's f' numeric
+@attribute 's g' numeric
+@attribute 's h' numeric
+@attribute 's i' numeric
+@attribute 's m' numeric
+@attribute 's n' numeric
+@attribute 's o' numeric
+@attribute 's p' numeric
+@attribute 's s' numeric
+@attribute 's t' numeric
+@attribute 's w' numeric
+@attribute 's,' numeric
+@attribute 's, ' numeric
+@attribute s. numeric
+@attribute 's. ' numeric
+@attribute sa numeric
+@attribute sai numeric
+@attribute sc numeric
+@attribute se numeric
+@attribute 'se ' numeric
+@attribute sed numeric
+@attribute see numeric
+@attribute sel numeric
+@attribute sh numeric
+@attribute she numeric
+@attribute sho numeric
+@attribute si numeric
+@attribute sin numeric
+@attribute sk numeric
+@attribute sl numeric
+@attribute so numeric
+@attribute 'so ' numeric
+@attribute som numeric
+@attribute son numeric
+@attribute sp numeric
+@attribute ss numeric
+@attribute 'ss ' numeric
+@attribute st numeric
+@attribute 'st ' numeric
+@attribute sta numeric
+@attribute ste numeric
+@attribute sti numeric
+@attribute sto numeric
+@attribute str numeric
+@attribute su numeric
+@attribute t numeric
+@attribute 't ' numeric
+@attribute 't a' numeric
+@attribute 't b' numeric
+@attribute 't c' numeric
+@attribute 't d' numeric
+@attribute 't f' numeric
+@attribute 't h' numeric
+@attribute 't i' numeric
+@attribute 't l' numeric
+@attribute 't m' numeric
+@attribute 't o' numeric
+@attribute 't s' numeric
+@attribute 't t' numeric
+@attribute 't w' numeric
+@attribute 't y' numeric
+@attribute 't,' numeric
+@attribute 't, ' numeric
+@attribute t. numeric
+@attribute 't. ' numeric
+@attribute 't\\' numeric
+@attribute 't\\\'' numeric
+@attribute ta numeric
+@attribute tai numeric
+@attribute tak numeric
+@attribute tan numeric
+@attribute te numeric
+@attribute 'te ' numeric
+@attribute ted numeric
+@attribute tel numeric
+@attribute ten numeric
+@attribute ter numeric
+@attribute th numeric
+@attribute 'th ' numeric
+@attribute tha numeric
+@attribute the numeric
+@attribute thi numeric
+@attribute tho numeric
+@attribute ti numeric
+@attribute tim numeric
+@attribute tin numeric
+@attribute tio numeric
+@attribute tl numeric
+@attribute tle numeric
+@attribute to numeric
+@attribute 'to ' numeric
+@attribute too numeric
+@attribute tor numeric
+@attribute tr numeric
+@attribute tra numeric
+@attribute ts numeric
+@attribute 'ts ' numeric
+@attribute tt numeric
+@attribute tte numeric
+@attribute ttl numeric
+@attribute tu numeric
+@attribute tur numeric
+@attribute tw numeric
+@attribute ty numeric
+@attribute 'ty ' numeric
+@attribute u numeric
+@attribute 'u ' numeric
+@attribute uc numeric
+@attribute uch numeric
+@attribute ue numeric
+@attribute ug numeric
+@attribute ugh numeric
+@attribute ui numeric
+@attribute ul numeric
+@attribute uld numeric
+@attribute um numeric
+@attribute un numeric
+@attribute und numeric
+@attribute unt numeric
+@attribute up numeric
+@attribute 'up ' numeric
+@attribute ur numeric
+@attribute 'ur ' numeric
+@attribute ure numeric
+@attribute us numeric
+@attribute 'us ' numeric
+@attribute use numeric
+@attribute ust numeric
+@attribute ut numeric
+@attribute 'ut ' numeric
+@attribute v numeric
+@attribute ve numeric
+@attribute 've ' numeric
+@attribute ven numeric
+@attribute ver numeric
+@attribute vi numeric
+@attribute w numeric
+@attribute 'w ' numeric
+@attribute wa numeric
+@attribute was numeric
+@attribute way numeric
+@attribute we numeric
+@attribute 'we ' numeric
+@attribute wer numeric
+@attribute wh numeric
+@attribute wha numeric
+@attribute whe numeric
+@attribute whi numeric
+@attribute who numeric
+@attribute wi numeric
+@attribute wil numeric
+@attribute wit numeric
+@attribute wn numeric
+@attribute 'wn ' numeric
+@attribute wo numeric
+@attribute wor numeric
+@attribute wou numeric
+@attribute x numeric
+@attribute y numeric
+@attribute 'y ' numeric
+@attribute 'y a' numeric
+@attribute 'y f' numeric
+@attribute 'y h' numeric
+@attribute 'y o' numeric
+@attribute 'y s' numeric
+@attribute 'y t' numeric
+@attribute 'y w' numeric
+@attribute 'y,' numeric
+@attribute 'y, ' numeric
+@attribute y. numeric
+@attribute 'y. ' numeric
+@attribute ye numeric
+@attribute yo numeric
+@attribute you numeric
+@attribute ys numeric
+@attribute 'ys ' numeric
+@attribute z numeric
+@attribute “ numeric
+@attribute “I numeric
+@attribute ” numeric
+@attribute '” ' numeric
+@attribute '  A' numeric
+@attribute '  H' numeric
+@attribute '  I' numeric
+@attribute '  T' numeric
+@attribute ' E' numeric
+@attribute ' G' numeric
+@attribute ' \\' numeric
+@attribute ' \\\'' numeric
+@attribute ' ac' numeric
+@attribute ' ag' numeric
+@attribute ' fl' numeric
+@attribute ' ga' numeric
+@attribute ' pe' numeric
+@attribute ' tw' numeric
+@attribute ' us' numeric
+@attribute ' ve' numeric
+@attribute '\" s' numeric
+@attribute ; numeric
+@attribute '; ' numeric
+@attribute 'a f' numeric
+@attribute 'a m' numeric
+@attribute abl numeric
+@attribute ach numeric
+@attribute cam numeric
+@attribute car numeric
+@attribute 'd l' numeric
+@attribute 'd p' numeric
+@attribute 'd r' numeric
+@attribute 'ds ' numeric
+@attribute 'e u' numeric
+@attribute eg numeric
+@attribute elf numeric
+@attribute ely numeric
+@attribute enc numeric
+@attribute ene numeric
+@attribute eri numeric
+@attribute ese numeric
+@attribute fir numeric
+@attribute fl numeric
+@attribute gai numeric
+@attribute ger numeric
+@attribute gu numeric
+@attribute 'h h' numeric
+@attribute hal numeric
+@attribute hor numeric
+@attribute ia numeric
+@attribute ish numeric
+@attribute ite numeric
+@attribute lan numeric
+@attribute lit numeric
+@attribute llo numeric
+@attribute lt numeric
+@attribute lu numeric
+@attribute mb numeric
+@attribute 'n f' numeric
+@attribute 'no ' numeric
+@attribute 'ns ' numeric
+@attribute nto numeric
+@attribute ord numeric
+@attribute ost numeric
+@attribute owe numeric
+@attribute ple numeric
+@attribute rat numeric
+@attribute rc numeric
+@attribute rds numeric
+@attribute ren numeric
+@attribute ret numeric
+@attribute ris numeric
+@attribute rri numeric
+@attribute rse numeric
+@attribute 's d' numeric
+@attribute 's l' numeric
+@attribute 's r' numeric
+@attribute sen numeric
+@attribute sid numeric
+@attribute sm numeric
+@attribute spe numeric
+@attribute sse numeric
+@attribute ssi numeric
+@attribute sur numeric
+@attribute tc numeric
+@attribute tch numeric
+@attribute thr numeric
+@attribute til numeric
+@attribute tly numeric
+@attribute tre numeric
+@attribute two numeric
+@attribute ua numeric
+@attribute ub numeric
+@attribute ud numeric
+@attribute urn numeric
+@attribute urs numeric
+@attribute va numeric
+@attribute war numeric
+@attribute 'y b' numeric
+@attribute 'y c' numeric
+@attribute 'y m' numeric
+@attribute ' L' numeric
+@attribute ' hu' numeric
+@attribute ', o' numeric
+@attribute '. A' numeric
+@attribute .. numeric
+@attribute ... numeric
+@attribute '? ' numeric
+@attribute K numeric
+@attribute _ numeric
+@attribute act numeric
+@attribute cal numeric
+@attribute ces numeric
+@attribute chi numeric
+@attribute cti numeric
+@attribute dre numeric
+@attribute eli numeric
+@attribute eo numeric
+@attribute eth numeric
+@attribute evi numeric
+@attribute exp numeric
+@attribute fac numeric
+@attribute ful numeric
+@attribute 'g i' numeric
+@attribute 'g, ' numeric
+@attribute hes numeric
+@attribute hil numeric
+@attribute ib numeric
+@attribute ife numeric
+@attribute inc numeric
+@attribute iti numeric
+@attribute ity numeric
+@attribute 'lf ' numeric
+@attribute lov numeric
+@attribute mil numeric
+@attribute mm numeric
+@attribute mse numeric
+@attribute ndi numeric
+@attribute 'ng,' numeric
+@attribute onl numeric
+@attribute ont numeric
+@attribute pea numeric
+@attribute pri numeric
+@attribute 'r f' numeric
+@attribute 'r i' numeric
+@attribute rst numeric
+@attribute 'rt ' numeric
+@attribute 's e' numeric
+@attribute sha numeric
+@attribute sit numeric
+@attribute tic numeric
+@attribute tri numeric
+@attribute vin numeric
+@attribute vo numeric
+@attribute win numeric
+@attribute xp numeric
+@attribute 'y d' numeric
+@attribute 'y i' numeric
+@attribute '” s' numeric
+@attribute ' O' numeric
+@attribute ' bl' numeric
+@attribute ' ea' numeric
+@attribute ' gi' numeric
+@attribute ' ye' numeric
+@attribute : numeric
+@attribute Ma numeric
+@attribute aga numeric
+@attribute ans numeric
+@attribute ari numeric
+@attribute arm numeric
+@attribute bro numeric
+@attribute cc numeric
+@attribute 'd e' numeric
+@attribute 'd g' numeric
+@attribute day numeric
+@attribute des numeric
+@attribute dl numeric
+@attribute du numeric
+@attribute eed numeric
+@attribute efo numeric
+@attribute eye numeric
+@attribute gra numeric
+@attribute gre numeric
+@attribute har numeric
+@attribute hom numeric
+@attribute hos numeric
+@attribute ian numeric
+@attribute ien numeric
+@attribute ild numeric
+@attribute ise numeric
+@attribute len numeric
+@attribute mon numeric
+@attribute mus numeric
+@attribute 'nd,' numeric
+@attribute nds numeric
+@attribute 'r b' numeric
+@attribute 'r c' numeric
+@attribute 'r m' numeric
+@attribute rem numeric
+@attribute rne numeric
+@attribute row numeric
+@attribute ser numeric
+@attribute 'ul ' numeric
+@attribute ung numeric
+@attribute ved numeric
+@attribute ' It' numeric
+@attribute ' Ma' numeric
+@attribute '\" h' numeric
+@attribute '. S' numeric
+@attribute '. W' numeric
+@attribute ane numeric
+@attribute 'c ' numeric
+@attribute e- numeric
+@attribute ele numeric
+@attribute era numeric
+@attribute ete numeric
+@attribute fin numeric
+@attribute g. numeric
+@attribute ica numeric
+@attribute lat numeric
+@attribute lik numeric
+@attribute lli numeric
+@attribute ly. numeric
+@attribute ng. numeric
+@attribute nst numeric
+@attribute oll numeric
+@attribute on. numeric
+@attribute oss numeric
+@attribute pac numeric
+@attribute ped numeric
+@attribute rad numeric
+@attribute rra numeric
+@attribute shi numeric
+@attribute spa numeric
+@attribute tal numeric
+@attribute tro numeric
+@attribute yn numeric
+
+@data
+{1 1,2 1,3 1,28 1,103 1,106 1,184 1,186 1,233 1,312 1,316 1,351 1,377 1,388 1,389 1,426 1,427 1,437 1,442 1,480 1,498 1,528 1,531 1,563 1,564 1,619 1,620 1,641 1,687 1,726 1,727 1,750 1,771 1,772 1,795 1,809 1,815 1,865 1,891 1,895 1,917 1,925 1,948 1,956 1,996 1,1042 1,1161 1,1214 1}
+{1 1,4 1,6 1,8 1,10 1,11 1,13 1,16 1,25 1,26 1,33 1,34 1,103 1,104 1,131 1,134 1,155 1,156 1,159 1,169 1,180 1,181 1,186 1,199 1,202 1,203 1,204 1,207 1,210 1,211 1,228 1,230 1,231 1,234 1,235 1,236 1,251 1,252 1,289 1,294 1,295 1,299 1,309 1,310 1,312 1,313 1,322 1,324 1,330 1,388 1,389 1,442 1,447 1,459 1,464 1,465 1,498 1,509 1,510 1,523 1,589 1,617 1,618 1,619 1,620 1,641 1,662 1,665 1,674 1,675 1,687 1,699 1,703 1,704 1,726 1,727 1,748 1,749 1,771 1,772 1,775 1,802 1,809 1,811 1,815 1,831 1,857 1,859 1,865 1,887 1,897 1,900 1,902 1,925 1,948 1,956 1,958 1,960 1,978 1,979 1,980 1,987 1,1005 1,1045 1,1081 1,1166 1}
+{1 1,2 1,3 1,8 1,10 1,13 1,14 1,16 1,17 1,22 1,23 1,25 1,26 1,27 1,28 1,29 1,161 1,169 1,170 1,199 1,202 1,207 1,208 1,210 1,211 1,212 1,213 1,216 1,223 1,224 1,225 1,228 1,230 1,231 1,232 1,233 1,234 1,239 1,242 1,245 1,246 1,1001 1,1004 1,1006 1,1098 1,1105 1,1156 1}
+{1 1,4 1,7 1,33 1,39 1,42 1,43 1,71 1,73 1,74 1,103 1,104 1,131 1,134 1,142 1,146 1,148 1,149 1,155 1,160 1,197 1,198 1,239 1,241 1,251 1,289 1,292 1,295 1,297 1,300 1,301 1,312 1,314 1,330 1,333 1,388 1,389 1,390 1,408 1,442 1,446 1,449 1,454 1,455 1,464 1,465 1,480 1,481 1,496 1,497 1,498 1,499 1,501 1,504 1,507 1,509 1,516 1,531 1,539 1,553 1,557 1,570 1,572 1,578 1,581 1,641 1,667 1,668 1,687 1,700 1,703 1,704 1,706 1,707 1,735 1,736 1,771 1,788 1,789 1,796 1,797 1,804 1,815 1,848 1,865 1,866 1,868 1,876 1,897 1,898 1,899 1,925 1,926 1,956 1,969 1,971 1,978 1,992 1,993 1,1036 1}
+{1 1,4 1,6 1,33 1,38 1,49 1,55 1,57 1,71 1,93 1,99 1,103 1,104 1,105 1,106 1,131 1,136 1,155 1,159 1,161 1,165 1,166 1,186 1,195 1,234 1,237 1,245 1,246 1,249 1,251 1,279 1,280 1,289 1,291 1,330 1,350 1,351 1,372 1,376 1,377 1,388 1,389 1,402 1,432 1,442 1,443 1,447 1,464 1,465 1,480 1,531 1,574 1,575 1,589 1,605 1,619 1,628 1,639 1,640 1,641 1,642 1,646 1,654 1,655 1,662 1,663 1,687 1,688 1,691 1,703 1,704 1,711 1,713 1,714 1,718 1,726 1,771 1,772 1,773 1,777 1,786 1,809 1,815 1,816 1,819 1,833 1,857 1,862 1,865 1,909 1,910 1,925 1,944 1,947 1,950 1,951 1,954 1,978 1,979 1,1042 1,1046 1,1059 1,1088 1,1113 1,1183 1}
+{1 1,4 1,5 1,10 1,11 1,42 1,44 1,61 1,64 1,65 1,66 1,75 1,78 1,79 1,109 1,113 1,115 1,116 1,117 1,119 1,122 1,125 1,126 1,127 1,130 1,131 1,134 1,155 1,156 1,157 1,158 1,169 1,170 1,175 1,177 1,180 1,181 1,186 1,202 1,203 1,204 1,216 1,217 1,251 1,258 1,259 1,300 1,301 1,312 1,316 1,317 1,319 1,330 1,333 1,334 1,351 1,352 1,354 1,368 1,388 1,389 1,394 1,405 1,406 1,422 1,423 1,425 1,441 1,449 1,452 1,453 1,461 1,464 1,469 1,480 1,481 1,498 1,504 1,507 1,518 1,522 1,523 1,525 1,531 1,539 1,540 1,553 1,557 1,561 1,562 1,564 1,567 1,568 1,570 1,589 1,597 1,598 1,605 1,641 1,662 1,664 1,667 1,668 1,687 1,699 1,714 1,718 1,724 1,725 1,735 1,738 1,750 1,754 1,757 1,763 1,764 1,765 1,768 1,769 1,771 1,779 1,788 1,794 1,796 1,804 1,815 1,816 1,820 1,827 1,838 1,839 1,843 1,845 1,846 1,847 1,850 1,855 1,857 1,861 1,864 1,865 1,866 1,872 1,897 1,899 1,903 1,906 1,923 1,924 1,925 1,929 1,933 1,934 1,941 1,977 1,978 1,979 1,984 1,1068 1,1079 1,1080 1,1117 1,1118 1,1128 1,1139 1,1152 1,1186 1}
+{1 1,10 1,11 1,13 1,17 1,25 1,29 1,30 1,32 1,33 1,34 1,35 1,37 1,38 1,40 1,42 1,44 1,45 1,49 1,52 1,53 1,55 1,57 1,58 1,60 1,61 1,62 1,63 1,65 1,66 1,70 1,71 1,74 1,75 1,76 1,77 1,78 1,79 1,80 1,82 1,84 1,85 1,93 1,94 1,95 1,100 1,102 1,103 1,104 1,105 1,109 1,113 1,114 1,117 1,119 1,122 1,124 1,126 1,127 1,129 1,130 1,131 1,134 1,136 1,137 1,138 1,139 1,142 1,143 1,144 1,145 1,146 1,147 1,148 1,169 1,170 1,172 1,175 1,177 1,179 1,184 1,186 1,187 1,191 1,193 1,202 1,203 1,204 1,207 1,213 1,228 1,234 1,235 1,236 1,239 1,242 1,243 1,251 1,252 1,255 1,256 1,257 1,258 1,259 1,260 1,261 1,262 1,268 1,270 1,274 1,275 1,276 1,277 1,279 1,280 1,281 1,282 1,283 1,287 1,288 1,289 1,290 1,292 1,295 1,296 1,300 1,301 1,307 1,308 1,312 1,313 1,316 1,317 1,318 1,320 1,322 1,323 1,326 1,328 1,329 1,330 1,333 1,334 1,335 1,336 1,337 1,339 1,340 1,342 1,343 1,344 1,345 1,347 1,350 1,351 1,352 1,353 1,354 1,358 1,359 1,360 1,361 1,362 1,364 1,366 1,367 1,368 1,369 1,372 1,376 1,377 1,385 1,388 1,389 1,390 1,391 1,392 1,394 1,395 1,396 1,400 1,402 1,403 1,405 1,406 1,407 1,408 1,409 1,410 1,411 1,412 1,415 1,416 1,417 1,419 1,422 1,423 1,425 1,426 1,427 1,428 1,432 1,433 1,434 1,437 1,438 1,440 1,442 1,443 1,444 1,446 1,447 1,448 1,449 1,450 1,452 1,453 1,457 1,458 1,459 1,460 1,464 1,465 1,466 1,467 1,468 1,469 1,470 1,471 1,472 1,475 1,476 1,480 1,481 1,483 1,486 1,488 1,491 1,493 1,494 1,497 1,498 1,499 1,501 1,504 1,505 1,507 1,508 1,509 1,510 1,511 1,516 1,518 1,519 1,520 1,522 1,523 1,524 1,528 1,531 1,532 1,534 1,541 1,543 1,544 1,547 1,548 1,550 1,551 1,552 1,553 1,554 1,557 1,564 1,565 1,566 1,567 1,568 1,570 1,571 1,572 1,573 1,574 1,575 1,576 1,577 1,578 1,580 1,581 1,589 1,590 1,592 1,593 1,594 1,595 1,597 1,598 1,599 1,602 1,603 1,605 1,607 1,608 1,609 1,612 1,616 1,617 1,618 1,619 1,620 1,621 1,622 1,623 1,624 1,626 1,627 1,628 1,629 1,630 1,631 1,632 1,641 1,642 1,644 1,646 1,647 1,648 1,649 1,656 1,657 1,658 1,659 1,660 1,662 1,663 1,664 1,665 1,666 1,667 1,668 1,669 1,676 1,677 1,678 1,680 1,681 1,682 1,684 1,687 1,688 1,690 1,693 1,695 1,697 1,699 1,700 1,703 1,704 1,708 1,709 1,710 1,711 1,712 1,713 1,714 1,715 1,718 1,721 1,726 1,728 1,732 1,733 1,734 1,735 1,738 1,739 1,742 1,750 1,751 1,752 1,753 1,754 1,759 1,761 1,762 1,763 1,765 1,767 1,768 1,769 1,771 1,772 1,773 1,775 1,778 1,779 1,780 1,783 1,785 1,786 1,787 1,788 1,789 1,790 1,792 1,793 1,794 1,800 1,803 1,804 1,805 1,806 1,809 1,810 1,813 1,814 1,815 1,816 1,817 1,819 1,820 1,821 1,822 1,826 1,830 1,833 1,834 1,838 1,840 1,841 1,846 1,850 1,851 1,852 1,854 1,855 1,857 1,860 1,862 1,863 1,864 1,865 1,866 1,869 1,871 1,872 1,878 1,879 1,881 1,882 1,891 1,893 1,896 1,897 1,898 1,899 1,900 1,901 1,903 1,905 1,907 1,909 1,910 1,911 1,912 1,913 1,914 1,915 1,916 1,917 1,922 1,923 1,925 1,929 1,933 1,934 1,936 1,938 1,939 1,940 1,941 1,944 1,947 1,948 1,949 1,950 1,951 1,952 1,954 1,955 1,956 1,957 1,958 1,959 1,961 1,963 1,964 1,967 1,968 1,969 1,970 1,971 1,974 1,976 1,978 1,979 1,980 1,982 1,984 1,985 1,989 1,991 1,996 1,1014 1,1018 1,1019 1,1021 1,1030 1,1033 1,1041 1,1043 1,1046 1,1054 1,1064 1,1066 1,1071 1,1076 1,1078 1,1085 1,1087 1,1090 1,1091 1,1112 1,1118 1,1121 1,1122 1,1128 1,1131 1,1135 1,1138 1,1141 1,1144 1,1149 1,1153 1,1159 1,1160 1,1164 1,1168 1,1179 1,1181 1,1193 1,1194 1,1196 1,1206 1,1211 1}
+{1 1,4 1,33 1,38 1,49 1,53 1,75 1,79 1,100 1,102 1,103 1,131 1,134 1,136 1,155 1,156 1,169 1,170 1,172 1,180 1,181 1,186 1,242 1,251 1,279 1,282 1,330 1,344 1,345 1,351 1,352 1,361 1,364 1,388 1,389 1,402 1,406 1,422 1,423 1,437 1,440 1,442 1,445 1,449 1,451 1,453 1,498 1,509 1,510 1,516 1,523 1,619 1,628 1,631 1,641 1,659 1,660 1,662 1,663 1,666 1,677 1,681 1,683 1,687 1,688 1,693 1,711 1,714 1,718 1,721 1,732 1,734 1,771 1,781 1,815 1,831 1,832 1,857 1,865 1,881 1,891 1,893 1,897 1,900 1,909 1,911 1,1132 1}
+{0 George-O-Smith,1 1,16 1,19 1,22 1,33 1,35 1,36 1,37 1,38 1,42 1,44 1,49 1,53 1,65 1,69 1,70 1,71 1,74 1,75 1,76 1,80 1,82 1,84 1,88 1,89 1,91 1,93 1,96 1,97 1,100 1,102 1,103 1,104 1,109 1,111 1,122 1,124 1,127 1,128 1,131 1,132 1,134 1,135 1,136 1,137 1,142 1,143 1,144 1,146 1,147 1,169 1,170 1,172 1,174 1,176 1,177 1,178 1,186 1,187 1,211 1,216 1,223 1,230 1,251 1,256 1,257 1,258 1,260 1,261 1,264 1,265 1,272 1,274 1,275 1,276 1,279 1,282 1,289 1,291 1,295 1,296 1,307 1,308 1,312 1,316 1,320 1,321 1,322 1,323 1,330 1,339 1,340 1,341 1,344 1,346 1,349 1,350 1,351 1,352 1,353 1,360 1,365 1,371 1,372 1,376 1,377 1,379 1,386 1,388 1,389 1,390 1,392 1,397 1,398 1,399 1,400 1,402 1,406 1,407 1,409 1,410 1,420 1,421 1,422 1,423 1,426 1,432 1,437 1,439 1,440 1,442 1,443 1,446 1,449 1,450 1,453 1,454 1,457 1,458 1,464 1,465 1,467 1,468 1,470 1,473 1,474 1,475 1,476 1,477 1,478 1,479 1,480 1,481 1,485 1,488 1,489 1,491 1,492 1,494 1,497 1,498 1,499 1,501 1,504 1,509 1,510 1,516 1,518 1,522 1,523 1,525 1,527 1,531 1,536 1,538 1,541 1,545 1,546 1,550 1,552 1,553 1,554 1,557 1,561 1,563 1,564 1,567 1,568 1,570 1,572 1,578 1,579 1,580 1,581 1,582 1,584 1,585 1,588 1,589 1,590 1,594 1,596 1,599 1,600 1,602 1,605 1,607 1,611 1,616 1,617 1,618 1,619 1,620 1,628 1,629 1,632 1,634 1,635 1,641 1,642 1,647 1,656 1,659 1,660 1,662 1,667 1,668 1,670 1,671 1,676 1,677 1,680 1,681 1,687 1,688 1,689 1,703 1,704 1,711 1,712 1,713 1,714 1,720 1,726 1,727 1,728 1,735 1,737 1,742 1,745 1,747 1,750 1,754 1,756 1,757 1,771 1,772 1,776 1,777 1,779 1,780 1,783 1,786 1,787 1,788 1,789 1,795 1,800 1,804 1,805 1,806 1,815 1,816 1,817 1,818 1,827 1,829 1,831 1,832 1,833 1,838 1,843 1,846 1,850 1,851 1,852 1,854 1,857 1,865 1,866 1,871 1,881 1,882 1,887 1,889 1,891 1,892 1,893 1,896 1,897 1,898 1,900 1,901 1,902 1,903 1,904 1,909 1,910 1,913 1,914 1,923 1,924 1,925 1,930 1,931 1,936 1,944 1,945 1,948 1,949 1,950 1,951 1,954 1,956 1,958 1,959 1,961 1,969 1,971 1,972 1,974 1,975 1,978 1,979 1,983 1,985 1,986 1,987 1,988 1,1022 1,1031 1,1046 1,1048 1,1056 1,1062 1,1064 1,1065 1,1075 1,1077 1,1083 1,1088 1,1120 1,1125 1,1128 1,1134 1,1156 1,1170 1,1173 1,1174 1,1178 1,1180 1,1183 1,1187 1,1210 1,1211 1,1217 1,1227 1,1229 1}

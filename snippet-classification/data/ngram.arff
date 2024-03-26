@@ -1,0 +1,2149 @@
+@relation 'writer-training-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.NGramTokenizer -max 5 -min 2 -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute class {Frank-V-Webster,Herbert-Strang,Leo-Tolstoy,Georg-Ebers,George-O-Smith}
+@attribute 'All right' numeric
+@attribute 'As he' numeric
+@attribute 'As the' numeric
+@attribute 'At the' numeric
+@attribute 'Bar U' numeric
+@attribute 'Bob and' numeric
+@attribute 'Bob had' numeric
+@attribute 'Bob was' numeric
+@attribute 'Bob\\ s' numeric
+@attribute 'But I' numeric
+@attribute 'But I\\' numeric
+@attribute 'But he' numeric
+@attribute 'But it' numeric
+@attribute 'But the' numeric
+@attribute 'Captain Spark' numeric
+@attribute 'Come on' numeric
+@attribute 'De Royster' numeric
+@attribute 'Do you' numeric
+@attribute 'Don\\ t' numeric
+@attribute 'For a' numeric
+@attribute 'He had' numeric
+@attribute 'He was' numeric
+@attribute 'He\\ s' numeric
+@attribute 'I am' numeric
+@attribute 'I believe' numeric
+@attribute 'I can' numeric
+@attribute 'I can\\' numeric
+@attribute 'I can\\ t' numeric
+@attribute 'I could' numeric
+@attribute 'I did' numeric
+@attribute 'I didn\\' numeric
+@attribute 'I didn\\ t' numeric
+@attribute 'I do' numeric
+@attribute 'I don\\' numeric
+@attribute 'I don\\ t' numeric
+@attribute 'I don\\ t believe' numeric
+@attribute 'I don\\ t know' numeric
+@attribute 'I don\\ t want' numeric
+@attribute 'I get' numeric
+@attribute 'I got' numeric
+@attribute 'I guess' numeric
+@attribute 'I had' numeric
+@attribute 'I have' numeric
+@attribute 'I haven\\' numeric
+@attribute 'I haven\\ t' numeric
+@attribute 'I hope' numeric
+@attribute 'I know' numeric
+@attribute 'I must' numeric
+@attribute 'I never' numeric
+@attribute 'I reckon' numeric
+@attribute 'I saw' numeric
+@attribute 'I say' numeric
+@attribute 'I see' numeric
+@attribute 'I shall' numeric
+@attribute 'I should' numeric
+@attribute 'I suppose' numeric
+@attribute 'I think' numeric
+@attribute 'I thought' numeric
+@attribute 'I told' numeric
+@attribute 'I want' numeric
+@attribute 'I want to' numeric
+@attribute 'I was' numeric
+@attribute 'I will' numeric
+@attribute 'I wish' numeric
+@attribute 'I won\\' numeric
+@attribute 'I won\\ t' numeric
+@attribute 'I wonder' numeric
+@attribute 'I would' numeric
+@attribute 'I wouldn\\' numeric
+@attribute 'I wouldn\\ t' numeric
+@attribute 'I\\ d' numeric
+@attribute 'I\\ d like' numeric
+@attribute 'I\\ d like to' numeric
+@attribute 'I\\ ll' numeric
+@attribute 'I\\ ll be' numeric
+@attribute 'I\\ ll go' numeric
+@attribute 'I\\ ll have' numeric
+@attribute 'I\\ ll tell' numeric
+@attribute 'I\\ m' numeric
+@attribute 'I\\ m afraid' numeric
+@attribute 'I\\ m glad' numeric
+@attribute 'I\\ m going' numeric
+@attribute 'I\\ m going to' numeric
+@attribute 'I\\ m not' numeric
+@attribute 'I\\ ve' numeric
+@attribute 'I\\ ve got' numeric
+@attribute 'If I' numeric
+@attribute 'If you' numeric
+@attribute 'In fact' numeric
+@attribute 'In the' numeric
+@attribute 'It is' numeric
+@attribute 'It was' numeric
+@attribute 'It was a' numeric
+@attribute 'It\\ s' numeric
+@attribute 'It\\ s a' numeric
+@attribute 'Mr Bellmore' numeric
+@attribute 'Mr Boise' numeric
+@attribute 'Mr Carr' numeric
+@attribute 'Mr Carson' numeric
+@attribute 'Mr Graylock' numeric
+@attribute 'Mr Harrison' numeric
+@attribute 'Mr Savage' numeric
+@attribute 'Mr Tarbill' numeric
+@attribute 'Mr Weatherby' numeric
+@attribute 'Mr Wilder' numeric
+@attribute 'New York' numeric
+@attribute 'Of course' numeric
+@attribute 'Oh I' numeric
+@attribute 'Pocus Pete' numeric
+@attribute 'That is' numeric
+@attribute 'That\\ s' numeric
+@attribute 'The boy' numeric
+@attribute 'Then he' numeric
+@attribute 'There was' numeric
+@attribute 'There was a' numeric
+@attribute 'There\\ s' numeric
+@attribute 'This is' numeric
+@attribute 'This was' numeric
+@attribute 'Tom and' numeric
+@attribute 'Tom\\ s' numeric
+@attribute 'We\\ ll' numeric
+@attribute 'Well I' numeric
+@attribute 'What\\ s' numeric
+@attribute 'You can' numeric
+@attribute 'You\\ ll' numeric
+@attribute 'You\\ re' numeric
+@attribute '\\ em' numeric
+@attribute 'a big' numeric
+@attribute 'a bit' numeric
+@attribute 'a boy' numeric
+@attribute 'a chance' numeric
+@attribute 'a chance to' numeric
+@attribute 'a few' numeric
+@attribute 'a few minutes' numeric
+@attribute 'a fine' numeric
+@attribute 'a good' numeric
+@attribute 'a great' numeric
+@attribute 'a large' numeric
+@attribute 'a little' numeric
+@attribute 'a long' numeric
+@attribute 'a lot' numeric
+@attribute 'a lot of' numeric
+@attribute 'a man' numeric
+@attribute 'a moment' numeric
+@attribute 'a new' numeric
+@attribute 'a place' numeric
+@attribute 'a small' numeric
+@attribute 'a smile' numeric
+@attribute 'a sudden' numeric
+@attribute 'a very' numeric
+@attribute 'a week' numeric
+@attribute 'a while' numeric
+@attribute 'able to' numeric
+@attribute 'about a' numeric
+@attribute 'about him' numeric
+@attribute 'about his' numeric
+@attribute 'about it' numeric
+@attribute 'about that' numeric
+@attribute 'about the' numeric
+@attribute 'about to' numeric
+@attribute 'across the' numeric
+@attribute 'after a' numeric
+@attribute 'after all' numeric
+@attribute 'after the' numeric
+@attribute 'ain\\ t' numeric
+@attribute 'all about' numeric
+@attribute 'all right' numeric
+@attribute 'all that' numeric
+@attribute 'all the' numeric
+@attribute 'along the' numeric
+@attribute 'among the' numeric
+@attribute 'an hour' numeric
+@attribute 'and Bob' numeric
+@attribute 'and I' numeric
+@attribute 'and I\\' numeric
+@attribute 'and I\\ ll' numeric
+@attribute 'and I\\ m' numeric
+@attribute 'and Mr' numeric
+@attribute 'and Tom' numeric
+@attribute 'and a' numeric
+@attribute 'and as' numeric
+@attribute 'and get' numeric
+@attribute 'and had' numeric
+@attribute 'and he' numeric
+@attribute 'and he was' numeric
+@attribute 'and his' numeric
+@attribute 'and if' numeric
+@attribute 'and in' numeric
+@attribute 'and it' numeric
+@attribute 'and it was' numeric
+@attribute 'and see' numeric
+@attribute 'and so' numeric
+@attribute 'and some' numeric
+@attribute 'and that' numeric
+@attribute 'and the' numeric
+@attribute 'and then' numeric
+@attribute 'and there' numeric
+@attribute 'and they' numeric
+@attribute 'and this' numeric
+@attribute 'and was' numeric
+@attribute 'and we' numeric
+@attribute 'and we\\' numeric
+@attribute 'and when' numeric
+@attribute 'and with' numeric
+@attribute 'and you' numeric
+@attribute 'any more' numeric
+@attribute 'any of' numeric
+@attribute 'any one' numeric
+@attribute 'are you' numeric
+@attribute 'around the' numeric
+@attribute 'as I' numeric
+@attribute 'as a' numeric
+@attribute 'as he' numeric
+@attribute 'as his' numeric
+@attribute 'as if' numeric
+@attribute 'as it' numeric
+@attribute 'as much' numeric
+@attribute 'as soon' numeric
+@attribute 'as soon as' numeric
+@attribute 'as the' numeric
+@attribute 'as they' numeric
+@attribute 'as though' numeric
+@attribute 'as though he' numeric
+@attribute 'as to' numeric
+@attribute 'as well' numeric
+@attribute 'as well as' numeric
+@attribute 'as you' numeric
+@attribute 'asked Mr' numeric
+@attribute 'asked the' numeric
+@attribute 'at a' numeric
+@attribute 'at all' numeric
+@attribute 'at him' numeric
+@attribute 'at his' numeric
+@attribute 'at least' numeric
+@attribute 'at once' numeric
+@attribute 'at the' numeric
+@attribute 'away from' numeric
+@attribute 'away from the' numeric
+@attribute 'back of' numeric
+@attribute 'back to' numeric
+@attribute 'back to the' numeric
+@attribute 'be a' numeric
+@attribute 'be able' numeric
+@attribute 'be able to' numeric
+@attribute 'be in' numeric
+@attribute 'be the' numeric
+@attribute 'been a' numeric
+@attribute 'before he' numeric
+@attribute 'before the' numeric
+@attribute 'began to' numeric
+@attribute 'better than' numeric
+@attribute 'between the' numeric
+@attribute 'boy and' numeric
+@attribute 'boy who' numeric
+@attribute 'boy\\ s' numeric
+@attribute 'but I' numeric
+@attribute 'but I\\' numeric
+@attribute 'but he' numeric
+@attribute 'but it' numeric
+@attribute 'but the' numeric
+@attribute 'by a' numeric
+@attribute 'by the' numeric
+@attribute 'came in' numeric
+@attribute 'came to' numeric
+@attribute 'can do' numeric
+@attribute 'can get' numeric
+@attribute 'can\\ t' numeric
+@attribute 'chance to' numeric
+@attribute 'charge of' numeric
+@attribute 'come back' numeric
+@attribute 'come to' numeric
+@attribute 'could be' numeric
+@attribute 'could have' numeric
+@attribute 'could not' numeric
+@attribute 'could see' numeric
+@attribute 'couldn\\ t' numeric
+@attribute 'cried the' numeric
+@attribute 'd better' numeric
+@attribute 'd like' numeric
+@attribute 'd like to' numeric
+@attribute 'declared the' numeric
+@attribute 'did not' numeric
+@attribute 'did not know' numeric
+@attribute 'did the' numeric
+@attribute 'did you' numeric
+@attribute 'didn\\ t' numeric
+@attribute 'do it' numeric
+@attribute 'do that' numeric
+@attribute 'do you' numeric
+@attribute 'doesn\\ t' numeric
+@attribute 'don\\ t' numeric
+@attribute 'don\\ t believe' numeric
+@attribute 'don\\ t know' numeric
+@attribute 'don\\ t want' numeric
+@attribute 'don\\ t want to' numeric
+@attribute 'don\\ t you' numeric
+@attribute 'down and' numeric
+@attribute 'down in' numeric
+@attribute 'down the' numeric
+@attribute 'down to' numeric
+@attribute 'end of' numeric
+@attribute 'end of the' numeric
+@attribute 'enough to' numeric
+@attribute 'exclaimed the' numeric
+@attribute 'fact that' numeric
+@attribute 'few minutes' numeric
+@attribute 'find out' numeric
+@attribute 'for a' numeric
+@attribute 'for he' numeric
+@attribute 'for him' numeric
+@attribute 'for his' numeric
+@attribute 'for it' numeric
+@attribute 'for me' numeric
+@attribute 'for some' numeric
+@attribute 'for that' numeric
+@attribute 'for the' numeric
+@attribute 'for this' numeric
+@attribute 'for you' numeric
+@attribute 'from a' numeric
+@attribute 'from his' numeric
+@attribute 'from the' numeric
+@attribute 'front of' numeric
+@attribute 'get a' numeric
+@attribute 'get out' numeric
+@attribute 'get the' numeric
+@attribute 'get to' numeric
+@attribute 'give you' numeric
+@attribute 'glad to' numeric
+@attribute 'go back' numeric
+@attribute 'go to' numeric
+@attribute 'going to' numeric
+@attribute 'going to be' numeric
+@attribute 'got a' numeric
+@attribute 'got to' numeric
+@attribute 'had a' numeric
+@attribute 'had been' numeric
+@attribute 'had better' numeric
+@attribute 'had come' numeric
+@attribute 'had done' numeric
+@attribute 'had given' numeric
+@attribute 'had gone' numeric
+@attribute 'had left' numeric
+@attribute 'had made' numeric
+@attribute 'had never' numeric
+@attribute 'had no' numeric
+@attribute 'had not' numeric
+@attribute 'had seen' numeric
+@attribute 'had taken' numeric
+@attribute 'had the' numeric
+@attribute 'had to' numeric
+@attribute 'happened to' numeric
+@attribute 'has been' numeric
+@attribute 'have a' numeric
+@attribute 'have been' numeric
+@attribute 'have some' numeric
+@attribute 'have the' numeric
+@attribute 'have to' numeric
+@attribute 'have you' numeric
+@attribute 'haven\\ t' numeric
+@attribute 'he added' numeric
+@attribute 'he and' numeric
+@attribute 'he asked' numeric
+@attribute 'he came' numeric
+@attribute 'he could' numeric
+@attribute 'he could not' numeric
+@attribute 'he did' numeric
+@attribute 'he did not' numeric
+@attribute 'he exclaimed' numeric
+@attribute 'he felt' numeric
+@attribute 'he found' numeric
+@attribute 'he got' numeric
+@attribute 'he had' numeric
+@attribute 'he had been' numeric
+@attribute 'he has' numeric
+@attribute 'he heard' numeric
+@attribute 'he is' numeric
+@attribute 'he knew' numeric
+@attribute 'he made' numeric
+@attribute 'he might' numeric
+@attribute 'he must' numeric
+@attribute 'he said' numeric
+@attribute 'he saw' numeric
+@attribute 'he thought' numeric
+@attribute 'he told' numeric
+@attribute 'he wanted' numeric
+@attribute 'he was' numeric
+@attribute 'he went' numeric
+@attribute 'he went on' numeric
+@attribute 'he would' numeric
+@attribute 'he would have' numeric
+@attribute 'he\\ d' numeric
+@attribute 'he\\ ll' numeric
+@attribute 'he\\ s' numeric
+@attribute 'heard the' numeric
+@attribute 'here and' numeric
+@attribute 'here ”' numeric
+@attribute 'him a' numeric
+@attribute 'him and' numeric
+@attribute 'him as' numeric
+@attribute 'him for' numeric
+@attribute 'him he' numeric
+@attribute 'him in' numeric
+@attribute 'him that' numeric
+@attribute 'him the' numeric
+@attribute 'him to' numeric
+@attribute 'him ”' numeric
+@attribute 'his companion' numeric
+@attribute 'his eyes' numeric
+@attribute 'his face' numeric
+@attribute 'his father' numeric
+@attribute 'his feet' numeric
+@attribute 'his hand' numeric
+@attribute 'his hands' numeric
+@attribute 'his head' numeric
+@attribute 'his heart' numeric
+@attribute 'his horse' numeric
+@attribute 'his mind' numeric
+@attribute 'his mother' numeric
+@attribute 'his own' numeric
+@attribute 'his pocket' numeric
+@attribute 'his voice' numeric
+@attribute 'his way' numeric
+@attribute 'how to' numeric
+@attribute 'hundred dollars' numeric
+@attribute 'if I' numeric
+@attribute 'if he' numeric
+@attribute 'if it' numeric
+@attribute 'if the' numeric
+@attribute 'if they' numeric
+@attribute 'if we' numeric
+@attribute 'if you' numeric
+@attribute 'in a' numeric
+@attribute 'in an' numeric
+@attribute 'in and' numeric
+@attribute 'in front' numeric
+@attribute 'in front of' numeric
+@attribute 'in his' numeric
+@attribute 'in it' numeric
+@attribute 'in my' numeric
+@attribute 'in some' numeric
+@attribute 'in that' numeric
+@attribute 'in the' numeric
+@attribute 'in their' numeric
+@attribute 'in this' numeric
+@attribute 'in time' numeric
+@attribute 'in which' numeric
+@attribute 'in your' numeric
+@attribute 'instead of' numeric
+@attribute 'into a' numeric
+@attribute 'into his' numeric
+@attribute 'into the' numeric
+@attribute 'is a' numeric
+@attribute 'is going' numeric
+@attribute 'is no' numeric
+@attribute 'is the' numeric
+@attribute 'is to' numeric
+@attribute 'isn\\ t' numeric
+@attribute 'it I' numeric
+@attribute 'it all' numeric
+@attribute 'it and' numeric
+@attribute 'it for' numeric
+@attribute 'it had' numeric
+@attribute 'it in' numeric
+@attribute 'it is' numeric
+@attribute 'it out' numeric
+@attribute 'it seemed' numeric
+@attribute 'it to' numeric
+@attribute 'it up' numeric
+@attribute 'it was' numeric
+@attribute 'it was a' numeric
+@attribute 'it will' numeric
+@attribute 'it would' numeric
+@attribute 'it would be' numeric
+@attribute 'it ”' numeric
+@attribute 'it\\ s' numeric
+@attribute 'just as' numeric
+@attribute 'kind of' numeric
+@attribute 'know that' numeric
+@attribute 'know what' numeric
+@attribute 'left the' numeric
+@attribute 'let me' numeric
+@attribute 'like a' numeric
+@attribute 'like that' numeric
+@attribute 'like to' numeric
+@attribute 'll be' numeric
+@attribute 'll do' numeric
+@attribute 'll get' numeric
+@attribute 'll go' numeric
+@attribute 'll have' numeric
+@attribute 'll have to' numeric
+@attribute 'll make' numeric
+@attribute 'll not' numeric
+@attribute 'll see' numeric
+@attribute 'll take' numeric
+@attribute 'll tell' numeric
+@attribute 'look at' numeric
+@attribute 'looked at' numeric
+@attribute 'looking for' numeric
+@attribute 'lot of' numeric
+@attribute 'm afraid' numeric
+@attribute 'm glad' numeric
+@attribute 'm going' numeric
+@attribute 'm going to' numeric
+@attribute 'm not' numeric
+@attribute 'made a' numeric
+@attribute 'make a' numeric
+@attribute 'man who' numeric
+@attribute 'man\\ s' numeric
+@attribute 'managed to' numeric
+@attribute 'may be' numeric
+@attribute 'may have' numeric
+@attribute 'me I' numeric
+@attribute 'me a' numeric
+@attribute 'me and' numeric
+@attribute 'me to' numeric
+@attribute 'me ”' numeric
+@attribute 'might be' numeric
+@attribute 'might have' numeric
+@attribute 'more than' numeric
+@attribute 'most of' numeric
+@attribute 'much of' numeric
+@attribute 'must be' numeric
+@attribute 'must have' numeric
+@attribute 'near the' numeric
+@attribute 'no one' numeric
+@attribute 'not a' numeric
+@attribute 'not be' numeric
+@attribute 'not going' numeric
+@attribute 'not going to' numeric
+@attribute 'not have' numeric
+@attribute 'not know' numeric
+@attribute 'not to' numeric
+@attribute 'now and' numeric
+@attribute 'now ”' numeric
+@attribute 'number of' numeric
+@attribute 'o\\ clock' numeric
+@attribute 'of Mr' numeric
+@attribute 'of a' numeric
+@attribute 'of all' numeric
+@attribute 'of an' numeric
+@attribute 'of course' numeric
+@attribute 'of him' numeric
+@attribute 'of his' numeric
+@attribute 'of it' numeric
+@attribute 'of my' numeric
+@attribute 'of our' numeric
+@attribute 'of some' numeric
+@attribute 'of that' numeric
+@attribute 'of the' numeric
+@attribute 'of the boys' numeric
+@attribute 'of the men' numeric
+@attribute 'of their' numeric
+@attribute 'of them' numeric
+@attribute 'of this' numeric
+@attribute 'of those' numeric
+@attribute 'of us' numeric
+@attribute 'of water' numeric
+@attribute 'of what' numeric
+@attribute 'of which' numeric
+@attribute 'of you' numeric
+@attribute 'of your' numeric
+@attribute 'off the' numeric
+@attribute 'old man' numeric
+@attribute 'on a' numeric
+@attribute 'on him' numeric
+@attribute 'on his' numeric
+@attribute 'on it' numeric
+@attribute 'on my' numeric
+@attribute 'on the' numeric
+@attribute 'on their' numeric
+@attribute 'on this' numeric
+@attribute 'one of' numeric
+@attribute 'one of the' numeric
+@attribute 'one to' numeric
+@attribute 'one who' numeric
+@attribute 'only a' numeric
+@attribute 'or not' numeric
+@attribute 'or two' numeric
+@attribute 'ought to' numeric
+@attribute 'our hero' numeric
+@attribute 'out a' numeric
+@attribute 'out and' numeric
+@attribute 'out for' numeric
+@attribute 'out in' numeric
+@attribute 'out of' numeric
+@attribute 'out of the' numeric
+@attribute 'out on' numeric
+@attribute 'out the' numeric
+@attribute 'out to' numeric
+@attribute 'over his' numeric
+@attribute 'over the' numeric
+@attribute 'over to' numeric
+@attribute 'owner of' numeric
+@attribute 'part of' numeric
+@attribute 'part of the' numeric
+@attribute 'piece of' numeric
+@attribute 'quite a' numeric
+@attribute 're going' numeric
+@attribute 're going to' numeric
+@attribute 'reached the' numeric
+@attribute 'ready for' numeric
+@attribute 'ready to' numeric
+@attribute 'replied the' numeric
+@attribute 'rest of' numeric
+@attribute 's a' numeric
+@attribute 's all' numeric
+@attribute 's all right' numeric
+@attribute 's going' numeric
+@attribute 's got' numeric
+@attribute 's no' numeric
+@attribute 's so' numeric
+@attribute 's the' numeric
+@attribute 's the matter' numeric
+@attribute 's what' numeric
+@attribute 'said Mr' numeric
+@attribute 'said Tom' numeric
+@attribute 'said the' numeric
+@attribute 'said to' numeric
+@attribute 'saw that' numeric
+@attribute 'saw the' numeric
+@attribute 'see him' numeric
+@attribute 'see if' numeric
+@attribute 'see that' numeric
+@attribute 'see the' numeric
+@attribute 'see what' numeric
+@attribute 'see you' numeric
+@attribute 'seem to' numeric
+@attribute 'seemed to' numeric
+@attribute 'seemed to be' numeric
+@attribute 'seems to' numeric
+@attribute 'she had' numeric
+@attribute 'side of' numeric
+@attribute 'side of the' numeric
+@attribute 'sight of' numeric
+@attribute 'sight of the' numeric
+@attribute 'so I' numeric
+@attribute 'so much' numeric
+@attribute 'so that' numeric
+@attribute 'some of' numeric
+@attribute 'some of the' numeric
+@attribute 'some one' numeric
+@attribute 'some time' numeric
+@attribute 'something to' numeric
+@attribute 'soon as' numeric
+@attribute 'sort of' numeric
+@attribute 'such a' numeric
+@attribute 't be' numeric
+@attribute 't believe' numeric
+@attribute 't do' numeric
+@attribute 't get' numeric
+@attribute 't have' numeric
+@attribute 't know' numeric
+@attribute 't like' numeric
+@attribute 't see' numeric
+@attribute 't think' numeric
+@attribute 't want' numeric
+@attribute 't want to' numeric
+@attribute 't you' numeric
+@attribute 'take a' numeric
+@attribute 'take the' numeric
+@attribute 'tell me' numeric
+@attribute 'tell you' numeric
+@attribute 'than he' numeric
+@attribute 'that I' numeric
+@attribute 'that Mr' numeric
+@attribute 'that a' numeric
+@attribute 'that had' numeric
+@attribute 'that he' numeric
+@attribute 'that he could' numeric
+@attribute 'that he had' numeric
+@attribute 'that he was' numeric
+@attribute 'that he would' numeric
+@attribute 'that his' numeric
+@attribute 'that is' numeric
+@attribute 'that it' numeric
+@attribute 'that it was' numeric
+@attribute 'that the' numeric
+@attribute 'that there' numeric
+@attribute 'that they' numeric
+@attribute 'that was' numeric
+@attribute 'that way' numeric
+@attribute 'that would' numeric
+@attribute 'that you' numeric
+@attribute 'that ”' numeric
+@attribute 'that\\ s' numeric
+@attribute 'the air' numeric
+@attribute 'the bank' numeric
+@attribute 'the best' numeric
+@attribute 'the big' numeric
+@attribute 'the boat' numeric
+@attribute 'the boy' numeric
+@attribute 'the boy\\' numeric
+@attribute 'the boy\\ s' numeric
+@attribute 'the boys' numeric
+@attribute 'the bully' numeric
+@attribute 'the captain' numeric
+@attribute 'the car' numeric
+@attribute 'the cattle' numeric
+@attribute 'the cowboys' numeric
+@attribute 'the crowd' numeric
+@attribute 'the day' numeric
+@attribute 'the direction' numeric
+@attribute 'the doctor' numeric
+@attribute 'the door' numeric
+@attribute 'the end' numeric
+@attribute 'the engineer' numeric
+@attribute 'the fact' numeric
+@attribute 'the fact that' numeric
+@attribute 'the farmer' numeric
+@attribute 'the fire' numeric
+@attribute 'the first' numeric
+@attribute 'the ground' numeric
+@attribute 'the house' numeric
+@attribute 'the lad' numeric
+@attribute 'the last' numeric
+@attribute 'the latter' numeric
+@attribute 'the little' numeric
+@attribute 'the mail' numeric
+@attribute 'the man' numeric
+@attribute 'the man who' numeric
+@attribute 'the mate' numeric
+@attribute 'the matter' numeric
+@attribute 'the men' numeric
+@attribute 'the money' numeric
+@attribute 'the morning' numeric
+@attribute 'the most' numeric
+@attribute 'the name' numeric
+@attribute 'the next' numeric
+@attribute 'the night' numeric
+@attribute 'the officer' numeric
+@attribute 'the old' numeric
+@attribute 'the one' numeric
+@attribute 'the only' numeric
+@attribute 'the other' numeric
+@attribute 'the others' numeric
+@attribute 'the owner' numeric
+@attribute 'the owner of' numeric
+@attribute 'the pilot' numeric
+@attribute 'the place' numeric
+@attribute 'the plains' numeric
+@attribute 'the police' numeric
+@attribute 'the pony' numeric
+@attribute 'the professor' numeric
+@attribute 'the ranch' numeric
+@attribute 'the ranchman' numeric
+@attribute 'the rest' numeric
+@attribute 'the right' numeric
+@attribute 'the river' numeric
+@attribute 'the road' numeric
+@attribute 'the room' numeric
+@attribute 'the saddle' numeric
+@attribute 'the same' numeric
+@attribute 'the ship' numeric
+@attribute 'the side' numeric
+@attribute 'the station' numeric
+@attribute 'the store' numeric
+@attribute 'the story' numeric
+@attribute 'the stranger' numeric
+@attribute 'the street' numeric
+@attribute 'the three' numeric
+@attribute 'the time' numeric
+@attribute 'the town' numeric
+@attribute 'the trail' numeric
+@attribute 'the train' numeric
+@attribute 'the truth' numeric
+@attribute 'the two' numeric
+@attribute 'the village' numeric
+@attribute 'the water' numeric
+@attribute 'the way' numeric
+@attribute 'the whole' numeric
+@attribute 'the wind' numeric
+@attribute 'the words' numeric
+@attribute 'the work' numeric
+@attribute 'the world' numeric
+@attribute 'the young' numeric
+@attribute 'them and' numeric
+@attribute 'them to' numeric
+@attribute 'there are' numeric
+@attribute 'there is' numeric
+@attribute 'there was' numeric
+@attribute 'there was a' numeric
+@attribute 'there was no' numeric
+@attribute 'there were' numeric
+@attribute 'there\\ s' numeric
+@attribute 'they are' numeric
+@attribute 'they could' numeric
+@attribute 'they had' numeric
+@attribute 'they were' numeric
+@attribute 'they would' numeric
+@attribute 'they\\ re' numeric
+@attribute 'think I' numeric
+@attribute 'think it' numeric
+@attribute 'think of' numeric
+@attribute 'think you' numeric
+@attribute 'this is' numeric
+@attribute 'this time' numeric
+@attribute 'this was' numeric
+@attribute 'though he' numeric
+@attribute 'though the' numeric
+@attribute 'thought of' numeric
+@attribute 'through the' numeric
+@attribute 'time he' numeric
+@attribute 'time to' numeric
+@attribute 'to Mr' numeric
+@attribute 'to a' numeric
+@attribute 'to ask' numeric
+@attribute 'to be' numeric
+@attribute 'to be a' numeric
+@attribute 'to bring' numeric
+@attribute 'to come' numeric
+@attribute 'to do' numeric
+@attribute 'to eat' numeric
+@attribute 'to find' numeric
+@attribute 'to get' numeric
+@attribute 'to give' numeric
+@attribute 'to go' numeric
+@attribute 'to go to' numeric
+@attribute 'to have' numeric
+@attribute 'to have a' numeric
+@attribute 'to hear' numeric
+@attribute 'to help' numeric
+@attribute 'to him' numeric
+@attribute 'to himself' numeric
+@attribute 'to his' numeric
+@attribute 'to it' numeric
+@attribute 'to keep' numeric
+@attribute 'to know' numeric
+@attribute 'to learn' numeric
+@attribute 'to leave' numeric
+@attribute 'to let' numeric
+@attribute 'to look' numeric
+@attribute 'to make' numeric
+@attribute 'to make a' numeric
+@attribute 'to me' numeric
+@attribute 'to meet' numeric
+@attribute 'to my' numeric
+@attribute 'to one' numeric
+@attribute 'to pay' numeric
+@attribute 'to put' numeric
+@attribute 'to run' numeric
+@attribute 'to say' numeric
+@attribute 'to see' numeric
+@attribute 'to some' numeric
+@attribute 'to start' numeric
+@attribute 'to stay' numeric
+@attribute 'to take' numeric
+@attribute 'to talk' numeric
+@attribute 'to tell' numeric
+@attribute 'to the' numeric
+@attribute 'to their' numeric
+@attribute 'to them' numeric
+@attribute 'to think' numeric
+@attribute 'to try' numeric
+@attribute 'to where' numeric
+@attribute 'to work' numeric
+@attribute 'to you' numeric
+@attribute 'told him' numeric
+@attribute 'told me' numeric
+@attribute 'toward the' numeric
+@attribute 'tried to' numeric
+@attribute 'try to' numeric
+@attribute 'trying to' numeric
+@attribute 'under the' numeric
+@attribute 'up a' numeric
+@attribute 'up and' numeric
+@attribute 'up his' numeric
+@attribute 'up in' numeric
+@attribute 'up on' numeric
+@attribute 'up the' numeric
+@attribute 'up to' numeric
+@attribute 'up to the' numeric
+@attribute 'up with' numeric
+@attribute 'upon the' numeric
+@attribute 'used to' numeric
+@attribute 've been' numeric
+@attribute 've got' numeric
+@attribute 've got to' numeric
+@attribute 'very much' numeric
+@attribute 'want to' numeric
+@attribute 'want you' numeric
+@attribute 'want you to' numeric
+@attribute 'wanted to' numeric
+@attribute 'was a' numeric
+@attribute 'was about' numeric
+@attribute 'was all' numeric
+@attribute 'was an' numeric
+@attribute 'was going' numeric
+@attribute 'was going to' numeric
+@attribute 'was in' numeric
+@attribute 'was no' numeric
+@attribute 'was not' numeric
+@attribute 'was on' numeric
+@attribute 'was only' numeric
+@attribute 'was quite' numeric
+@attribute 'was so' numeric
+@attribute 'was soon' numeric
+@attribute 'was the' numeric
+@attribute 'was to' numeric
+@attribute 'was too' numeric
+@attribute 'was very' numeric
+@attribute 'wasn\\ t' numeric
+@attribute 'way to' numeric
+@attribute 'we can' numeric
+@attribute 'we have' numeric
+@attribute 'we\\ ll' numeric
+@attribute 'we\\ re' numeric
+@attribute 'we\\ ve' numeric
+@attribute 'well as' numeric
+@attribute 'went on' numeric
+@attribute 'went on the' numeric
+@attribute 'went to' numeric
+@attribute 'were in' numeric
+@attribute 'what I' numeric
+@attribute 'what had' numeric
+@attribute 'what he' numeric
+@attribute 'what it' numeric
+@attribute 'what the' numeric
+@attribute 'what to' numeric
+@attribute 'what was' numeric
+@attribute 'what you' numeric
+@attribute 'what\\ s' numeric
+@attribute 'when I' numeric
+@attribute 'when he' numeric
+@attribute 'when the' numeric
+@attribute 'when they' numeric
+@attribute 'when you' numeric
+@attribute 'where he' numeric
+@attribute 'where the' numeric
+@attribute 'where they' numeric
+@attribute 'which had' numeric
+@attribute 'which he' numeric
+@attribute 'which the' numeric
+@attribute 'which was' numeric
+@attribute 'while the' numeric
+@attribute 'who had' numeric
+@attribute 'who had been' numeric
+@attribute 'who was' numeric
+@attribute 'will be' numeric
+@attribute 'wish I' numeric
+@attribute 'with a' numeric
+@attribute 'with a smile' numeric
+@attribute 'with an' numeric
+@attribute 'with him' numeric
+@attribute 'with his' numeric
+@attribute 'with it' numeric
+@attribute 'with me' numeric
+@attribute 'with the' numeric
+@attribute 'with them' numeric
+@attribute 'with you' numeric
+@attribute 'won\\ t' numeric
+@attribute 'won\\ t be' numeric
+@attribute 'would be' numeric
+@attribute 'would have' numeric
+@attribute 'would not' numeric
+@attribute 'wouldn\\ t' numeric
+@attribute 'you I' numeric
+@attribute 'you a' numeric
+@attribute 'you and' numeric
+@attribute 'you are' numeric
+@attribute 'you can' numeric
+@attribute 'you did' numeric
+@attribute 'you do' numeric
+@attribute 'you don\\' numeric
+@attribute 'you don\\ t' numeric
+@attribute 'you get' numeric
+@attribute 'you had' numeric
+@attribute 'you have' numeric
+@attribute 'you know' numeric
+@attribute 'you mean' numeric
+@attribute 'you say' numeric
+@attribute 'you see' numeric
+@attribute 'you think' numeric
+@attribute 'you to' numeric
+@attribute 'you want' numeric
+@attribute 'you want to' numeric
+@attribute 'you were' numeric
+@attribute 'you will' numeric
+@attribute 'you would' numeric
+@attribute 'you ”' numeric
+@attribute 'you\\ d' numeric
+@attribute 'you\\ ll' numeric
+@attribute 'you\\ re' numeric
+@attribute 'you\\ ve' numeric
+@attribute 'young man' numeric
+@attribute 'your father' numeric
+@attribute '“I don\\' numeric
+@attribute '“I don\\ t' numeric
+@attribute '“I\\ ll' numeric
+@attribute '“I\\ m' numeric
+@attribute '“It\\ s' numeric
+@attribute '“That\\ s' numeric
+@attribute '” and' numeric
+@attribute '” answered' numeric
+@attribute '” asked' numeric
+@attribute '” cried' numeric
+@attribute '” declared' numeric
+@attribute '” exclaimed' numeric
+@attribute '” he' numeric
+@attribute '” he said' numeric
+@attribute '” remarked' numeric
+@attribute '” replied' numeric
+@attribute '” said' numeric
+@attribute '” said the' numeric
+@attribute '” went' numeric
+@attribute '” went on' numeric
+@attribute 'A few' numeric
+@attribute 'And then' numeric
+@attribute 'He could' numeric
+@attribute 'I \\' numeric
+@attribute 'I heard' numeric
+@attribute 'I said' numeric
+@attribute 'In a' numeric
+@attribute 'In a few' numeric
+@attribute 'It would' numeric
+@attribute 'Jack was' numeric
+@attribute 'Jack\\ s' numeric
+@attribute 'Mr O\\' numeric
+@attribute 'O\\ Hagan' numeric
+@attribute 'On the' numeric
+@attribute 'One of' numeric
+@attribute 'The man' numeric
+@attribute 'The men' numeric
+@attribute 'The two' numeric
+@attribute 'There was no' numeric
+@attribute 'There were' numeric
+@attribute 'They had' numeric
+@attribute 'They were' numeric
+@attribute 'We must' numeric
+@attribute 'When he' numeric
+@attribute 'When the' numeric
+@attribute 'You are' numeric
+@attribute '\\ Tis' numeric
+@attribute '\\ Twas' numeric
+@attribute '\\ ee' numeric
+@attribute '\\ ll' numeric
+@attribute '\\ said' numeric
+@attribute '\\ tis' numeric
+@attribute '\\ twas' numeric
+@attribute 'a couple' numeric
+@attribute 'a couple of' numeric
+@attribute 'a dozen' numeric
+@attribute 'a few moments' numeric
+@attribute 'a few yards' numeric
+@attribute 'a hundred' numeric
+@attribute 'a look' numeric
+@attribute 'a low' numeric
+@attribute 'a mile' numeric
+@attribute 'a minute' numeric
+@attribute 'a number' numeric
+@attribute 'a number of' numeric
+@attribute 'a second' numeric
+@attribute 'a short' numeric
+@attribute 'a time' numeric
+@attribute 'a word' numeric
+@attribute 'above the' numeric
+@attribute 'again and' numeric
+@attribute 'against the' numeric
+@attribute 'all his' numeric
+@attribute 'among them' numeric
+@attribute 'an old' numeric
+@attribute 'and after' numeric
+@attribute 'and all' numeric
+@attribute 'and at' numeric
+@attribute 'and began' numeric
+@attribute 'and by' numeric
+@attribute 'and down' numeric
+@attribute 'and for' numeric
+@attribute 'and made' numeric
+@attribute 'and more' numeric
+@attribute 'and said' numeric
+@attribute 'and though' numeric
+@attribute 'and to' numeric
+@attribute 'and went' numeric
+@attribute 'and were' numeric
+@attribute 'any rate' numeric
+@attribute 'appeared to' numeric
+@attribute 'are not' numeric
+@attribute 'as possible' numeric
+@attribute 'as we' numeric
+@attribute 'at any' numeric
+@attribute 'at first' numeric
+@attribute 'at last' numeric
+@attribute 'at the door' numeric
+@attribute 'at the same' numeric
+@attribute 'at this' numeric
+@attribute 'attempt to' numeric
+@attribute 'away and' numeric
+@attribute 'back and' numeric
+@attribute 'be done' numeric
+@attribute 'be seen' numeric
+@attribute 'be sure' numeric
+@attribute 'before they' numeric
+@attribute 'behind him' numeric
+@attribute 'behind the' numeric
+@attribute 'below the' numeric
+@attribute 'beyond the' numeric
+@attribute 'but a' numeric
+@attribute 'but they' numeric
+@attribute 'but we' numeric
+@attribute 'by and' numeric
+@attribute 'by and by' numeric
+@attribute 'by his' numeric
+@attribute 'by this' numeric
+@attribute 'came to the' numeric
+@attribute 'came up' numeric
+@attribute 'caught sight' numeric
+@attribute 'caught sight of' numeric
+@attribute 'chance of' numeric
+@attribute 'clear that' numeric
+@attribute 'couple of' numeric
+@attribute 'course of' numeric
+@attribute 'direction of' numeric
+@attribute 'direction of the' numeric
+@attribute 'do not' numeric
+@attribute 'door and' numeric
+@attribute 'down to the' numeric
+@attribute 'during the' numeric
+@attribute 'edge of' numeric
+@attribute 'edge of the' numeric
+@attribute 'felt that' numeric
+@attribute 'few moments' numeric
+@attribute 'few seconds' numeric
+@attribute 'few yards' numeric
+@attribute 'foot of' numeric
+@attribute 'for a few' numeric
+@attribute 'for a moment' numeric
+@attribute 'for their' numeric
+@attribute 'for them' numeric
+@attribute 'found that' numeric
+@attribute 'from their' numeric
+@attribute 'from which' numeric
+@attribute 'had already' numeric
+@attribute 'had had' numeric
+@attribute 'had heard' numeric
+@attribute 'had just' numeric
+@attribute 'half a' numeric
+@attribute 'hand and' numeric
+@attribute 'have done' numeric
+@attribute 'have no' numeric
+@attribute 'he cried' numeric
+@attribute 'he said to' numeric
+@attribute 'he should' numeric
+@attribute 'head of' numeric
+@attribute 'heard a' numeric
+@attribute 'him He' numeric
+@attribute 'him by' numeric
+@attribute 'him with' numeric
+@attribute 'himself and' numeric
+@attribute 'his friend' numeric
+@attribute 'his men' numeric
+@attribute 'his right' numeric
+@attribute 'house and' numeric
+@attribute 'hundred yards' numeric
+@attribute 'in a few' numeric
+@attribute 'in all' numeric
+@attribute 'in one' numeric
+@attribute 'in sight' numeric
+@attribute 'in the direction' numeric
+@attribute 'in the morning' numeric
+@attribute 'is not' numeric
+@attribute 'it he' numeric
+@attribute 'it with' numeric
+@attribute 'knew that' numeric
+@attribute 'leave the' numeric
+@attribute 'like the' numeric
+@attribute 'made his' numeric
+@attribute 'man of' numeric
+@attribute 'man was' numeric
+@attribute 'me that' numeric
+@attribute 'means of' numeric
+@attribute 'men and' numeric
+@attribute 'men had' numeric
+@attribute 'men in' numeric
+@attribute 'men of' numeric
+@attribute 'men to' numeric
+@attribute 'men were' numeric
+@attribute 'men who' numeric
+@attribute 'more and' numeric
+@attribute 'no doubt' numeric
+@attribute 'no longer' numeric
+@attribute 'no more' numeric
+@attribute 'no time' numeric
+@attribute 'not been' numeric
+@attribute 'not so' numeric
+@attribute 'not the' numeric
+@attribute 'nothing to' numeric
+@attribute 'now that' numeric
+@attribute 'of any' numeric
+@attribute 'of being' numeric
+@attribute 'of her' numeric
+@attribute 'of men' numeric
+@attribute 'of one' numeric
+@attribute 'of the enemy' numeric
+@attribute 'of the house' numeric
+@attribute 'of these' numeric
+@attribute 'of time' numeric
+@attribute 'off to' numeric
+@attribute 'on the other' numeric
+@attribute 'on to' numeric
+@attribute 'on to the' numeric
+@attribute 'on which' numeric
+@attribute 'once more' numeric
+@attribute 'one of them' numeric
+@attribute 'or three' numeric
+@attribute 'order to' numeric
+@attribute 'other side' numeric
+@attribute 'point of' numeric
+@attribute 'rest of the' numeric
+@attribute 'returned to' numeric
+@attribute 'round the' numeric
+@attribute 'said I' numeric
+@attribute 'said Jack' numeric
+@attribute 'said that' numeric
+@attribute 'same time' numeric
+@attribute 'saw a' numeric
+@attribute 'says he' numeric
+@attribute 'set off' numeric
+@attribute 'shall be' numeric
+@attribute 'shall have' numeric
+@attribute 'she was' numeric
+@attribute 'should be' numeric
+@attribute 'should have' numeric
+@attribute 'sign of' numeric
+@attribute 'so far' numeric
+@attribute 'some distance' numeric
+@attribute 'sound of' numeric
+@attribute 'spot where' numeric
+@attribute 'sure that' numeric
+@attribute 'than a' numeric
+@attribute 'than the' numeric
+@attribute 'that if' numeric
+@attribute 'that in' numeric
+@attribute 'that there was' numeric
+@attribute 'that they were' numeric
+@attribute 'that we' numeric
+@attribute 'the British' numeric
+@attribute 'the French' numeric
+@attribute 'the German' numeric
+@attribute 'the Germans' numeric
+@attribute 'the aeroplane' numeric
+@attribute 'the back' numeric
+@attribute 'the beach' numeric
+@attribute 'the bottom' numeric
+@attribute 'the bridge' numeric
+@attribute 'the camp' numeric
+@attribute 'the cave' numeric
+@attribute 'the chief' numeric
+@attribute 'the city' numeric
+@attribute 'the cliff' numeric
+@attribute 'the country' numeric
+@attribute 'the dark' numeric
+@attribute 'the darkness' numeric
+@attribute 'the direction of' numeric
+@attribute 'the direction of the' numeric
+@attribute 'the distance' numeric
+@attribute 'the edge' numeric
+@attribute 'the edge of' numeric
+@attribute 'the edge of the' numeric
+@attribute 'the end of' numeric
+@attribute 'the end of the' numeric
+@attribute 'the enemy' numeric
+@attribute 'the engine' numeric
+@attribute 'the entrance' numeric
+@attribute 'the floor' numeric
+@attribute 'the foot' numeric
+@attribute 'the forest' numeric
+@attribute 'the fort' numeric
+@attribute 'the gate' numeric
+@attribute 'the general' numeric
+@attribute 'the great' numeric
+@attribute 'the head' numeric
+@attribute 'the head of' numeric
+@attribute 'the hill' numeric
+@attribute 'the hills' numeric
+@attribute 'the hut' numeric
+@attribute 'the inn' numeric
+@attribute 'the island' numeric
+@attribute 'the left' numeric
+@attribute 'the light' numeric
+@attribute 'the line' numeric
+@attribute 'the machine' numeric
+@attribute 'the moment' numeric
+@attribute 'the more' numeric
+@attribute 'the natives' numeric
+@attribute 'the old man' numeric
+@attribute 'the open' numeric
+@attribute 'the other side' numeric
+@attribute 'the party' numeric
+@attribute 'the passage' numeric
+@attribute 'the path' numeric
+@attribute 'the people' numeric
+@attribute 'the point' numeric
+@attribute 'the rear' numeric
+@attribute 'the rest of' numeric
+@attribute 'the roof' numeric
+@attribute 'the rope' numeric
+@attribute 'the same time' numeric
+@attribute 'the scene' numeric
+@attribute 'the sea' numeric
+@attribute 'the second' numeric
+@attribute 'the shore' numeric
+@attribute 'the sound' numeric
+@attribute 'the sound of' numeric
+@attribute 'the spot' numeric
+@attribute 'the stream' numeric
+@attribute 'the table' numeric
+@attribute 'the top' numeric
+@attribute 'the top of' numeric
+@attribute 'the tower' numeric
+@attribute 'the track' numeric
+@attribute 'the trees' numeric
+@attribute 'the very' numeric
+@attribute 'the vessel' numeric
+@attribute 'the wall' numeric
+@attribute 'the walls' numeric
+@attribute 'the white' numeric
+@attribute 'the window' numeric
+@attribute 'the wood' numeric
+@attribute 'their own' numeric
+@attribute 'their way' numeric
+@attribute 'them in' numeric
+@attribute 'then he' numeric
+@attribute 'then the' numeric
+@attribute 'they came' numeric
+@attribute 'they might' numeric
+@attribute 'they saw' numeric
+@attribute 'they\\ ll' numeric
+@attribute 'through a' numeric
+@attribute 'to avoid' numeric
+@attribute 'to carry' numeric
+@attribute 'to our' numeric
+@attribute 'to the left' numeric
+@attribute 'to the right' numeric
+@attribute 'to this' numeric
+@attribute 'to which' numeric
+@attribute 'too much' numeric
+@attribute 'top of' numeric
+@attribute 'towards the' numeric
+@attribute 'two men' numeric
+@attribute 'two of' numeric
+@attribute 'two or' numeric
+@attribute 'two or three' numeric
+@attribute 'unable to' numeric
+@attribute 'until he' numeric
+@attribute 'until the' numeric
+@attribute 'until they' numeric
+@attribute 'upon him' numeric
+@attribute 'upon his' numeric
+@attribute 'us and' numeric
+@attribute 'was as' numeric
+@attribute 'was at' numeric
+@attribute 'was clear' numeric
+@attribute 'was now' numeric
+@attribute 'was still' numeric
+@attribute 'was that' numeric
+@attribute 'was to be' numeric
+@attribute 'we are' numeric
+@attribute 'we could' numeric
+@attribute 'we had' numeric
+@attribute 'we might' numeric
+@attribute 'we must' numeric
+@attribute 'we shall' numeric
+@attribute 'we should' numeric
+@attribute 'we were' numeric
+@attribute 'were not' numeric
+@attribute 'were the' numeric
+@attribute 'when a' numeric
+@attribute 'when we' numeric
+@attribute 'which I' numeric
+@attribute 'which he had' numeric
+@attribute 'which they' numeric
+@attribute 'which we' numeric
+@attribute 'white man' numeric
+@attribute 'white men' numeric
+@attribute 'who were' numeric
+@attribute 'whom he' numeric
+@attribute 'will not' numeric
+@attribute 'with their' numeric
+@attribute 'within a' numeric
+@attribute 'within the' numeric
+@attribute 'would have been' numeric
+@attribute 'Alexey Alexandrovitch' numeric
+@attribute 'All the' numeric
+@attribute 'And he' numeric
+@attribute 'And the' numeric
+@attribute 'As soon' numeric
+@attribute 'Darya Alexandrovna' numeric
+@attribute 'He did' numeric
+@attribute 'He is' numeric
+@attribute 'I cannot' numeric
+@attribute 'I could not' numeric
+@attribute 'I did not' numeric
+@attribute 'I do not' numeric
+@attribute 'I felt' numeric
+@attribute 'Prince Andrew' numeric
+@attribute 'Prince Vasíli' numeric
+@attribute 'Princess Mary' numeric
+@attribute 'Sergey Ivanovitch' numeric
+@attribute 'She was' numeric
+@attribute 'Stepan Arkadyevitch' numeric
+@attribute 'The old' numeric
+@attribute 'What is' numeric
+@attribute 'a certain' numeric
+@attribute 'a long time' numeric
+@attribute 'a woman' numeric
+@attribute 'a young' numeric
+@attribute 'according to' numeric
+@attribute 'afraid of' numeric
+@attribute 'all men' numeric
+@attribute 'all of' numeric
+@attribute 'all these' numeric
+@attribute 'all this' numeric
+@attribute 'am I' numeric
+@attribute 'and again' numeric
+@attribute 'and at the' numeric
+@attribute 'and began to' numeric
+@attribute 'and did' numeric
+@attribute 'and did not' numeric
+@attribute 'and even' numeric
+@attribute 'and from' numeric
+@attribute 'and have' numeric
+@attribute 'and her' numeric
+@attribute 'and how' numeric
+@attribute 'and in the' numeric
+@attribute 'and is' numeric
+@attribute 'and looked' numeric
+@attribute 'and looking' numeric
+@attribute 'and not' numeric
+@attribute 'and now' numeric
+@attribute 'and of' numeric
+@attribute 'and on' numeric
+@attribute 'and only' numeric
+@attribute 'and she' numeric
+@attribute 'and their' numeric
+@attribute 'and therefore' numeric
+@attribute 'and what' numeric
+@attribute 'and without' numeric
+@attribute 'and would' numeric
+@attribute 'and yet' numeric
+@attribute 'are the' numeric
+@attribute 'as he had' numeric
+@attribute 'as she' numeric
+@attribute 'at her' numeric
+@attribute 'at home' numeric
+@attribute 'at that' numeric
+@attribute 'at the same time' numeric
+@attribute 'be so' numeric
+@attribute 'because he' numeric
+@attribute 'before him' numeric
+@attribute 'but as' numeric
+@attribute 'but in' numeric
+@attribute 'but she' numeric
+@attribute 'but that' numeric
+@attribute 'but to' numeric
+@attribute 'came out' numeric
+@attribute 'can be' numeric
+@attribute 'cannot be' numeric
+@attribute 'conception of' numeric
+@attribute 'could not be' numeric
+@attribute 'do so' numeric
+@attribute 'doctrine of' numeric
+@attribute 'doctrine of Jesus' numeric
+@attribute 'does not' numeric
+@attribute 'down on' numeric
+@attribute 'each other' numeric
+@attribute 'entered the' numeric
+@attribute 'every one' numeric
+@attribute 'expression of' numeric
+@attribute 'eyes and' numeric
+@attribute 'face and' numeric
+@attribute 'father\\ s' numeric
+@attribute 'feeling of' numeric
+@attribute 'first time' numeric
+@attribute 'for a long' numeric
+@attribute 'for all' numeric
+@attribute 'for her' numeric
+@attribute 'for the first' numeric
+@attribute 'from her' numeric
+@attribute 'from him' numeric
+@attribute 'full of' numeric
+@attribute 'gave him' numeric
+@attribute 'go and' numeric
+@attribute 'go on' numeric
+@attribute 'got up' numeric
+@attribute 'have not' numeric
+@attribute 'he began' numeric
+@attribute 'he had not' numeric
+@attribute 'he looked' numeric
+@attribute 'he will' numeric
+@attribute 'head and' numeric
+@attribute 'her and' numeric
+@attribute 'her eyes' numeric
+@attribute 'her face' numeric
+@attribute 'her hand' numeric
+@attribute 'her head' numeric
+@attribute 'her husband' numeric
+@attribute 'her in' numeric
+@attribute 'her own' numeric
+@attribute 'her to' numeric
+@attribute 'her with' numeric
+@attribute 'him but' numeric
+@attribute 'himself to' numeric
+@attribute 'his brother' numeric
+@attribute 'his life' numeric
+@attribute 'his wife' numeric
+@attribute 'how he' numeric
+@attribute 'impossible to' numeric
+@attribute 'in Moscow' numeric
+@attribute 'in her' numeric
+@attribute 'in its' numeric
+@attribute 'in love' numeric
+@attribute 'in order' numeric
+@attribute 'in order to' numeric
+@attribute 'in our' numeric
+@attribute 'in spite' numeric
+@attribute 'in spite of' numeric
+@attribute 'in such' numeric
+@attribute 'in the same' numeric
+@attribute 'in the world' numeric
+@attribute 'is in' numeric
+@attribute 'is it' numeric
+@attribute 'is only' numeric
+@attribute 'is so' numeric
+@attribute 'is that' numeric
+@attribute 'it but' numeric
+@attribute 'it seemed to' numeric
+@attribute 'it were' numeric
+@attribute 'know how' numeric
+@attribute 'law of' numeric
+@attribute 'life and' numeric
+@attribute 'life of' numeric
+@attribute 'long time' numeric
+@attribute 'looking at' numeric
+@attribute 'love and' numeric
+@attribute 'love for' numeric
+@attribute 'man and' numeric
+@attribute 'man in' numeric
+@attribute 'man with' numeric
+@attribute 'me in' numeric
+@attribute 'meaning of' numeric
+@attribute 'more and more' numeric
+@attribute 'my dear' numeric
+@attribute 'my own' numeric
+@attribute 'necessary to' numeric
+@attribute 'not at' numeric
+@attribute 'not even' numeric
+@attribute 'not in' numeric
+@attribute 'not only' numeric
+@attribute 'not understand' numeric
+@attribute 'not yet' numeric
+@attribute 'nothing but' numeric
+@attribute 'of God' numeric
+@attribute 'of Jesus' numeric
+@attribute 'of art' numeric
+@attribute 'of its' numeric
+@attribute 'of life' numeric
+@attribute 'of love' numeric
+@attribute 'of the room' numeric
+@attribute 'of the world' numeric
+@attribute 'off his' numeric
+@attribute 'old woman' numeric
+@attribute 'on her' numeric
+@attribute 'on the contrary' numeric
+@attribute 'one another' numeric
+@attribute 'one\\ s' numeric
+@attribute 'only the' numeric
+@attribute 'only to' numeric
+@attribute 'or a' numeric
+@attribute 'or the' numeric
+@attribute 'or to' numeric
+@attribute 'out his' numeric
+@attribute 'part in' numeric
+@attribute 'people who' numeric
+@attribute 'put on' numeric
+@attribute 'right to' numeric
+@attribute 'room and' numeric
+@attribute 's face' numeric
+@attribute 's not' numeric
+@attribute 'said Nekhludoff' numeric
+@attribute 'said and' numeric
+@attribute 'said he' numeric
+@attribute 'said in' numeric
+@attribute 'said with' numeric
+@attribute 'sat down' numeric
+@attribute 'say that' numeric
+@attribute 'see her' numeric
+@attribute 'seemed to him' numeric
+@attribute 'sense of' numeric
+@attribute 'she could' numeric
+@attribute 'she did' numeric
+@attribute 'she did not' numeric
+@attribute 'she is' numeric
+@attribute 'she said' numeric
+@attribute 'she went' numeric
+@attribute 'she would' numeric
+@attribute 'should not' numeric
+@attribute 'so as' numeric
+@attribute 'spite of' numeric
+@attribute 'state of' numeric
+@attribute 'still more' numeric
+@attribute 'such as' numeric
+@attribute 'that all' numeric
+@attribute 'that day' numeric
+@attribute 'that it is' numeric
+@attribute 'that moment' numeric
+@attribute 'that of' numeric
+@attribute 'that one' numeric
+@attribute 'that she' numeric
+@attribute 'that she was' numeric
+@attribute 'that this' numeric
+@attribute 'the Christian' numeric
+@attribute 'the Church' numeric
+@attribute 'the Emperor' numeric
+@attribute 'the Russian' numeric
+@attribute 'the army' numeric
+@attribute 'the carriage' numeric
+@attribute 'the case' numeric
+@attribute 'the children' numeric
+@attribute 'the contrary' numeric
+@attribute 'the conversation' numeric
+@attribute 'the count' numeric
+@attribute 'the countess' numeric
+@attribute 'the doctrine' numeric
+@attribute 'the doctrine of' numeric
+@attribute 'the doctrine of Jesus' numeric
+@attribute 'the evening' numeric
+@attribute 'the face' numeric
+@attribute 'the first time' numeric
+@attribute 'the horse' numeric
+@attribute 'the land' numeric
+@attribute 'the law' numeric
+@attribute 'the life' numeric
+@attribute 'the middle' numeric
+@attribute 'the new' numeric
+@attribute 'the peasants' numeric
+@attribute 'the prince' numeric
+@attribute 'the princess' numeric
+@attribute 'the prison' numeric
+@attribute 'the question' numeric
+@attribute 'the thought' numeric
+@attribute 'the women' numeric
+@attribute 'the word' numeric
+@attribute 'they have' numeric
+@attribute 'those who' numeric
+@attribute 'thought that' numeric
+@attribute 'to all' numeric
+@attribute 'to her' numeric
+@attribute 'to him and' numeric
+@attribute 'to live' numeric
+@attribute 'to show' numeric
+@attribute 'to speak' numeric
+@attribute 'to that' numeric
+@attribute 'to understand' numeric
+@attribute 'to what' numeric
+@attribute 'took the' numeric
+@attribute 'turned to' numeric
+@attribute 'turning to' numeric
+@attribute 'use of' numeric
+@attribute 'waiting for' numeric
+@attribute 'was sitting' numeric
+@attribute 'went into' numeric
+@attribute 'went out' numeric
+@attribute 'went to the' numeric
+@attribute 'went up' numeric
+@attribute 'went up to' numeric
+@attribute 'were to' numeric
+@attribute 'what a' numeric
+@attribute 'what is' numeric
+@attribute 'what she' numeric
+@attribute 'what they' numeric
+@attribute 'when she' numeric
+@attribute 'which is' numeric
+@attribute 'which she' numeric
+@attribute 'who are' numeric
+@attribute 'who have' numeric
+@attribute 'wish to' numeric
+@attribute 'wished to' numeric
+@attribute 'with all' numeric
+@attribute 'with her' numeric
+@attribute 'with its' numeric
+@attribute 'with my' numeric
+@attribute 'with which' numeric
+@attribute '“I am' numeric
+@attribute '“I have' numeric
+@attribute '” And' numeric
+@attribute '” I' numeric
+@attribute '” he added' numeric
+@attribute '” he thought' numeric
+@attribute '” said he' numeric
+@attribute '” she' numeric
+@attribute '” she said' numeric
+@attribute '” the' numeric
+@attribute '” thought' numeric
+@attribute 'At last' numeric
+@attribute 'At this' numeric
+@attribute 'Barbara\\ s' numeric
+@attribute 'Caesar\\ s' numeric
+@attribute 'Emperor\\ s' numeric
+@attribute 'He would' numeric
+@attribute 'She had' numeric
+@attribute 'The young' numeric
+@attribute 'Then she' numeric
+@attribute 'a child' numeric
+@attribute 'a short time' numeric
+@attribute 'a single' numeric
+@attribute 'a thousand' numeric
+@attribute 'account of' numeric
+@attribute 'and asked' numeric
+@attribute 'and my' numeric
+@attribute 'and when he' numeric
+@attribute 'and when the' numeric
+@attribute 'and which' numeric
+@attribute 'and while' numeric
+@attribute 'and who' numeric
+@attribute 'as an' numeric
+@attribute 'as if he' numeric
+@attribute 'before her' numeric
+@attribute 'before his' numeric
+@attribute 'belonged to' numeric
+@attribute 'but his' numeric
+@attribute 'but when' numeric
+@attribute 'by her' numeric
+@attribute 'by no' numeric
+@attribute 'by no means' numeric
+@attribute 'close to' numeric
+@attribute 'daughter of' numeric
+@attribute 'day and' numeric
+@attribute 'desire to' numeric
+@attribute 'desired to' numeric
+@attribute 'even in' numeric
+@attribute 'even the' numeric
+@attribute 'eyes of' numeric
+@attribute 'far as' numeric
+@attribute 'father and' numeric
+@attribute 'felt as' numeric
+@attribute 'few days' numeric
+@attribute 'few hours' numeric
+@attribute 'for my' numeric
+@attribute 'for she' numeric
+@attribute 'for the first time' numeric
+@attribute 'for which' numeric
+@attribute 'for your' numeric
+@attribute 'found the' numeric
+@attribute 'front of the' numeric
+@attribute 'girl\\ s' numeric
+@attribute 'had become' numeric
+@attribute 'had brought' numeric
+@attribute 'had come to' numeric
+@attribute 'had ever' numeric
+@attribute 'had fallen' numeric
+@attribute 'had found' numeric
+@attribute 'had he' numeric
+@attribute 'had long' numeric
+@attribute 'had not been' numeric
+@attribute 'had often' numeric
+@attribute 'had so' numeric
+@attribute 'had told' numeric
+@attribute 'hand to' numeric
+@attribute 'hands and' numeric
+@attribute 'he himself' numeric
+@attribute 'he spoke' numeric
+@attribute 'he were' numeric
+@attribute 'heart and' numeric
+@attribute 'her a' numeric
+@attribute 'her as' numeric
+@attribute 'her but' numeric
+@attribute 'her father' numeric
+@attribute 'her for' numeric
+@attribute 'her from' numeric
+@attribute 'her hands' numeric
+@attribute 'her heart' numeric
+@attribute 'her lips' numeric
+@attribute 'her lover' numeric
+@attribute 'her mind' numeric
+@attribute 'her mother' numeric
+@attribute 'her of' numeric
+@attribute 'her she' numeric
+@attribute 'her soul' numeric
+@attribute 'her that' numeric
+@attribute 'her the' numeric
+@attribute 'her voice' numeric
+@attribute 'herself to' numeric
+@attribute 'him from' numeric
+@attribute 'him of' numeric
+@attribute 'him on' numeric
+@attribute 'his arms' numeric
+@attribute 'his father\\' numeric
+@attribute 'his father\\ s' numeric
+@attribute 'his lips' numeric
+@attribute 'his master' numeric
+@attribute 'his side' numeric
+@attribute 'his son' numeric
+@attribute 'his soul' numeric
+@attribute 'house of' numeric
+@attribute 'if she' numeric
+@attribute 'image of' numeric
+@attribute 'in every' numeric
+@attribute 'in vain' numeric
+@attribute 'inasmuch as' numeric
+@attribute 'intended to' numeric
+@attribute 'into her' numeric
+@attribute 'it as' numeric
+@attribute 'king\\ s' numeric
+@attribute 'listened to' numeric
+@attribute 'long as' numeric
+@attribute 'man to' numeric
+@attribute 'many a' numeric
+@attribute 'master\\ s' numeric
+@attribute 'me as' numeric
+@attribute 'me the' numeric
+@attribute 'mother and' numeric
+@attribute 'mother\\ s' numeric
+@attribute 'my father' numeric
+@attribute 'my heart' numeric
+@attribute 'my lord' numeric
+@attribute 'name of' numeric
+@attribute 'no means' numeric
+@attribute 'obliged to' numeric
+@attribute 'of his own' numeric
+@attribute 'of the city' numeric
+@attribute 'of the great' numeric
+@attribute 'on earth' numeric
+@attribute 'over her' numeric
+@attribute 'permitted to' numeric
+@attribute 'power of' numeric
+@attribute 'power to' numeric
+@attribute 'presence of' numeric
+@attribute 's eyes' numeric
+@attribute 's hand' numeric
+@attribute 's heart' numeric
+@attribute 's house' numeric
+@attribute 's wife' numeric
+@attribute 'seemed as' numeric
+@attribute 'she could not' numeric
+@attribute 'she felt' numeric
+@attribute 'she had been' numeric
+@attribute 'she knew' numeric
+@attribute 'she might' numeric
+@attribute 'she must' numeric
+@attribute 'she saw' numeric
+@attribute 'short time' numeric
+@attribute 'so long' numeric
+@attribute 'so many' numeric
+@attribute 'son of' numeric
+@attribute 'spite of the' numeric
+@attribute 'succeeded in' numeric
+@attribute 'than to' numeric
+@attribute 'that her' numeric
+@attribute 'that she had' numeric
+@attribute 'that time' numeric
+@attribute 'the Egyptian' numeric
+@attribute 'the Egyptians' numeric
+@attribute 'the Emperor\\' numeric
+@attribute 'the Emperor\\ s' numeric
+@attribute 'the Lord' numeric
+@attribute 'the Nile' numeric
+@attribute 'the Queen' numeric
+@attribute 'the artist' numeric
+@attribute 'the beautiful' numeric
+@attribute 'the child' numeric
+@attribute 'the daughter' numeric
+@attribute 'the dead' numeric
+@attribute 'the earth' numeric
+@attribute 'the eyes' numeric
+@attribute 'the eyes of' numeric
+@attribute 'the future' numeric
+@attribute 'the garden' numeric
+@attribute 'the girl' numeric
+@attribute 'the gods' numeric
+@attribute 'the good' numeric
+@attribute 'the greatest' numeric
+@attribute 'the hand' numeric
+@attribute 'the heart' numeric
+@attribute 'the highest' numeric
+@attribute 'the king' numeric
+@attribute 'the name of' numeric
+@attribute 'the noble' numeric
+@attribute 'the palace' numeric
+@attribute 'the poor' numeric
+@attribute 'the power' numeric
+@attribute 'the royal' numeric
+@attribute 'the sick' numeric
+@attribute 'the son' numeric
+@attribute 'the son of' numeric
+@attribute 'the sun' numeric
+@attribute 'the temple' numeric
+@attribute 'the woman' numeric
+@attribute 'the worst' numeric
+@attribute 'the youth' numeric
+@attribute 'these words' numeric
+@attribute 'those of' numeric
+@attribute 'though she' numeric
+@attribute 'time and' numeric
+@attribute 'to follow' numeric
+@attribute 'to her and' numeric
+@attribute 'to remain' numeric
+@attribute 'to save' numeric
+@attribute 'to seek' numeric
+@attribute 'to us' numeric
+@attribute 'to whom' numeric
+@attribute 'to your' numeric
+@attribute 'told her' numeric
+@attribute 'tone of' numeric
+@attribute 'upon her' numeric
+@attribute 'was already' numeric
+@attribute 'was his' numeric
+@attribute 'were a' numeric
+@attribute 'which had been' numeric
+@attribute 'which she had' numeric
+@attribute 'which were' numeric
+@attribute 'while he' numeric
+@attribute 'while she' numeric
+@attribute 'who is' numeric
+@attribute 'whom I' numeric
+@attribute 'whom he had' numeric
+@attribute 'whom she' numeric
+@attribute 'whom she had' numeric
+@attribute 'whom the' numeric
+@attribute 'wife and' numeric
+@attribute 'with such' numeric
+@attribute 'woman who' numeric
+@attribute 'woman\\ s' numeric
+@attribute 'words of' numeric
+@attribute 'worthy of' numeric
+@attribute 'you must' numeric
+@attribute 'your own' numeric
+@attribute '“It is' numeric
+@attribute '” cried the' numeric
+@attribute '” interrupted' numeric
+@attribute '” replied the' numeric
+@attribute 'After all' numeric
+@attribute 'And if' numeric
+@attribute 'But you' numeric
+@attribute 'Dusty Britton' numeric
+@attribute 'Earth One' numeric
+@attribute 'Earth Two' numeric
+@attribute 'Farradyne\\ s' numeric
+@attribute 'He knew' numeric
+@attribute 'He looked' numeric
+@attribute 'He took' numeric
+@attribute 'He turned' numeric
+@attribute 'He went' numeric
+@attribute 'He\\ d' numeric
+@attribute 'I couldn\\' numeric
+@attribute 'I couldn\\ t' numeric
+@attribute 'I knew' numeric
+@attribute 'I\\ ve been' numeric
+@attribute 'James Holden' numeric
+@attribute 'Let\\ s' numeric
+@attribute 'Mrs Bagley' numeric
+@attribute 'O K' numeric
+@attribute 'Terran Electric' numeric
+@attribute 'That was' numeric
+@attribute 'The other' numeric
+@attribute 'Then the' numeric
+@attribute 'There is' numeric
+@attribute 'Venus Equilateral' numeric
+@attribute 'We can' numeric
+@attribute 'We have' numeric
+@attribute 'We\\ re' numeric
+@attribute 'We\\ ve' numeric
+@attribute 'You have' numeric
+@attribute 'You know' numeric
+@attribute 'You will' numeric
+@attribute 'You\\ ve' numeric
+@attribute 'a bit of' numeric
+@attribute 'a complete' numeric
+@attribute 'a deep' numeric
+@attribute 'a full' numeric
+@attribute 'a half' numeric
+@attribute 'a job' numeric
+@attribute 'a matter' numeric
+@attribute 'a matter of' numeric
+@attribute 'a rather' numeric
+@attribute 'a real' numeric
+@attribute 'a sort' numeric
+@attribute 'a sort of' numeric
+@attribute 'all over' numeric
+@attribute 'all the way' numeric
+@attribute 'and Farradyne' numeric
+@attribute 'and came' numeric
+@attribute 'and found' numeric
+@attribute 'and left' numeric
+@attribute 'and let' numeric
+@attribute 'and put' numeric
+@attribute 'and started' numeric
+@attribute 'and took' numeric
+@attribute 'and we\\ ll' numeric
+@attribute 'and your' numeric
+@attribute 'are a' numeric
+@attribute 'aren\\ t' numeric
+@attribute 'at it' numeric
+@attribute 'back in' numeric
+@attribute 'because I' numeric
+@attribute 'because it' numeric
+@attribute 'because of' numeric
+@attribute 'because the' numeric
+@attribute 'believe that' numeric
+@attribute 'bit of' numeric
+@attribute 'but not' numeric
+@attribute 'came the' numeric
+@attribute 'capable of' numeric
+@attribute 'care of' numeric
+@attribute 'could do' numeric
+@attribute 'd be' numeric
+@attribute 'd been' numeric
+@attribute 'd have' numeric
+@attribute 'down at' numeric
+@attribute 'even though' numeric
+@attribute 'for an' numeric
+@attribute 'forced to' numeric
+@attribute 'forward and' numeric
+@attribute 'from one' numeric
+@attribute 'get it' numeric
+@attribute 'go out' numeric
+@attribute 'going on' numeric
+@attribute 'hadn\\ t' numeric
+@attribute 'he said with' numeric
+@attribute 'hit the' numeric
+@attribute 'hope to' numeric
+@attribute 'hundred and' numeric
+@attribute 'idea of' numeric
+@attribute 'in space' numeric
+@attribute 'interested in' numeric
+@attribute 'is an' numeric
+@attribute 'it might' numeric
+@attribute 'it on' numeric
+@attribute 'it said' numeric
+@attribute 'know the' numeric
+@attribute 'lack of' numeric
+@attribute 'less than' numeric
+@attribute 'let\\ s' numeric
+@attribute 'line of' numeric
+@attribute 'long enough' numeric
+@attribute 'looked at the' numeric
+@attribute 'looked up' numeric
+@attribute 'made it' numeric
+@attribute 'made the' numeric
+@attribute 'make it' numeric
+@attribute 'make the' numeric
+@attribute 'matter of' numeric
+@attribute 'not too' numeric
+@attribute 'of energy' numeric
+@attribute 'of light' numeric
+@attribute 'of space' numeric
+@attribute 'of the ship' numeric
+@attribute 'on Earth' numeric
+@attribute 'on Terra' numeric
+@attribute 'on and' numeric
+@attribute 'on that' numeric
+@attribute 'one thing' numeric
+@attribute 'only one' numeric
+@attribute 'opened the' numeric
+@attribute 'other hand' numeric
+@attribute 'over and' numeric
+@attribute 'pair of' numeric
+@attribute 'per second' numeric
+@attribute 'picked up' numeric
+@attribute 're not' numeric
+@attribute 'realized that' numeric
+@attribute 'right now' numeric
+@attribute 's mind' numeric
+@attribute 'said I\\' numeric
+@attribute 'said with a' numeric
+@attribute 'set up' numeric
+@attribute 'she asked' numeric
+@attribute 'shook his' numeric
+@attribute 'shook his head' numeric
+@attribute 'some sort' numeric
+@attribute 'something that' numeric
+@attribute 'speed of' numeric
+@attribute 'started to' numeric
+@attribute 'take it' numeric
+@attribute 'that I\\' numeric
+@attribute 'that any' numeric
+@attribute 'that no' numeric
+@attribute 'that will' numeric
+@attribute 'that your' numeric
+@attribute 'the Lancaster' numeric
+@attribute 'the Loard-vogh' numeric
+@attribute 'the Solar' numeric
+@attribute 'the Terran' numeric
+@attribute 'the \\' numeric
+@attribute 'the answer' numeric
+@attribute 'the beam' numeric
+@attribute 'the center' numeric
+@attribute 'the control' numeric
+@attribute 'the course' numeric
+@attribute 'the drive' numeric
+@attribute 'the entire' numeric
+@attribute 'the idea' numeric
+@attribute 'the job' numeric
+@attribute 'the laboratory' numeric
+@attribute 'the main' numeric
+@attribute 'the office' numeric
+@attribute 'the present' numeric
+@attribute 'the problem' numeric
+@attribute 'the proper' numeric
+@attribute 'the rest of the' numeric
+@attribute 'the sky' numeric
+@attribute 'the solar' numeric
+@attribute 'the space' numeric
+@attribute 'the speed' numeric
+@attribute 'the thing' numeric
+@attribute 'there and' numeric
+@attribute 'they\\ d' numeric
+@attribute 'thing that' numeric
+@attribute 'think that' numeric
+@attribute 'this thing' numeric
+@attribute 'to stop' numeric
+@attribute 'to use' numeric
+@attribute 'took a' numeric
+@attribute 'took off' numeric
+@attribute 'turned and' numeric
+@attribute 'until we' numeric
+@attribute 'up at' numeric
+@attribute 'velocity of' numeric
+@attribute 'was more' numeric
+@attribute 'was one' numeric
+@attribute 'way of' numeric
+@attribute 'we do' numeric
+@attribute 'we get' numeric
+@attribute 'we know' numeric
+@attribute 'we\\ d' numeric
+@attribute 'willing to' numeric
+@attribute 'with some' numeric
+@attribute 'without a' numeric
+@attribute 'work on' numeric
+@attribute 'would take' numeric
+@attribute 'years of' numeric
+
+@data
+{}
+{}
+{}
+{209 1}
+{545 1,572 1,837 1,1205 1}
+{46 1,409 1,673 1,1221 1}
+{106 1,137 1,143 1,186 1,321 1,386 1,399 1,404 1,409 1,414 1,440 1,446 1,507 1,538 1,549 1,566 1,572 1,624 1,668 1,671 1,686 1,735 1,807 1,842 1,883 1,935 1,947 1,953 1,1021 1,1076 1,1167 1,1250 1}
+{734 1}
+{849 1,870 1,871 1}
+{0 George-O-Smith,267 1,769 1,959 1,991 1}
+{0 George-O-Smith,856 1,979 1}
+{0 George-O-Smith,206 1,224 1,309 1,310 1,350 1,372 1,383 1,399 1,498 1,517 1,519 1,549 1,585 1,586 1,663 1,743 1,824 1,1515 1,1516 1,1598 1,1845 1,2015 1}
+{0 George-O-Smith,357 1,563 1,700 1,731 1,838 1,1001 1,1285 1}
+{0 George-O-Smith,549 1,780 1,801 1,945 1,1015 1,1069 1,1165 1,1178 1,1515 1,1516 1,1541 1,1598 1,1632 1,1633 1,1845 1,2030 1}
