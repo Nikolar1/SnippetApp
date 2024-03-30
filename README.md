@@ -63,10 +63,10 @@ For details on how to contribute please check [CONTRIBUTING.md](CONTRIBUTING.md)
 We use [SemVer](https://semver.org/) versioning.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](license.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Code of Conduct 
-For details on the code of conduct please check [CODE_OF_CONDUCT.md](code_of_conduct.md)
+For details on the code of conduct please check [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 ## Screenshots
 
 ### Home page
