@@ -1,7 +1,8 @@
 # Snippet App
 
 ## Project Description
-
+> **Note:** When searching a snippet the summary will appear awhile after the snippet is found as the summarizer need time to work.
+> 
 This app reads provided books from www.gutenberg.org, and then parses them into snippets.
 Provides searching functionality, allowing search by snippet text, book and author.
 The app can also predict author of a snippet based on passed snippet text using machine learning as well as use that prediction to better search for a snippet.
@@ -14,11 +15,11 @@ All this functionality is open through a REST API and displayed on a web page th
 
 * **Weka library**: Machine learning is done using the weka library. 
 
-* **Text representation**: The arff files created after parsing are filter throug StringToWordVector filter twice seperatly to get bag-of-words representation of snippets.
+* **Text representation**: The arff files created after parsing are filter through StringToWordVector filter twice separately to get bag-of-words representation of snippets.
 The snippets are represented through 5-2 word n-grams and 3-1 character n-grams.
 
-* **Classifer**: Two sepreate SMO classifiers are trained on these representations.
-In the end a new weigted soft voting classifier is made using these two which is then evaluated on the test set, and used in the future for predicting authors of snippets.
+* **Classifier**: Two separate SMO classifiers are trained on these representations.
+In the end a new weighted soft voting classifier is made using these two which is then evaluated on the test set, and used in the future for predicting authors of snippets.
 
 * **Spring Framework**: Spring is used for the REST API and for connecting the many microservices.
 
@@ -70,12 +71,10 @@ For details on the code of conduct please check [CODE_OF_CONDUCT.md](CODE_OF_CON
 ## Screenshots
 
 ### Home page
-
-![Home page](front-page.png)
+![Front page](front-page.png)
 
 ### Search page
-
-![Search page found](search-page-found.png)
+![Search page](search-page.png)
 
 ### Author prediction page
 ![Author prediction page](author-prediction-page.png)
