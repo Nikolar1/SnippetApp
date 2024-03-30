@@ -3,7 +3,8 @@ name: CI/CD
 on:
   push:
     branches:
-      - main  # Adjust branch name if needed
+      - master
+      - development
 
 jobs:
   test_backend:
