@@ -1,0 +1,59 @@
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test_backend:
+    name: Test Backend Microservice
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Test Backend microservice
+        run: |
+          cd snippet-backend
+          mvn test
+
+  test_classification:
+    name: Test Classification Microservice
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Test Classification microservice
+        run: |
+          cd snippet-classification
+          mvn test
+
+  test_search:
+    name: Test Search Microservice
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Test Search microservice
+        run: |
+          cd snippet-search
+          mvn test
+
+  test_parser:
+    name: Test Parser Microservice
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Test Parser microservice
+        run: |
+          cd snippet-parser
+          mvn test
