@@ -3,12 +3,12 @@ name: CI/CD
 on:
   push:
     branches:
-      - main
+      - main  # Adjust branch name if needed
 
 jobs:
   test_backend:
     name: Test Backend Microservice
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout code
@@ -21,7 +21,7 @@ jobs:
 
   test_classification:
     name: Test Classification Microservice
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout code
@@ -34,7 +34,7 @@ jobs:
 
   test_search:
     name: Test Search Microservice
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout code
@@ -47,7 +47,7 @@ jobs:
 
   test_parser:
     name: Test Parser Microservice
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout code
