@@ -1,7 +1,7 @@
 # Snippet App
 
 ## Project Description
-> **Note:** When searching a snippet the summary will appear awhile after the snippet is found as the summarizer need time to work.
+> **Note:** When searching a snippet the summary will appear a while after the snippet is found as the summarizer need time to work.
 > 
 This app reads provided books from www.gutenberg.org, and then parses them into snippets.
 Provides searching functionality, allowing search by snippet text, book and author.
